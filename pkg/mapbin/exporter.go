@@ -382,6 +382,25 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		}
 	}
 
+	if assets != nil {
+		if resolver, closeFn := newModAssetResolver(modPath); resolver != nil {
+			if closeFn != nil {
+				defer closeFn()
+			}
+			assets.Atlas.SetModOverlay(resolver.getSprite)
+			if fgData, ok := resolver.readBytes("Graphics/ForegroundTiles.xml"); ok {
+				if modFg, err := LoadTilesetXMLBytes(fgData); err == nil {
+					MergeTilesetRules(assets.FgTileset, modFg)
+				}
+			}
+			if bgData, ok := resolver.readBytes("Graphics/BackgroundTiles.xml"); ok {
+				if modBg, err := LoadTilesetXMLBytes(bgData); err == nil {
+					MergeTilesetRules(assets.BgTileset, modBg)
+				}
+			}
+		}
+	}
+
 	roomsDir := filepath.Join(outDir, "rooms")
 	if err := os.MkdirAll(roomsDir, 0755); err != nil {
 		return nil, fmt.Errorf("failed to create rooms output dir: %w", err)

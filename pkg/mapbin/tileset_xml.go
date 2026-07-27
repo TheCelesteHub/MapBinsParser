@@ -118,7 +118,12 @@ func LoadTilesetXML(path string) (*TilesetRules, error) {
 	if err != nil {
 		return nil, err
 	}
+	return LoadTilesetXMLBytes(data)
+}
 
+// LoadTilesetXMLBytes parses already-read tileset XML bytes (e.g. extracted
+// from a mod zip, where there's no filesystem path to hand LoadTilesetXML).
+func LoadTilesetXMLBytes(data []byte) (*TilesetRules, error) {
 	var parsed xmlTilesetData
 	if err := xml.Unmarshal(data, &parsed); err != nil {
 		return nil, err
@@ -178,6 +183,14 @@ func LoadTilesetXML(path string) (*TilesetRules, error) {
 	}
 
 	return rules, nil
+}
+
+// MergeTilesetRules copies overlay's rules into base, overlay winning on tile-id
+// collision (a mod can override a vanilla tile id's rule set, or add a new one).
+func MergeTilesetRules(base, overlay *TilesetRules) {
+	for id, rule := range overlay.byID {
+		base.byID[id] = rule
+	}
 }
 
 func isTileFilled(id byte, ignores map[byte]bool) bool {

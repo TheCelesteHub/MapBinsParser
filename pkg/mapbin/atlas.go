@@ -25,9 +25,17 @@ type SpriteMeta struct {
 
 // Atlas is a decoded Celeste packed sprite atlas (Gameplay.meta + its .data files).
 type Atlas struct {
-	dir     string
-	sprites map[string]SpriteMeta
-	images  map[string]*image.RGBA
+	dir        string
+	sprites    map[string]SpriteMeta
+	images     map[string]*image.RGBA
+	modOverlay func(path string) (image.Image, bool)
+}
+
+// SetModOverlay registers a lookup checked before the packed atlas on every
+// GetSprite call, letting a mod's own loose Graphics/Atlases/Gameplay/*.png
+// files override or add to the base game's packed sprites.
+func (a *Atlas) SetModOverlay(fn func(path string) (image.Image, bool)) {
+	a.modOverlay = fn
 }
 
 func readNetString(r *bufio.Reader) (string, error) {
@@ -232,6 +240,13 @@ func loadDataImage(path string) (*image.RGBA, error) {
 // "tilesets/dirt" or "decals/1-forsakencity/introcliffsidegrass0"), decoding
 // and caching its owning .data file on first use.
 func (a *Atlas) GetSprite(path string) (image.Image, SpriteMeta, bool) {
+	if a.modOverlay != nil {
+		if img, ok := a.modOverlay(path); ok {
+			b := img.Bounds()
+			return img, SpriteMeta{X: b.Min.X, Y: b.Min.Y, Width: b.Dx(), Height: b.Dy(), RealWidth: b.Dx(), RealHeight: b.Dy()}, true
+		}
+	}
+
 	meta, ok := a.sprites[path]
 	if !ok {
 		return nil, SpriteMeta{}, false
