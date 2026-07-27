@@ -245,11 +245,6 @@ func GetTileQuad(rules *TilesetRules, grid [][]byte, row, col int) (path string,
 	if q, ok := pickQuad(rule.Padding, row, col); ok {
 		return rule.Path, q, true
 	}
-	if len(rule.Rules) > 0 {
-		if q, ok := pickQuad(rule.Rules[0].Quads, row, col); ok {
-			return rule.Path, q, true
-		}
-	}
 	return "", TileQuad{}, false
 }
 

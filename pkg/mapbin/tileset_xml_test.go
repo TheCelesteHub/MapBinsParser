@@ -86,6 +86,28 @@ func TestGetTileQuad_MatchesFirstRuleAndFallsBackToCenter(t *testing.T) {
 	}
 }
 
+// TestGetTileQuad_UncoveredNeighborPatternMisses reproduces a 2x2 solid block:
+// the corner tile has two filled cardinal neighbors (right, down) and two air
+// (up, left) - not covered by any explicit rule, not fully-surrounded, no
+// padding defined. Must miss (ok=false), not silently fall back to an
+// arbitrary rule's quad (the bug that made thick solids render as a wrong
+// flat-looking blob instead of the honest flat-color fallback).
+func TestGetTileQuad_UncoveredNeighborPatternMisses(t *testing.T) {
+	path := writeFixtureTilesetXML(t)
+	rules, err := LoadTilesetXML(path)
+	if err != nil {
+		t.Fatalf("LoadTilesetXML failed: %v", err)
+	}
+
+	grid := [][]byte{
+		{'1', '1'},
+		{'1', '1'},
+	}
+	if _, _, ok := GetTileQuad(rules, grid, 0, 0); ok {
+		t.Errorf("expected uncovered 2x2-corner neighbor pattern to miss, not fall back to an arbitrary rule quad")
+	}
+}
+
 func TestGetTileQuad_UnknownTileIDMisses(t *testing.T) {
 	path := writeFixtureTilesetXML(t)
 	rules, err := LoadTilesetXML(path)
