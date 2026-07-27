@@ -104,26 +104,11 @@ func drawTileLayer(img *image.RGBA, tileIDGrid [][]byte, tileset *TilesetRules, 
 	}
 }
 
-// drawDecal blits a decal at its natural sprite size, centered on (X, Y).
-// ponytail: only mirroring (sign of scaleX/scaleY) and no rotation is
-// applied - real Celeste decals can be magnitude-scaled/rotated too, but
-// the vast majority aren't; extend here if a real map needs more than a flip.
-func drawDecal(img *image.RGBA, decal *DecalData, atlas *Atlas) {
-	sprite, meta, ok := atlas.GetSprite("decals/" + decal.Texture)
-	if !ok {
-		return
-	}
-	w := meta.RealWidth
-	h := meta.RealHeight
-	if w <= 0 || h <= 0 {
-		return
-	}
-	dstX := int(decal.X) - w/2
-	dstY := int(decal.Y) - h/2
-	flipX := decal.ScaleX < 0
-	flipY := decal.ScaleY < 0
+// blitSprite copies a w x h sprite quad (meta.X/Y origin within sprite) onto
+// img at (dstX, dstY), honoring flipX/flipY mirroring. Shared by decals and
+// entity sprites - both are "stamp this atlas quad at a position" operations.
+func blitSprite(img *image.RGBA, sprite image.Image, meta SpriteMeta, dstX, dstY, w, h int, flipX, flipY bool) {
 	bounds := img.Bounds()
-
 	for y := 0; y < h; y++ {
 		sy := meta.Y + y
 		if flipY {
@@ -144,6 +129,125 @@ func drawDecal(img *image.RGBA, decal *DecalData, atlas *Atlas) {
 			}
 			img.Set(px, py, c)
 		}
+	}
+}
+
+// drawDecal blits a decal at its natural sprite size, centered on (X, Y).
+// ponytail: only mirroring (sign of scaleX/scaleY) and no rotation is
+// applied - real Celeste decals can be magnitude-scaled/rotated too, but
+// the vast majority aren't; extend here if a real map needs more than a flip.
+func drawDecal(img *image.RGBA, decal *DecalData, atlas *Atlas) {
+	sprite, meta, ok := atlas.GetSprite("decals/" + decal.Texture)
+	if !ok {
+		return
+	}
+	w := meta.RealWidth
+	h := meta.RealHeight
+	if w <= 0 || h <= 0 {
+		return
+	}
+	blitSprite(img, sprite, meta, int(decal.X)-w/2, int(decal.Y)-h/2, w, h, decal.ScaleX < 0, decal.ScaleY < 0)
+}
+
+// berryTexture mirrors loenn/src/entities/strawberry.lua's texture selection.
+func berryTexture(ent *EntityData) string {
+	switch {
+	case ent.Moon && (ent.Winged || ent.HasNodes):
+		return "collectables/moonBerry/ghost00"
+	case ent.Moon:
+		return "collectables/moonBerry/normal00"
+	case ent.Winged && ent.HasNodes:
+		return "collectables/ghostberry/wings01"
+	case ent.Winged:
+		return "collectables/strawberry/wings01"
+	case ent.HasNodes:
+		return "collectables/ghostberry/idle00"
+	default:
+		return "collectables/strawberry/normal00"
+	}
+}
+
+var spikeDirectionSuffixes = []string{"Up", "Down", "Left", "Right"}
+
+// spikeDirection returns the lowercase direction suffix of a spike entity
+// name (e.g. "spikesUp" -> "up"), or "" if unrecognized.
+func spikeDirection(name string) string {
+	for _, suffix := range spikeDirectionSuffixes {
+		if strings.HasSuffix(name, suffix) {
+			return strings.ToLower(suffix)
+		}
+	}
+	return ""
+}
+
+// drawSpikes tiles one sprite every 8px along the spike strip's length axis,
+// matching helpers.spikes.getSpikeSprites' step. ponytail: skips the real
+// per-variant offset/justification/rotation math (loenn/src/helpers/spikes.lua) -
+// close enough to place spikes at the right spot along the wall, not
+// pixel-perfect against the wall edge.
+func drawSpikes(img *image.RGBA, ent *EntityData, direction string, atlas *Atlas) bool {
+	variant := ent.TypeAttr
+	if variant == "" {
+		variant = "default"
+	}
+	sprite, meta, ok := atlas.GetSprite(fmt.Sprintf("danger/spikes/%s_%s00", variant, direction))
+	if !ok {
+		return false
+	}
+	w, h := meta.Width, meta.Height
+	if w <= 0 || h <= 0 {
+		return false
+	}
+
+	horizontal := direction == "left" || direction == "right"
+	length := int(ent.Width)
+	if horizontal {
+		length = int(ent.Height)
+	}
+	if length <= 0 {
+		length = 8
+	}
+
+	for i := 0; i < length; i += 8 {
+		x, y := int(ent.X), int(ent.Y)
+		if horizontal {
+			y += i
+		} else {
+			x += i
+		}
+		blitSprite(img, sprite, meta, x, y, w, h, false, false)
+	}
+	return true
+}
+
+// drawEntitySprite draws a known entity's real Gameplay-atlas sprite, if one
+// is known for it. Returns false for anything else - not attempting
+// Loenn-parity coverage of every entity type (YAGNI), only the ones users
+// most notice missing: collectible berries and spikes.
+func drawEntitySprite(img *image.RGBA, ent *EntityData, atlas *Atlas) bool {
+	switch ent.Kind {
+	case "collectible":
+		if !BerryPattern.MatchString(ent.Name) {
+			return false
+		}
+		sprite, meta, ok := atlas.GetSprite(berryTexture(ent))
+		if !ok {
+			return false
+		}
+		w, h := meta.RealWidth, meta.RealHeight
+		if w <= 0 || h <= 0 {
+			return false
+		}
+		blitSprite(img, sprite, meta, int(ent.X)-w/2, int(ent.Y)-h/2, w, h, false, false)
+		return true
+	case "hazard":
+		direction := spikeDirection(ent.Name)
+		if direction == "" {
+			return false
+		}
+		return drawSpikes(img, ent, direction, atlas)
+	default:
+		return false
 	}
 }
 
@@ -307,6 +411,10 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets, backdrops []*Backdr
 	}
 
 	for _, ent := range room.Entities {
+		if assets != nil && assets.Atlas != nil && drawEntitySprite(img, ent, assets.Atlas) {
+			continue
+		}
+
 		ex := int(ent.X)
 		ey := int(ent.Y)
 		ew := int(ent.Width)
@@ -333,7 +441,15 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets, backdrops []*Backdr
 		case "hazard":
 			markerColor = ColorHazardMarker
 		default:
+			// generic/unmapped entities are often large invisible helpers or
+			// trigger-like actors - cap the marker to a small icon instead of
+			// filling the full bounding box, so it doesn't blanket real
+			// content (tiles/decals) behind it.
 			markerColor = ColorGenericMarker
+			const genericMarkerSize = 6
+			cx, cy := ex+ew/2, ey+eh/2
+			ex, ey = cx-genericMarkerSize/2, cy-genericMarkerSize/2
+			ew, eh = genericMarkerSize, genericMarkerSize
 		}
 
 		FillRect(img, ex, ey, ex+ew, ey+eh, markerColor)
