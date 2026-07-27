@@ -232,23 +232,31 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 				moon := getBoolAttr(attrs, "moon")
 				winged := getBoolAttr(attrs, "winged")
 
-				kind := "generic"
-				if name == "player" || (SpawnPattern.MatchString(name) && !SuffixDenyPattern.MatchString(name)) {
-					kind = "spawn"
-				} else if IsCollectibleEntity(name, moon, winged) {
-					kind = "collectible"
-				} else if HazardPattern.MatchString(name) {
-					kind = "hazard"
-				}
+				if name == "coverupWall" {
+					rasterizeCoverupWall(activeRoom, ex, ey, ew, eh, getStringAttrDefault(attrs, "tiletype", "3"))
+				} else {
+					kind := "generic"
+					if name == "player" || (SpawnPattern.MatchString(name) && !SuffixDenyPattern.MatchString(name)) {
+						kind = "spawn"
+					} else if IsCollectibleEntity(name, moon, winged) {
+						kind = "collectible"
+					} else if HazardPattern.MatchString(name) {
+						kind = "hazard"
+					}
 
-				activeRoom.Entities = append(activeRoom.Entities, &EntityData{
-					Name:   name,
-					X:      ex,
-					Y:      ey,
-					Width:  ew,
-					Height: eh,
-					Kind:   kind,
-				})
+					activeRoom.Entities = append(activeRoom.Entities, &EntityData{
+						Name:     name,
+						X:        ex,
+						Y:        ey,
+						Width:    ew,
+						Height:   eh,
+						Kind:     kind,
+						Moon:     moon,
+						Winged:   winged,
+						HasNodes: childCount > 0,
+						TypeAttr: getStringAttr(attrs, "type"),
+					})
+				}
 			} else if container == "fgdecals" || container == "bgdecals" {
 				activeRoom.Decals = append(activeRoom.Decals, &DecalData{
 					Texture:  getStringAttr(attrs, "texture"),
@@ -280,6 +288,41 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 	}
 
 	return nil
+}
+
+// rasterizeCoverupWall merges a coverupWall entity's bounds directly into the
+// room's solids grid using its tiletype attribute, so it renders through the
+// existing tile-autotiling pipeline instead of an opaque marker rect - it's a
+// real Celeste entity that blends into surrounding tiles (loenn/src/entities/coverup_wall.lua),
+// not a generic actor.
+func rasterizeCoverupWall(room *RoomData, ex, ey, ew, eh float64, tiletype string) {
+	if tiletype == "" {
+		return
+	}
+	tileID := tiletype[0]
+	rows := len(room.Solids)
+	if rows == 0 {
+		return
+	}
+	cols := len(room.Solids[0])
+
+	startCol := int(ex) / 8
+	startRow := int(ey) / 8
+	endCol := (int(ex) + int(ew) + 7) / 8
+	endRow := (int(ey) + int(eh) + 7) / 8
+
+	for r := startRow; r < endRow; r++ {
+		if r < 0 || r >= rows {
+			continue
+		}
+		for c := startCol; c < endCol; c++ {
+			if c < 0 || c >= cols {
+				continue
+			}
+			room.Solids[r][c] = true
+			room.SolidsTileID[r][c] = tileID
+		}
+	}
 }
 
 func getIntAttr(attrs map[string]interface{}, key string) int {

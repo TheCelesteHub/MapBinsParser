@@ -21,12 +21,16 @@ type MapCollectiblesResult struct {
 }
 
 type EntityData struct {
-	Name   string  `json:"name"`
-	X      float64 `json:"x"`
-	Y      float64 `json:"y"`
-	Width  float64 `json:"width"`
-	Height float64 `json:"height"`
-	Kind   string  `json:"kind"`
+	Name     string  `json:"name"`
+	X        float64 `json:"x"`
+	Y        float64 `json:"y"`
+	Width    float64 `json:"width"`
+	Height   float64 `json:"height"`
+	Kind     string  `json:"kind"`
+	Moon     bool    `json:"-"`
+	Winged   bool    `json:"-"`
+	HasNodes bool    `json:"-"`
+	TypeAttr string  `json:"-"`
 }
 
 type DecalData struct {
