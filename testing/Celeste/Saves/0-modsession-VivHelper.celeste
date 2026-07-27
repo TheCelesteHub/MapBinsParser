@@ -1,0 +1,120 @@
+dashPowerupManager: 
+AlwaysBreakDashBlockDash: 0
+Blackout: false
+CollectedCoins: {}
+OverrideTempleFallX: 
+StallScreenWipe: false
+FFDistance: 5
+FPDistance: 30
+MakeClose: false
+demodashDisabler: Off
+OrangeSpeed: 220
+customDashState: 
+CurrentBooster: 
+savedCBDController: 
+savedHBController: 
+HasSpeedPower: false
+CanAddSpeed: false
+StoredSpeed:
+  X: 0
+  Y: 0
+Facing: Right
+dashCount: 0
+staminaCount: 110
+ShowIndicator: true
+PreviousLevel: g-00
+lockCamera: 0
+LevelInfoCache:
+  a-00-intro:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  b-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  b-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  b-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  b-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  d-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  d-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  d-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  d-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  e-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  e-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  e-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  e-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  f-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  f-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  f-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  f-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  g-00:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  g-01:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  g-02:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  g-03:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+DebrisLimiter: 0
+TeleportState: false
+PausedRetryCheck: false
+EnableRefillCancelSpaceIndicator: true
+DisableMapViewArbitrarySpawn: false
+DisableNeutralsOnHoldable: false

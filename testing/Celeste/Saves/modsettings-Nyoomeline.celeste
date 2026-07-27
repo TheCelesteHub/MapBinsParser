@@ -1,0 +1,10 @@
+SpeedThreshold: 200
+OnlyOnGround: true
+ParticleTexture: CoarseDust
+ParticlePath: Nyoomeline/particles/example
+ParticleScale: 100
+TrailColor: '#ffffff'
+TrailColor2: '#dddddd'
+ParticleCount: 3
+ColorMode: Fade
+FadeMode: Late

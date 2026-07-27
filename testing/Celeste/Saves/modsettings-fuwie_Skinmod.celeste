@@ -1,0 +1,9 @@
+currentColor:
+  B: 255
+  G: 231
+  R: 236
+  A: 255
+  PackedValue: 4294961132
+specialDash: true
+cNetEnable: true
+cNetSyncMode: 0

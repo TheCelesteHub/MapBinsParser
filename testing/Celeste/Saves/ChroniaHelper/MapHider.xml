@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ChroniaHelperGlobalData>
+  <List name="HelperMapsToHide" elementType="String">
+    <Value name="Item" type="string">AltSidesHelper</Value>
+    <Value name="Item" type="string">bitsbolts</Value>
+    <Value name="Item" type="string">BounceHelper</Value>
+    <Value name="Item" type="string">CustomPoints</Value>
+    <Value name="Item" type="string">HonlyHelper</Value>
+    <Value name="Item" type="string">JackalHelper</Value>
+    <Value name="Item" type="string">SusanHelper</Value>
+  </List>
+</ChroniaHelperGlobalData>

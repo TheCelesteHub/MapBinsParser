@@ -1,0 +1,119 @@
+Doubled_GcMemoryThreshold: 5
+Enabled: false
+RoomTimerType: Off
+NumberOfRooms: 1
+EndPointStyle: Flag
+TimeSummitFlag: true
+TimeHeartCassette: true
+AutoResetRoomTimer: true
+DisplayRoomGold: true
+RoomTimerExportType: File
+AutoLoadStateAfterDeath: false
+AutoClearStateOnScreenTransition: false
+AutoClearStateOnSceneSwitch: true
+FreezeAfterLoadStateType: Off
+GcAfterLoadState: false
+GcAfterClearState: true
+SaveTimeAndDeaths: true
+SaveExtendedVariants: true
+SaveInLuaCutscene: false
+NoMessageAfterSaveLoad: false
+AllowStateDuringDeath: false
+ClearStateOnHotReload: true
+DeathStatistics: false
+MaxNumberOfDeathData: 1
+TeleportRoomCategory: Any
+RespawnSpeed: 1
+RestartChapterSpeed: 1
+SkipRestartChapterScreenWipe: false
+AllowPauseDuringDeath: false
+MuteInBackground: false
+FixCoreRefillDashAfterTeleport: true
+EmoteModPULP: true
+PopupMessageStyle: Tooltip
+AreaCompleteEnableTimerType: Off
+Hotkeys: true
+UnlockCamera: false
+KeyboardToggleHotkeys: []
+KeyboardSaveState:
+- F7
+- D0
+KeyboardLoadState:
+- F8
+- D7
+KeyboardClearState:
+- F4
+- D4
+KeyboardClearAllState: []
+KeyboardOpenDebugMap: []
+KeyboardResetRoomTimerPb:
+- F9
+KeyboardSwitchRoomTimer:
+- F10
+KeyboardIncreaseTimedRooms: []
+KeyboardDecreaseTimedRooms: []
+KeyboardSetEndPoint:
+- F11
+KeyboardSetAdditionalEndPoint: []
+KeyboardCheckDeathStatistics: []
+KeyboardTeleportToPreviousRoom:
+- PageUp
+KeyboardTeleportToNextRoom:
+- PageDown
+KeyboardSwitchAutoLoadState: []
+KeyboardSpawnTowerViewer: []
+KeyboardToggleFullscreen: []
+KeyboardExportRoomTimes: []
+KeyboardSaveSlot1: []
+KeyboardSaveSlot2: []
+KeyboardSaveSlot3: []
+KeyboardSaveSlot4: []
+KeyboardSaveSlot5: []
+KeyboardSaveSlot6: []
+KeyboardSaveSlot7: []
+KeyboardSaveSlot8: []
+KeyboardSaveSlot9: []
+KeyboardSwitchToNextSlot: []
+KeyboardSwitchToPreviousSlot: []
+KeyboardSaveToNextSlot: []
+KeyboardLoadFromLastSlot: []
+KeyboardToggleSaveLoadUI:
+- Tab
+ControllerToggleHotkeys: []
+ControllerSaveState:
+- RightThumbstickLeft
+ControllerLoadState:
+- RightThumbstickRight
+ControllerClearState: []
+ControllerClearAllState: []
+ControllerOpenDebugMap: []
+ControllerResetRoomTimerPb: []
+ControllerSwitchRoomTimer: []
+ControllerIncreaseTimedRooms: []
+ControllerDecreaseTimedRooms: []
+ControllerSetEndPoint: []
+ControllerSetAdditionalEndPoint: []
+ControllerSetRoomIdEndPoint: []
+ControllerClearRoomIdEndPoint: []
+ControllerCheckDeathStatistics: []
+ControllerTeleportToPreviousRoom: []
+ControllerTeleportToNextRoom: []
+ControllerSwitchAutoLoadState: []
+ControllerSpawnTowerViewer: []
+ControllerToggleFullscreen: []
+ControllerExportRoomTimes: []
+ControllerSaveSlot1: []
+ControllerSaveSlot2: []
+ControllerSaveSlot3: []
+ControllerSaveSlot4: []
+ControllerSaveSlot5: []
+ControllerSaveSlot6: []
+ControllerSaveSlot7: []
+ControllerSaveSlot8: []
+ControllerSaveSlot9: []
+ControllerSwitchToNextSlot: []
+ControllerSwitchToPreviousSlot: []
+ControllerSaveToNextSlot: []
+ControllerLoadFromLastSlot: []
+ControllerToggleSaveLoadUI:
+- RightThumbstickDown

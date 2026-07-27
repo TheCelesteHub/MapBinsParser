@@ -1,0 +1,65 @@
+FluteButton:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Tab
+  MouseButtons: []
+MapButton:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Tab
+  MouseButtons: []
+PetEnabled: false
+TASMode: false
+HardDropButton:
+  Buttons:
+  - RightTrigger
+  Keys:
+  - Space
+  MouseButtons: []
+SoftDropButton:
+  Buttons:
+  - LeftThumbstickDown
+  Keys:
+  - Down
+  MouseButtons: []
+RotateCWButton:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Z
+  MouseButtons: []
+RotateCCWButton:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Up
+  MouseButtons: []
+Rotate180Button:
+  Buttons:
+  - LeftThumbstickUp
+  Keys:
+  - X
+  MouseButtons: []
+HoldButton:
+  Buttons:
+  - LeftTrigger
+  Keys:
+  - LeftShift
+  MouseButtons: []
+LeftButton:
+  Buttons:
+  - LeftThumbstickLeft
+  Keys:
+  - Left
+  MouseButtons: []
+RightButton:
+  Buttons:
+  - LeftThumbstickRight
+  Keys:
+  - Right
+  MouseButtons: []
+ARR: 6
+DAS: 6
+SDF: 1

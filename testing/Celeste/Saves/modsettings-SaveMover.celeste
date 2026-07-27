@@ -1,0 +1,6 @@
+SaveMoverBind:
+  Buttons:
+  - LeftTrigger
+  Keys:
+  - Tab
+  MouseButtons: []

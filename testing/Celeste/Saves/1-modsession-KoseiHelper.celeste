@@ -1,0 +1,28 @@
+FlagDashColor:
+  B: 30
+  G: 0
+  R: 230
+  A: 255
+  PackedValue: 4280156390
+flagRefillFlag: KoseiHelper_FlagRefill
+CounterDashColor:
+  B: 230
+  G: 0
+  R: 30
+  A: 255
+  PackedValue: 4293263390
+counterRefillCounter: KoseiHelper_CounterRefill
+counterRefillDecrease: false
+counterRefillWhenUsed: false
+SoftDoNotLoad: []
+HasPufferDash: false
+PufferDashActive: false
+HasFlagDash: false
+FlagDashActive: false
+HasCounterDash: false
+CounterDashActive: false
+HasShadowDash: false
+ShadowDashActive: false
+DebugMapModified: false
+ClimbJumpHook: false
+oobClimbFix: false

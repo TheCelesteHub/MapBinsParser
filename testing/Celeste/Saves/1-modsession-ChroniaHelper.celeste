@@ -1,0 +1,89 @@
+TeraActive: false
+StartTera: Any
+FrameTimer_Hours: 0
+FrameTimer_Minutes: 0
+FrameTimer_Seconds: 0
+FrameTimer_timerFrames: 0
+FrameTimer_Frames: 0
+FrameTimer_Output: 
+CustomTimer_RawTime: 0
+CustomTimer_Time: 0
+CustomTimer_TimerStarted: false
+CustomTimer_TimerPaused: false
+CustomTimer_TimerCompleted: false
+FlagButtonRegistry: {}
+FlagButtonFrameIndex: {}
+musicReset: false
+musicStored: false
+oldMusic:
+  musicTrack: 
+  musicProgress: 0
+  musicParameters: 
+se_DisableControl: false
+se_Variables: {}
+modifySinkingPlatformLine: false
+modifyMovingPlatformLine: false
+platformLine_SP_edgeColor: &o0
+  B: 35
+  G: 25
+  R: 42
+  A: 255
+  PackedValue: 4280490282
+platformLine_SP_centerColor: &o1
+  B: 18
+  G: 11
+  R: 22
+  A: 255
+  PackedValue: 4279372566
+platformLine_MP_edgeColor: *o0
+platformLine_MP_centerColor: *o1
+platformLine_SP_depth: 9001
+platformLine_MP_depth: 9001
+Zipmover_NodeIndex: {}
+Zipmover_NextForward: {}
+FlagTimer: {}
+Geometry_Rectangles: {}
+Geometry_Points: {}
+Geometry_FreeRectangles: {}
+flagsWhenEnter: []
+roomTags_Rooms: []
+roomTags: []
+roomTagLoaded: false
+Stopclocks: {}
+OperationCodeListeners: {}
+HUDPrimaryState: []
+HUDStateRegistered: false
+HUDStateRegister: ''
+SessionConditionListeners: {}
+SessionConditionListener_LastState: {}
+SessionConditionListener_TimerState: {}
+SessionConditionListener_Timer: {}
+DiscoveredRooms: []
+codeButtonTargets: {}
+RestoreScreenshake: Half
+_CurrentScreenshake: Half
+CurrentScreenshake: Half
+_ModifiedScreenshake: Half
+ModifiedScreenshake: Half
+FishPricers: {}
+GlobalEntitiesRegistry: []
+LevelStartTime: 2026-05-22T17:03:27.9002874-07:00
+KeepDashSpeed: {}
+SkipConfirmationThisSession: false
+flagsPerRoom: []
+flagsPerDeath: []
+countersPerRoom: {}
+countersPerDeath: {}
+slidersPerRoom: {}
+slidersPerDeath: {}
+keystrings: {}
+chroniaColors: {}
+CustomTimer_TimeRecords: {}
+PIZ_IconsSave: 
+PIZ_IconOffsetsSave: 
+PIZ_IconColorsSave: 
+PIZ_ZoneDepth: 0
+FlagCarouselState: {}
+Passkeyboard_RemainingUses: {}
+Passkeyboard_PasswordQueue: {}
+Passkeyboard_Passwords: {}

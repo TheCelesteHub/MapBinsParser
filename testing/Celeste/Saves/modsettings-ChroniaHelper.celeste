@@ -1,0 +1,184 @@
+ChineseCharactersAutoLining: false
+HUDMainControl: true
+showMouse: false
+mouseSize: 32
+DisplayEntityInfoInConsole: false
+staminaMeterMenu:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+dashesCounter:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+realTimeClock:
+  hasSeconds: true
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+stateMachineDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+speedDisplayer:
+  speedDisplay: speedAll
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+playerSpriteDisplayer:
+  displaySprite: Comparison
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+playerPositionDisplayer:
+  displayCoordinates: Both
+  useGlobalCoordinates: true
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+deathsDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+totalDeathsDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+saveFileDeathsDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+mapNameDisplayer:
+  prefix: false
+  suffixAuthor: false
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+roomNameDisplayer:
+  prefix: false
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+mapAuthorNameDisplayer:
+  prefix: false
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+levelBloomDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+levelLightingDisplayer:
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+cameraOffsetDisplayer:
+  cameraDisplay: CameraXY
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+commandStopclockDisplayer:
+  minUnit: 0
+  maxUnit: 2
+  trimZeros: true
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+inputDisplayer:
+  renderTarget: []
+  enabled: false
+  X: 4
+  Y: 70
+  letterDistance: 32
+  scale: 40
+  aligning: Left
+  maxDisplays: 5
+  lineDistance: 2
+  overallAligning: 1
+mousePositionDisplayer:
+  displayType: HD
+  enabled: false
+  displayPosition: StaticScreen
+  X: 160
+  Y: 168
+  letterDistance: 0
+  scale: 60
+  aligning: Middle
+entityInfoDisplayer:
+  renderTarget: []
+  enabled: false
+  X: 4
+  Y: 70
+  letterDistance: -4
+  scale: 40
+  aligning: Left
+  lineDistance: 2
+  overallAligning: 1

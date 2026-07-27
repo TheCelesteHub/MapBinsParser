@@ -1,0 +1,7 @@
+AsynchronousStaticProcessing: false
+AsynchronousDynamicProcessing: true
+UseThreadPool: true
+LogProcessingTimes: false
+DebugTextureLeaks: false
+MaxTextureCacheSize: 268435456
+MinTextureCacheMargin: 536870912

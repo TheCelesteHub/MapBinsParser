@@ -1,0 +1,12 @@
+Enabled: false
+ShowJukebox: false
+SaveFileShowTotalStrawberries: false
+ForcePauseScreenStrawberryDisplay: false
+DuckToLookDown: false
+LookDownOffset: 16
+UpToLookUp: false
+LookUpOffset: 16
+SkipPostcards: false
+SkipPrologueOnNewGame: false
+ChangeRegularSpikesToOutline: false
+NoLookoutBlockers: false

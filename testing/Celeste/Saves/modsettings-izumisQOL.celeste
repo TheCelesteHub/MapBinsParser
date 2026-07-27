@@ -1,0 +1,47 @@
+AutoLoadKeybinds: true
+WhitelistIsExclusive: false
+ShowModTimeInJournal: false
+SeparateABCSideTimes: true
+PauseAfterFramesGamepadInactive: 10
+ConnectToOBSWebsocketsOnStartup: false
+ShowRecordingIndicatorWhen: WhenNotRecording
+OBSPollFrequencyIndex:
+  Record: 0
+  Stream: 0
+  ReplayBuffer: 0
+EnableHotkeys: true
+ButtonSaveJournal:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonSuppressOBSIndicators:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonEnableNoClip:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonLoadKeybind:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonsSwapKeybinds:
+- Buttons: []
+  Keys: []
+  MouseButtons: []
+CurrentKeybindSlot: 0
+CurrentWhitelistSlot: 0
+BetterJournalEnabled: false
+GamepadPauserEnabled: false
+OBSIntegrationEnabled: false
+CheckRecordingStatus: false
+CheckStreamingStatus: false
+PollFrequencyIndex: -1
+OBSHostPort: localhost:4455
+OBSPassword: ''
+NoClipNormalSpeed: 8
+NoClipFastSpeed: 8
+NoClipSlowSpeed: 8
+ShowRestartButtonInMainMenu: false
+VerboseLogging: false

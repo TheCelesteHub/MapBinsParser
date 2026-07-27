@@ -1,0 +1,17 @@
+MusicWonkyBeatIndex: 0
+CassetteWonkyBeatIndex: 0
+MusicBeatTimer: 0
+CassetteBeatTimer: 0
+CassetteBlocksDisabled: true
+CassetteBlocksLastParameter: ''
+OshiroBSideMode: false
+SkateboardEnabled: false
+ZeroG: false
+ExpiringDashRemainingTime: 0
+ExpiringDashFlashThreshold: 0
+DashSequenceDisplay: 
+RainDensityData:
+  Density: 1
+  StartDensity: 1
+  EndDensity: 1
+  Duration: 0

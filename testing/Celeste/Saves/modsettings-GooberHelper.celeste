@@ -1,0 +1,75 @@
+UserDefinedOptions: {}
+OptionsProfiles: {}
+OptionsProfileOrder: []
+ShowOptionsInGame: false
+DebugMapPhysics: false
+FastMenuing: false
+MouseJoystick:
+  Mode: None
+  AbsoluteMode:
+    Circle:
+      Radius: 150
+      X: 0
+      Y: 0
+    OuterColor: &o0
+      B: 0
+      G: 0
+      R: 0
+      A: 0
+      PackedValue: 0
+    BorderColor:
+      B: 255
+      G: 255
+      R: 255
+      A: 255
+      PackedValue: 4294967295
+    InnerColor: &o1
+      B: 255
+      G: 204
+      R: 51
+      A: 51
+      PackedValue: 872401971
+    BorderThickness: 2
+  RelativeMode:
+    Circle:
+      Radius: 150
+      X: 0
+      Y: 0
+    DeadzoneRadius: 50
+    UseRegularMouse: false
+    ClickBehavior: None
+    ClampBehavior: Circle
+    OuterColor: *o0
+    BorderColor:
+      B: 0
+      G: 255
+      R: 0
+      A: 255
+      PackedValue: 4278255360
+    InnerColor: *o1
+    DeadzoneBorderColor:
+      B: 255
+      G: 255
+      R: 255
+      A: 127
+      PackedValue: 2147483647
+    BorderThickness: 2
+    DeadzoneBorderThickness: 2
+ExitGameSuspension:
+  Buttons:
+  - LeftTrigger
+  Keys:
+  - Tab
+  MouseButtons: []
+IncreaseSliderStep:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - C
+  MouseButtons: []
+DecreaseSliderStep:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Z
+  MouseButtons: []

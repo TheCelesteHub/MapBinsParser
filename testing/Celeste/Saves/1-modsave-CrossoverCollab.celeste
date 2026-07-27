@@ -1,0 +1,406 @@
+StrawberryClickerUpgrades: []
+StrawberryClickerAmount: 0
+StrawberryClickerTotal: 0
+buildings: []
+currentSPS: 0
+BuildingTypes: []
+clickerProgress: 0
+clickPower: 1
+PurchasedUpgrades: []
+berryTimesClicked: 0
+pointsTotal: 0
+HasAnyMoonberry: false
+HasSeenStartCutscene: false
+Settings_Background: []
+Settings_Font: []
+Settings_Cursor: []
+Settings_SkipIntro: false
+Settings_Sounds: true
+Settings_Score: true
+Settings_MinDash: false
+SnakeRecord: 0
+PacmanRecord: 0
+MinesweeperRecords:
+- 
+- 
+- 
+Flags: []
+Furniture: []
+XaphanLastPlayed: 
+XaphanTerraria:
+  SavedFlags: []
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters: []
+  VisitedRooms: []
+  VisitedRoomsTiles: []
+  ExtraUnexploredRooms: []
+  ShowHints: {}
+  ProgressMode: {}
+  Markers: {}
+  ShowMarkers: {}
+  UnlockedWarps: []
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: &o0
+    X: 0
+    Y: 0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone: {}
+  droneStartChapter: {}
+  droneStartRoom: {}
+  droneStartSpawn: {}
+  droneCurrentSpawn: {}
+  fakePlayerFacing: {}
+  fakePlayerPosition: {}
+  LightMode: {}
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+XaphanHK:
+  SavedFlags: []
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters: []
+  VisitedRooms: []
+  VisitedRoomsTiles: []
+  ExtraUnexploredRooms: []
+  ShowHints: {}
+  ProgressMode: {}
+  Markers: {}
+  ShowMarkers: {}
+  UnlockedWarps: []
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: *o0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone: {}
+  droneStartChapter: {}
+  droneStartRoom: {}
+  droneStartSpawn: {}
+  droneCurrentSpawn: {}
+  fakePlayerFacing: {}
+  fakePlayerPosition: {}
+  LightMode: {}
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+XaphanTerracraft:
+  SavedFlags: []
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters: []
+  VisitedRooms: []
+  VisitedRoomsTiles: []
+  ExtraUnexploredRooms: []
+  ShowHints: {}
+  ProgressMode: {}
+  Markers: {}
+  ShowMarkers: {}
+  UnlockedWarps: []
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: *o0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone: {}
+  droneStartChapter: {}
+  droneStartRoom: {}
+  droneStartSpawn: {}
+  droneCurrentSpawn: {}
+  fakePlayerFacing: {}
+  fakePlayerPosition: {}
+  LightMode: {}
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+fishes: []
+terrariaBestPercent: 0
+moneyTotal: 0
+moneySpent: 0
+AvailableUpgrades:
+- Name: Double Click Power
+  Texture: upgrade_doubleclick
+  FlagRequired: ''
+  Modifiers:
+  - clickPower * 2
+  Value: 500
+  DefaultSPS: 0
+  ActualSPS: 0
+- Name: Triple Click Power
+  Texture: upgrade_tripleclick
+  FlagRequired: ''
+  Modifiers:
+  - clickPower * 3
+  Value: 3000
+  DefaultSPS: 0
+  ActualSPS: 0

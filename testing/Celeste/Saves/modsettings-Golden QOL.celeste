@@ -1,0 +1,31 @@
+Enable: true
+RestartChapterAfterGoldenDeath: false
+PreventRestartChapter: false
+EnableAfterCheckpoint: 0
+GoldenDeath: true
+DisplayType: Icon
+MakeGoldenStrawberriesTransparentIfClose: true
+GoldenStrawberryTransparencyRange: 33
+GoldenStrawberryMaxTransparencyRange: 5
+GoldenStrawberryMaxTransparency: 8
+DisableHotkeys: true
+ToggleHotkeys:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+RestartPreventerToggle:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ReturnToDeathSite:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+GiveGolden:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+PlaceGolden:
+  Buttons: []
+  Keys: []
+  MouseButtons: []

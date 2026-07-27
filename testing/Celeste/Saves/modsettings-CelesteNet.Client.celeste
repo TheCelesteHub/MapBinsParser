@@ -1,0 +1,169 @@
+SettingsVersionDoNotEdit: 2
+WantsToBeConnected: true
+AutoReconnect: true
+ReceivePlayerAvatars: true
+Server: celeste.0x0a.de
+ExtraServers: []
+LoginMode: Key
+Name: FoxxyLover
+Key: '#0d473cce45e7495a'
+ClientID: 10261760862382146730
+ClientIDSending: NotOnLocalhost
+Debug:
+  ConnectionType: Auto
+  DevLogLevel: INF
+InGame:
+  Interactions: true
+  Entities: ON
+  OtherPlayerOpacity: 14
+  Sounds: ON
+  SoundVolume: 8
+InGameHUD:
+  ShowOwnName: false
+  NameOpacity: 20
+  OffScreenNames: Other
+  OffScreenNameOpacity: 17
+  EmoteOpacity: 20
+  OffScreenEmotes: Same
+  OffScreenEmoteOpacity: 10
+  ScreenMargins: 4
+UISize: 8
+UISizeChat: 8
+UISizePlayerList: 8
+UIScaleOverride: 0
+ChatUI:
+  ShowNewMessages: All
+  NewMessagesFadeTime: 6
+  NewMessagesSizeAdjust: 0
+  ShowScrollingControls: true
+  ChatCloseCancelsSuggestions: true
+  ChatLogLength: 8
+  ChatScrollSpeed: 2
+  ChatScrollFading: Fast
+PlayerListUI:
+  PlayerListMode: Channels
+  ShowPlayerListLocations: ON
+  PlayerListShowPing: true
+  HideOwnChannelName: false
+  PlayerListScrollMode: HoldTab
+  ScrollDelay: 1
+  ScrollDelayLeniency: 50
+UICustomize:
+  ChatOpacity: 15
+  PlayerListOpacity: 17
+  PlayerListShortenRandomizer: true
+  PlayerListAllowSplit: true
+  DynScaleThreshold: 70
+  DynScaleRange: 50
+UIBlur: MEDIUM
+EmoteWheel: true
+ButtonPlayerList:
+  Buttons:
+  - Back
+  Keys:
+  - Tab
+  MouseButtons: []
+ButtonChat:
+  Buttons: []
+  Keys:
+  - T
+  MouseButtons: []
+ButtonPlayerListScrollUp:
+  Buttons:
+  - LeftThumbstickUp
+  Keys:
+  - Up
+  MouseButtons: []
+ButtonPlayerListScrollDown:
+  Buttons:
+  - LeftThumbstickDown
+  Keys:
+  - Down
+  MouseButtons: []
+ButtonChatSend:
+  Buttons: []
+  Keys:
+  - Enter
+  MouseButtons: []
+ButtonChatClose:
+  Buttons: []
+  Keys:
+  - Escape
+  MouseButtons: []
+ButtonChatScrollUp:
+  Buttons:
+  - LeftThumbstickUp
+  Keys:
+  - PageUp
+  MouseButtons: []
+ButtonChatScrollDown:
+  Buttons:
+  - LeftThumbstickDown
+  Keys:
+  - PageDown
+  MouseButtons: []
+ButtonEmoteWheelSend:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Q
+  MouseButtons: []
+ButtonEmote1:
+  Buttons: []
+  Keys:
+  - D1
+  MouseButtons: []
+ButtonEmote2:
+  Buttons: []
+  Keys:
+  - D2
+  MouseButtons: []
+ButtonEmote3:
+  Buttons: []
+  Keys:
+  - D3
+  MouseButtons: []
+ButtonEmote4:
+  Buttons: []
+  Keys:
+  - D4
+  MouseButtons: []
+ButtonEmote5:
+  Buttons: []
+  Keys:
+  - D5
+  MouseButtons: []
+ButtonEmote6:
+  Buttons: []
+  Keys:
+  - D6
+  MouseButtons: []
+ButtonEmote7:
+  Buttons: []
+  Keys:
+  - D7
+  MouseButtons: []
+ButtonEmote8:
+  Buttons: []
+  Keys:
+  - D8
+  MouseButtons: []
+ButtonEmote9:
+  Buttons: []
+  Keys:
+  - D9
+  MouseButtons: []
+ButtonEmote10:
+  Buttons: []
+  Keys:
+  - D0
+  MouseButtons: []
+Emotes:
+- i:collectables/heartgem/0/spin
+- i:collectables/strawberry
+- Hi!
+- Too slow!
+- p:madeline/normal04
+- p:ghost/scoff03
+- p:theo/yolo03 theo/yolo02 theo/yolo01 theo/yolo02 END
+- p:granny/laugh

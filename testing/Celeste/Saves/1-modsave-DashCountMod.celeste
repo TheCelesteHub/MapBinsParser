@@ -1,0 +1,250 @@
+DashCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 1595
+    BSide: 255
+    CSide: 94
+  Celeste/2-OldSite:
+    Normal: 1311
+    BSide: 2114
+    CSide: 390
+  Celeste/6-Reflection:
+    Normal: 3729
+    CSide: 748
+    BSide: 26
+  pugroy/riteofthejungle/1-RiteoftheJungle:
+    Normal: 375
+  Celeste/LostLevels:
+    Normal: 1580
+  Celeste/8-Epilogue:
+    Normal: 6
+  Celeste/7-Summit:
+    Normal: 7076
+    CSide: 2108
+    BSide: 1220
+  oknano/ruin/0:
+    Normal: 284
+  Evryon/SilentSnow/SilentSnow:
+    Normal: 279
+  oknano/soupeline/soup64:
+    Normal: 222
+  SpringCollab2020/0-Lobbies/0-Prologue:
+    Normal: 25
+  SpringCollab2020/0-Lobbies/1-Beginner:
+    Normal: 903
+  SpringCollab2020/0-Gyms/1-Beginner:
+    Normal: 38
+  SpringCollab2020/1-Beginner/Abby:
+    Normal: 103
+  SpringCollab2020/1-Beginner/Cookie:
+    Normal: 1241
+  2021MapCollection/0-Lobbies/1-Mild Lobby:
+    Normal: 31
+  SpringCollab2020/1-Beginner/Rue:
+    Normal: 2
+  SpringCollab2020/1-Beginner/Lichtbaulb:
+    Normal: 1356
+  SpringCollab2020/1-Beginner/CANADIAN:
+    Normal: 208
+  SpringCollab2020/1-Beginner/DanTKO:
+    Normal: 316
+  SpringCollab2020/1-Beginner/Flagpole1up:
+    Normal: 138
+  SpringCollab2020/1-Beginner/Ghajestis:
+    Normal: 143
+  SpringCollab2020/1-Beginner/Cruor:
+    Normal: 302
+  SpringCollab2020/1-Beginner/itsabrody:
+    Normal: 5
+  SpringCollab2020/1-Beginner/IsaGoodFriend:
+    Normal: 61
+  SpringCollab2020/1-Beginner/Skeleton:
+    Normal: 201
+  SpringCollab2020/0-Lobbies/2-Intermediate:
+    Normal: 7
+  SpringCollab2020/1-Beginner/Cat_in_Box_01:
+    Normal: 77
+  SpringCollab2020/1-Beginner/iamdadbod:
+    Normal: 246
+  Escapism/lieutenant/Escapism:
+    Normal: 7
+  SpringCollab2020/1-Beginner/Bissy:
+    Normal: 133
+  SpringCollab2020/1-Beginner/Thegur90:
+    Normal: 1
+  SpringCollab2020/1-Beginner/hennyburgr:
+    Normal: 53
+  SpringCollab2020/1-Beginner/Snas:
+    Normal: 59
+  SpringCollab2020/1-Beginner/ZZ-HeartSide:
+    Normal: 1654
+  beginnermap/lvl1:
+    Normal: 601
+  coloursofnoise/demos/custompointsdemo:
+    Normal: 50
+  StartupContest2021/0-Lobbies/1-Submissions:
+    Normal: 1729
+  StartupContest2021/1-Submissions/twoday:
+    Normal: 209
+  StartupContest2021/1-Submissions/starl1ght:
+    Normal: 392
+  StartupContest2021/1-Submissions/powerav:
+    Normal: 249
+  StartupContest2021/1-Submissions/xolimono:
+    Normal: 130
+  Akristantesting:
+    Normal: 127
+  foxxylover/campaigntest/testidentifier:
+    Normal: 24
+  StartupContest2021/1-Submissions/flamecrafter113:
+    Normal: 586
+  StartupContest2021/1-Submissions/scribbles:
+    Normal: 318
+  StartupContest2021/1-Submissions/cheesesteak:
+    Normal: 488
+  StartupContest2021/1-Submissions/toto00:
+    Normal: 55
+  StartupContest2021/1-Submissions/potatolucy:
+    Normal: 196
+  StartupContest2021/1-Submissions/augustusargento:
+    Normal: 7
+  StartupContest2021/sus/sus:
+    Normal: 203
+  StartupContest2021/1-Submissions/skillsharekirby:
+    Normal: 161
+  StartupContest2021/1-Submissions/elissv:
+    Normal: 178
+  StartupContest2021/1-Submissions/mika:
+    Normal: 36
+  StartupContest2021/1-Submissions/rdoggo8:
+    Normal: 215
+  StartupContest2021/1-Submissions/xelos:
+    Normal: 153
+  StartupContest2021/1-Submissions/quadchunks:
+    Normal: 56
+  StartupContest2021/1-Submissions/toneblock:
+    Normal: 1
+  StartupContest2021/1-Submissions/asri:
+    Normal: 320
+  Silverfish003/ChillSummit/Chillsummit:
+    Normal: 4
+  lennygold/gym/1-Creepypasta:
+    Normal: 255
+  StartupContest2021/1-Submissions/nyan:
+    Normal: 9
+  StartupContest2021/1-Submissions/earthwise:
+    Normal: 234
+  StartupContest2021/1-Submissions/ZZ-HeartSide:
+    Normal: 1404
+  StartupContest2021/1-Submissions/abuffzucchini:
+    Normal: 87
+  StartupContest2021/1-Submissions/jadeturtle:
+    Normal: 81
+  DecoContest2021/mari/switchmountain:
+    Normal: 324
+  0/hahafunnydarklevelhaha/Darkness:
+    Normal: 56
+  AliceQuasar/TempleOfTomorrow/map:
+    Normal: 108
+  trlt/xolimono/trlt:
+    Normal: 765
+    BSide: 576
+    CSide: 350
+  BeginnerContest2021/Rocketguy2/TrialOfEpidox:
+    Normal: 167
+  SecondPlace/LotlDev/zipping_through_space/zipping_through_space:
+    Normal: 75
+  jadeturtle/adranos/Adranos:
+    Normal: 401
+    BSide: 363
+    CSide: 43
+  L13r0/Anubi:
+    Normal: 589
+  EnderCell/GoodNight/GoodNight:
+    Normal: 2162
+  Rifs/dawn/dawn:
+    Normal: 53
+  GlowWoomii/CandyCane/GlowWoomiiCandyCane:
+    Normal: 101
+  Celeste/3-CelestialResort:
+    Normal: 4249
+    BSide: 3792
+    CSide: 31
+  Celeste/4-GoldenRidge:
+    BSide: 302
+    CSide: 11
+    Normal: 2833
+  Icamus/Distortion/Distortion:
+    Normal: 972
+  Celeste/5-MirrorTemple:
+    CSide: 311
+    Normal: 1046
+  hivemindsrule/anewbeginning/ANewBeginning:
+    Normal: 325
+  juels/GOI/GOI:
+    Normal: 524
+  Celeste/9-Core:
+    Normal: 56
+    CSide: 27
+  WizardOfWit/PartOfMe/1:
+    Normal: 210
+  foxxylover/chillchapter/1-hill:
+    Normal: 36
+  foxxylover/chillchapter/2-house:
+    Normal: 170
+  foxxylover/chillchapter/3-cave:
+    Normal: 497
+  UnderDragon/Flipeste/1-ForflippenCity:
+    Normal: 128
+  UnderDragon/Flipeste/2-FlipSite:
+    Normal: 233
+  UnderDragon/Flipeste/3-FlipResort:
+    Normal: 437
+  foxxylover/Portaleste/1-Nowhere:
+    Normal: 2075
+  Cruor-Secret:
+    Normal: 212
+  BeefyUncleTorre/map/1:
+    Normal: 624
+  leppa/AltSidesHelper/AltSidesHelperTest:
+    Normal: 16
+  leppa/AltSidesHelper/AltSidesHelperTest_B:
+    Normal: 18
+  leppa/AltSidesHelper/AltSidesHelperTest_C:
+    Normal: 3
+  leppa/AltSidesHelper/AltSidesHelperTest_D:
+    Normal: 3
+  tirednwired/SWAPSLUT/swapslut:
+    Normal: 475
+  Celeste/0-Intro:
+    Normal: 19
+  CloudyCliffs/ABuffZucchini/CloudyCliffs:
+    Normal: 304
+  Abstract/Lichtbaulb/Colors:
+    Normal: 378
+  foxxylover/foxxysdream/1-nightmare:
+    Normal: 155
+  DeathKontrol/UltraSkool:
+    Normal: 535
+  Holly/mines/1mines:
+    Normal: 1995
+  Holly/mines/2caves:
+    Normal: 560
+  Holly/mines/3depression:
+    Normal: 656
+JumpCountPerLevel:
+  Celeste/1-ForsakenCity:
+    BSide: 11
+    Normal: 79
+  Celeste/4-GoldenRidge:
+    Normal: 8
+  Celeste/3-CelestialResort:
+    Normal: 28
+  Celeste/7-Summit:
+    Normal: 66
+  Celeste/0-Intro:
+    Normal: 51
+BestJumpCountPerLevel:
+  Celeste/0-Intro:
+    Normal: 26
+OldDashCount: 1546
+OldJumpCount: 37

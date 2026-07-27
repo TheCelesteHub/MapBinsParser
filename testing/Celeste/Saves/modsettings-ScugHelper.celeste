@@ -1,0 +1,43 @@
+HideShowcaseMapsInMapSelect: true
+Minimap:
+  Minimap: false
+  UnfocusedOpacity: 0.3
+  FocusedOpacity: 1
+  MinimapWidth: 640
+  MinimapHeight: 360
+  MinimapX: 1270
+  MinimapY: 10
+LuaTimeLimit: 3
+LuaMemoryLimit: 16
+DeterministicAutotiling: false
+PlayerSeekerDashSwitchFix: true
+ReplaceVanillaSpinners: false
+AlwaysBakeSpinners: false
+BakedTextureSizeLimit: 4
+SideflippingEverywhere: false
+AllBoostersBounce: false
+AlwaysOvercharges: false
+InfiniteSpears: false
+PinballBoosterSquash: 1.45
+SpinnersAreSeekers: Off
+MinimapBind:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+MinimapVisibleBind:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+MinimapZoomIn:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+MinimapZoomOut:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+AlwaysCenterCameraX: false
+AlwaysCenterCameraY: false
+InstantRoomTransitions: false
+BakeOutlines: true
+Debug: {}

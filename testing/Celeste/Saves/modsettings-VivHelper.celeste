@@ -1,0 +1,22 @@
+ResetBadValues: false
+FPDistance: 30
+FFDistance: 5
+MakeClose: false
+ShowOneUseOnCustomRefills: false
+DecreaseParticles: Normal
+RCSLines: false
+ColorblindRCS: false
+DisableStaminaFlash: false
+SetFlashColorToHair: false
+DisplayPlaybacksInLookout:
+  Buttons:
+  - Back
+  Keys:
+  - Tab
+  MouseButtons: []
+ReceiveLookoutHint:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Z
+  MouseButtons: []

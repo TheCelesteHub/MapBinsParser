@@ -1,0 +1,17 @@
+CurrentSaveData:
+  id: 1
+  user_id: 1
+  slot_number: 1
+  file_name: '&mut *Kris'
+CurrentCampaign:
+  id: 1
+  save_data_id: 1
+  campaign_name_id: Celeste
+CurrentChapter:
+  sid: 1:Celeste/1-ForsakenCity
+  campaign_id: 1
+  name: ''
+  berries_available: 20
+CurrentSession: 
+CurrentPlayingLevelArea: []
+SessionStartTicks: 0

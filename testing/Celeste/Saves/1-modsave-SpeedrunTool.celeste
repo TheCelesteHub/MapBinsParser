@@ -1,0 +1,691 @@
+DeathInfos:
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 193290000
+  FormattedLostTime: 19.329
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 65569
+    Y: -10387
+  PlaybackStartPosition:
+    X: 65236
+    Y: -10454
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264133739309589.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: &o0
+    Dashes: 1
+    DreamDash: true
+    Backpack: false
+    NoRefills: false
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 6705820000
+  StartedFromBeginning: false
+  Deaths: 38
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 6
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 236980000
+  FormattedLostTime: 23.698
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 65094
+    Y: -10472
+  PlaybackStartPosition:
+    X: 64649
+    Y: -10507
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264133553311254.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 6512530000
+  StartedFromBeginning: false
+  Deaths: 37
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 5
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 154700000
+  FormattedLostTime: 15.470
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 65132
+    Y: -10387
+  PlaybackStartPosition:
+    X: 65092
+    Y: -10458
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264133312813674.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 6275550000
+  StartedFromBeginning: false
+  Deaths: 36
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 4
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 203830000
+  FormattedLostTime: 20.383
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 65686
+    Y: -10393
+  PlaybackStartPosition:
+    X: 65238
+    Y: -10453
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264133159464855.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 6120850000
+  StartedFromBeginning: false
+  Deaths: 35
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 3
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 79390000
+  FormattedLostTime: 7.939
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 64721
+    Y: -10511
+  PlaybackStartPosition:
+    X: 64428
+    Y: -10496
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132950015552.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 5917020000
+  StartedFromBeginning: false
+  Deaths: 34
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 2
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-10
+  LostTime: 105740000
+  FormattedLostTime: 10.574
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 64698
+    Y: -10511
+  PlaybackStartPosition:
+    X: 64431
+    Y: -10496
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132869811249.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  - j-10
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-10
+  Time: 5837630000
+  StartedFromBeginning: false
+  Deaths: 33
+  Dashes: 102
+  DashesAtLevelStart: 102
+  DeathsInCurrentLevel: 1
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-09
+  LostTime: 140760000
+  FormattedLostTime: 14.076
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 63894
+    Y: -10431
+  PlaybackStartPosition:
+    X: 63682
+    Y: -10491
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132548953513.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-09
+  Time: 5517350000
+  StartedFromBeginning: false
+  Deaths: 32
+  Dashes: 93
+  DashesAtLevelStart: 93
+  DeathsInCurrentLevel: 3
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-09
+  LostTime: 36210000
+  FormattedLostTime: 3.621
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 62923
+    Y: -10410
+  PlaybackStartPosition:
+    X: 0
+    Y: 0
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132404936401.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-09
+  Time: 5376590000
+  StartedFromBeginning: false
+  Deaths: 31
+  Dashes: 93
+  DashesAtLevelStart: 93
+  DeathsInCurrentLevel: 2
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-09
+  LostTime: 146200000
+  FormattedLostTime: 14.620
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 63410
+    Y: -10456
+  PlaybackStartPosition:
+    X: 63524
+    Y: -10512
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132367276085.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  - j-09
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-09
+  Time: 5340380000
+  StartedFromBeginning: false
+  Deaths: 30
+  Dashes: 93
+  DashesAtLevelStart: 93
+  DeathsInCurrentLevel: 1
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+- Chapter: Farewell
+  Room: j-08
+  LostTime: 98940000
+  FormattedLostTime: 9.894
+  CauseOfDeath: ''
+  DeathPosition:
+    X: 62367
+    Y: -10508
+  PlaybackStartPosition:
+    X: 61597
+    Y: -10496
+  PlaybackFilePath: Saves\SpeedrunTool\DeathPlayback\0\638264132068070020.bin
+  Area:
+    ID: 10
+    Mode: Normal
+    SIDID: 10
+    ChapterIndex: 9
+    SID: Celeste/LostLevels
+    LevelSet: Celeste
+    RelativeIndex: 11
+  RespawnPoint: 
+  Inventory: *o0
+  Flags:
+  - VivHelper/IsPlayerAlive
+  - StopFastRestartFlag
+  - SpeedrunTool_SavedSate
+  LevelFlags:
+  - j-00
+  - j-00b
+  - j-01
+  - j-02
+  - j-03
+  - j-04
+  - j-05
+  - j-06
+  - j-07
+  - j-08
+  Strawberries: []
+  DoNotLoad: []
+  Keys: []
+  SummitGems:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  FurthestSeenLevel: j-08
+  Time: 5048320000
+  StartedFromBeginning: false
+  Deaths: 29
+  Dashes: 78
+  DashesAtLevelStart: 78
+  DeathsInCurrentLevel: 3
+  InArea: true
+  StartCheckpoint: j-00
+  FirstLevel: false
+  Cassette: false
+  HeartGem: false
+  Dreaming: false
+  ColorGrade: none
+  LightingAlphaAdd: 0
+  BloomBaseAdd: 0
+  DarkRoomAlpha: 0.75
+  CoreMode: None
+  GrabbedGolden: false
+  HitCheckpoint: true
+Selection: -1

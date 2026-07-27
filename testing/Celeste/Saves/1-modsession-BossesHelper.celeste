@@ -1,0 +1,42 @@
+wasOffscreen: false
+useFakeDeath: false
+fakeDeathRespawn: false
+lastSafePosition: &o0
+  X: 0
+  Y: 0
+lastSpawnPoint: *o0
+alreadyFlying: false
+healthData:
+  isCreated: false
+  isEnabled: false
+  activateInstantly: false
+  globalController: false
+  globalHealth: false
+  activateFlag: 
+  playerHealthVal: 0
+  damageCooldown: 0
+  playerStagger: false
+  playerBlink: false
+  onDamageFunction: 
+  playerOnCrush: PushOut
+  playerOffscreen: BounceUp
+  fakeDeathMethods: 
+  iconSprite: 
+  startAnim: 
+  endAnim: 
+  iconSeparation: 
+  frameSprite: 
+  healthBarPos: *o0
+  healthIconScale: *o0
+  startVisible: false
+  removeOnDamage: false
+  FakeDeathMethods: []
+currentPlayerHealth: 0
+safeGroundBlockerCreated: false
+globalSafeGroundBlocker: false
+BossPhasesSaved: {}
+savePointSet: false
+travelingToSavePoint: false
+savePointLevel: 
+savePointSpawn: *o0
+savePointSpawnType: Transition

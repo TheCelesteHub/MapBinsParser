@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.4.0.0</Version>
+  <Name>Krischan</Name>
+  <Time>8436297700000</Time>
+  <LastSave>0001-01-01T00:00:00</LastSave>
+  <CheatMode>false</CheatMode>
+  <AssistMode>false</AssistMode>
+  <VariantMode>true</VariantMode>
+  <UnlockedAreas>10</UnlockedAreas>
+  <TotalDeaths>45566</TotalDeaths>
+  <TotalStrawberries>198</TotalStrawberries>
+  <TotalGoldenStrawberries>45</TotalGoldenStrawberries>
+  <TotalJumps>341936</TotalJumps>
+  <TotalWallJumps>87492</TotalWallJumps>
+  <TotalDashes>378534</TotalDashes>
+  <Areas>
+    <AreaStats ID="0" Cassette="false" SID="Celeste/0-Intro">
+      <Modes />
+    </AreaStats>
+  </Areas>
+  <LevelSets>
+    <LevelSetStats Name="Celeste">
+      <Areas />
+      <Poem />
+      <UnlockedAreas>10</UnlockedAreas>
+      <TotalStrawberries>198</TotalStrawberries>
+    </LevelSetStats>
+    <LevelSetStats Name="BreezeContest2024/0-Lobbies">
+      <Areas />
+      <Poem />
+      <UnlockedAreas>1</UnlockedAreas>
+      <TotalStrawberries>0</TotalStrawberries>
+    </LevelSetStats>
+  </LevelSets>
+  <LevelSetRecycleBin>
+    <LevelSetStats Name="AliceQuasar/Binary">
+      <Areas />
+      <Poem />
+      <UnlockedAreas>0</UnlockedAreas>
+      <TotalStrawberries>0</TotalStrawberries>
+    </LevelSetStats>
+  </LevelSetRecycleBin>
+  <HasModdedSaveData>true</HasModdedSaveData>
+  <LastArea_Safe ID="7" Mode="BSide" SID="Celeste/7-Summit" />
+</SaveData>

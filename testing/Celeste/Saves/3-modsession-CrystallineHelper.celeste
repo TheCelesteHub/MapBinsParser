@@ -1,0 +1,25 @@
+doorsToReset: []
+doorEntityDatas: {}
+doorOffsets: {}
+keysToReset: []
+keyEntityDatas: {}
+keyOffsets: {}
+keyberriesToReset: []
+keyberryEntityDatas: {}
+keyberryPositions: {}
+keyberryOffsets: {}
+keyberryBubbles: {}
+keyIcesToReset: []
+keyIceEntityDatas: {}
+keyIceOffsets: {}
+keyIceNodes: {}
+introCarsToReset: []
+introCarEntityDatas: {}
+introCarOffsets: {}
+BombTimerActive: false
+BombTimerStartPos:
+  X: 0
+  Y: 0
+BombTimerStartLevel: 
+BombTimerStartKeys: []
+BombTimerRemovedEntities: []

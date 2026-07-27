@@ -1,0 +1,279 @@
+# This is the blacklist. Lines starting with # are ignored.
+# File generated through the "Manage Installed Mods" screen in Olympus
+
+# TheCelesteTracker
+# 0.3.10--Hyperline.zip
+# 2.1.3-StrawberryFriend.zip
+# AdamsAddons.zip
+# AdventureHelper.zip
+# Agent8_Skinmod_Frankie.zip
+# AidenHelper.zip
+AltLevelsHelper.zip
+AltSidesHelper.zip
+# Anonhelper.zip
+# aonHelper.zip
+Aqua.zip
+# ArphimigonsToyBox.zip
+# Astolfo_SMH_Plus.zip
+# AurorasHelper.zip
+auspicioushelper.zip
+# Batteries.zip
+BeginnerCollab.zip
+BeginnerCollabAudio.zip
+Berry 143.zip
+BetterRefillGems.zip
+BGswitch.zip
+BingoUI.zip
+# bitsbolts.zip
+# Blake_Skinmod.zip
+# BlixelHelper.zip
+# BondingHelper.zip
+BossesHelper.zip
+# BounceHelper.zip
+# BrassHelper.zip
+# BreezeContest.zip
+# BreezeContestAudio.zip
+# BrokemiaHelper.zip
+CanyonHelper.zip
+# Cat Binos.zip
+# Cateline.zip
+# CavernHelper.zip
+# CeLeaste.zip
+Celeste Rearranged.zip
+# CelesteEmojis.zip
+# Celestenet Skinmod Bundle.zip
+# CelesteNet.Client.zip
+CelesteTAS.zip
+Celestial Needle.zip
+# CheeplingsHatPack.zip
+# CherryHelper.zip
+# ChroniaHelper.zip
+# ChronoHelper.zip
+Cloudy Cliffs.zip
+ClutterHelper.zip
+# CollabUtils2.zip
+# ColoredLights.zip
+# CommunalHelper.zip
+CompactSides.zip
+# ConsistencyTracker.zip
+# ContortHelper.zip
+# corkr900GraphicsPack.zip
+Corrupted_Land.zip
+# CpopHelper.zip
+CreepypastaGym.zip
+CrossoverCollab.zip
+CrossoverCollabAudio.zip
+# CrystallineHelper.zip
+# DashCountMod.zip
+DBBHelper.zip
+DC2021-tobyaaa.zip
+Deathlink.zip
+# DeathTracker.zip
+# DiscordEmojis.zip
+# DisplayMessageCommand.zip
+# DisposableTheo.zip
+# DJMapHelper.zip
+DoonvHelper.zip
+# DownpourOfSlugcats.zip
+# DzhakeHelper.zip
+EarlyCore.zip
+# Eevee_Skinmod.zip
+# EeveeHelper.zip
+# EmHelper.zip
+EnchantedCanyon.zip
+EndersBlender.zip
+EvaHelper.zip
+ExtendedCameraDynamics.zip
+# ExtendedVariantMode.zip
+# FactoryHelper.zip
+FallenResort.zip
+# FancyTileEntities.zip
+Farshore.zip
+# FemtoHelper.zip
+# FlaglinesAndSuch.zip
+FlamecrafterAssetPack.zip
+# Foxeline.zip
+# FrenchHelper.zip
+# Frieren_SkinOnly.zip
+# FrostHelper.zip
+# FurryHelper.zip
+# fuwie_Skinmod.zip
+GalacticaHelper.zip
+# GameHelper.zip
+GateToTheStars.zip
+GateToTheStarsAudio.zip
+# GlassHelper.zip
+Glyph.zip
+GlyphAudio.zip
+Golden Serenity.zip
+Golden_Caverns.zip
+GooberHelper.zip
+# GravityHelper.zip
+# GrayscaleStylegrounds.zip
+GrogsGarage.zip
+Guneline.zip
+HabitatHelper.zip
+HamburgerHelper.zip
+# Hateline.zip
+hennyburgr_beyondthesummit.zip
+HighFrameRateMod.zip
+# HonlyHelper.zip
+How To Make A Map.zip
+Hyperline.zip
+# Iceline_silentriver.zip
+# IcelineLoadingAnim.zip
+iidk.zip
+ImGuiHelper.zip
+# InfiniteBackups.zip
+Into The Jungle Music Pack.zip
+Into The Jungle.zip
+iris_in_void.zip
+Iris_map.zip
+# IsaGrabBag.zip
+# JackalHelper.zip
+# Jitio_Skinmod.zip
+# JPC2024Assets.zip
+# JungleHelper.zip
+# Kelper.zip
+KimitanyAudio.zip
+KoseiHelper.zip
+# KyaruMod.zip
+KyfexHelper.zip
+LakeSideCode.zip
+# Link_Skin.zip
+LoennExtended.zip
+# LollydesSjStuffs.zip
+# Long Name Helper by Helen, Helen's Helper, hELPER.zip
+LoungeMod.zip
+# LuaCutscenes.zip
+LuckyHelper.zip
+# LunaticHelper.zip
+# Luz_Skin+.zip
+# LylyraHelper.zip
+MaddyCrown.zip
+MapperOptions.zip
+MappingUtils.zip
+MapTimeDisplay.zip
+MARS_FGS.zip
+# Mat's Touhou Hats.zip
+mauve.zip
+# MaxHelpingHand.zip
+Maya's Helper.zip
+# memorialHelper.zip
+# Microlith57MiscellaneousMechanics.zip
+# Mikii_Skinmod_adenator.zip
+MintChocolateHelper.zip
+# MoladanHelper.zip
+Monika's D-Sides Audio.zip
+Monika's D-Sides.zip
+More Loenn Themes.zip
+# MoreDasheline.zip
+Mors.zip
+# MotionSmoothing.zip
+MountKimitanySaga.zip
+NanoWindpog.zip
+# Needle Helper.zip
+# NerdHelper.zip
+# Neuro-Sama.zip
+NewLands.zip
+# Niko_-_Celeste_Skin-Helper.zip
+# Niko_TexturePack.zip
+NOTAPPLICABLE.zip
+NTMC.zip
+NyanBDay2026.zip
+# Ori_Skinmod.zip
+# OutbackHelper.zip
+OzmasOddities.zip
+# PandorasBox.zip
+Parrot_CONGRATS.zip
+# ParrotDashSkin.zip
+ParrotHelper.zip
+PartOfMe.zip
+PathofHopeChapter.zip
+# PersistenceHelper.zip
+Pico_8_Remake.zip
+Picoline.zip
+PlayerGhostMode.zip
+# PrismaticHelper.zip
+probananahelper.zip
+# Procedurline.zip
+# ProgHelper.zip
+# Quarzite_Skinmod_Microck.zip
+QuickieMountain.zip
+QuickieMountain2.zip
+QuickieMountain2Audio.zip
+# Ralsei_-_Deltarune_Skin-Helper.zip
+# ReverseHelper.zip
+# RPGHelper.zip
+SafeRespawnCrumble.zip
+# SaladimHelper.zip
+# Sardine7.zip
+# Sarsaparilla.zip
+# SaveFilePortraits.zip
+# SaveFileTotal.zip
+SaveMover.zip
+scattered dream.zip
+# Scuffed Helper.zip
+ScugHelper.zip
+SeededBerryMap.zip
+Shade World.zip
+ShaderHelper.zip
+Shimmer.zip
+# Shorty's Hats.zip
+# ShrimpHelper.zip
+# ShroomHelper.zip
+# SilhouettePlus_Skinmod_kuksa.zip
+# SkinModHelper.zip
+# SkinModHelperPlus.zip
+# Snowless Decals.zip
+SonderCrispy.zip
+# SorbetHelper.zip
+# SpeedrunTool.zip
+# Spekio's Toolbox.zip
+SpirialisHelper.zip
+# Spooooky's Asset Pack.zip
+# SpooookyAstolfoSkinMod.zip
+SpringCollab2020.zip
+SpringCollab2020Audio.zip
+# SSMHelper.zip
+StaminaBar.zip
+StaminaMeter.zip
+StrawberryFriend.zip
+StrawberryJam2021.zip
+StrawberryJam2021Assets.zip
+StrawberryJam2021AudioA.zip
+StrawberryJam2021AudioB.zip
+StrawberryJam2021AudioC.zip
+# StyleMaskHelper.zip
+# Styline.zip
+# SusanHelper.zip
+tartRen_StopAndGo.zip
+# TF2 Hat Crate.zip
+the road less travelled.zip
+# TileLayoutAnchor.zip
+# Touhou-cirno.zip
+TwigHelper.zip
+TypA-1.zip
+UltraSkool.zip
+# UnderDragon's Repository.zip
+# UnderDragon's_Audio_Sources_Subsitory.zip
+# UnderDragon's_Decals_Subsitory.zip
+# UnderDragon's_Greyscale_Decals_Subsitory.zip
+# UnderDragon's_Miscs_Subsitory.zip
+# UnderDragon's_Objects_Subsitory.zip
+# UnderDragon's_Purecolor_Tilesets_Subsitory.zip
+# UnderDragon's_Stylegrounds_Subsitory.zip
+# UnderDragon's_Tilesets_Subsitory.zip
+# uwuKevins.zip
+# VanillaEditHelper.zip
+VidPlayer.zip
+Vithelpery.zip
+# VivHelper.zip
+# VortexHelper.zip
+# wheelchair-madeline.zip
+WhenPushComesToShove.zip
+# WordWolf_skinmod.zip
+# XaphanHelper.zip
+# YetAnotherHelper.zip
+# zbs_Crystal.zip
+# ZoomOutHelperPrototype.zip

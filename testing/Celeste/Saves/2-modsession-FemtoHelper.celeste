@@ -1,0 +1,20 @@
+HasRotateDash: false
+RotateDashAngle: 0
+RotateDashScalar: 1
+HasStartedRotateDashing: false
+RotateDashColors:
+- B: 173
+  G: 88
+  R: 121
+  A: 255
+  PackedValue: 4289550457
+- B: 230
+  G: 172
+  R: 203
+  A: 255
+  PackedValue: 4293307595
+- B: 145
+  G: 70
+  R: 99
+  A: 255
+  PackedValue: 4287710819

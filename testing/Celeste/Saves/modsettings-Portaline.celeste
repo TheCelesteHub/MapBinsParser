@@ -1,0 +1,19 @@
+PortalGunEnabled: false
+ShootBluePortal:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - O
+  MouseButtons: []
+ShootOrangePortal:
+  Buttons:
+  - Y
+  Keys:
+  - P
+  MouseButtons: []
+RemovePortals:
+  Buttons:
+  - RightStick
+  Keys:
+  - Q
+  MouseButtons: []

@@ -1,0 +1,18 @@
+JellyfishDash:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Space
+  MouseButtons: []
+ForceBounceMode: false
+ReplaceVanillaEntities:
+  ReplaceBumpers: false
+  ReplaceDreamBlocks: false
+  ReplaceFallingBlocks: false
+  ReplaceJellyfish: false
+  ReplacedJellyfishDashCount: 0
+  SoulboundJellyfish: false
+  ReplaceMoveBlocks: false
+  ReplaceRefills: false
+  ReplaceSwapBlocks: false
+  ReplaceZipMovers: false

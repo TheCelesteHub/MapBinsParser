@@ -1,0 +1,24 @@
+flags: []
+levelState:
+  FeatureEnabled: false
+  RopeMaterial: Default
+  HookStyle: 0
+  GameplayMode: Default
+  InitialShootCount: 1
+  RestShootCount: 1
+  MaxShootCount: -1
+  ResetCountInTransition: true
+  DisableGrappleBoost: false
+  ShortDistanceGrappleBoost: false
+  Ungrapple16Direction: false
+  HookSettings:
+    RopeLength: 90
+    EmitSpeed: 900
+    SwingStrength: 60
+    MaxLineSpeed: 450
+    ClimbUpStaminaCost: 5
+    GrabingStaminaCost: 1
+    SwingJumpStaminaCost: 20
+    FlyTowardSpeed: 325
+    ActorPullForce: 360
+  UnhookableTiletypes: []

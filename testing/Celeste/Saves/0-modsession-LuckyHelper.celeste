@@ -1,0 +1,41 @@
+RoomIdToPassByRefillDahes: {}
+EnableFallingBlockBlocksFloatySpaceBlock: false
+TotalDeathCount: 0
+CurrentRoomDeathCount: {}
+SavedPathDeathCount: {}
+CurrentCheckpointDeathCount: {}
+TotalTime: 3.9666662
+CurrentRoomTime:
+  N-start: 3.9666662
+SavedPathTime: {}
+CurrentCheckpointTime:
+  StartCheckpoint: 3.9666662
+PlayerLastCheckPoint: StartCheckpoint
+KillPlayerElapse: 0
+LightTargetToAlpha: {}
+LightTargetToRadius: {}
+DisableFastBubble: false
+LuckyHelperAreaMetadata:
+  DefaultTextboxPath: textbox/default
+  DefaultMiniTextboxPath: textbox/default_mini
+playerUseSetMovementData: false
+PlayerMovementData:
+  JumpForceX: 0
+  JumpForceY: 0
+  WallJumpForceX: 0
+  WallJumpForceY: 0
+  JumpKeepSpeedTime: 0
+  WallJumpKeepSpeedTime: 0
+  LowSpeedAccelerationX: 0
+  HighSpeedAccelerationX: 0
+  MaxSpeedXMultiplier: 0
+  MaxFallSpeed: 0
+  MaxFastFallSpeed: 0
+AudioNameToVolume: {}
+AudioNameToPitch: {}
+AudioNameToReplacedName: {}
+DisablePlayerCameraUpdateFlag: LuckyHelper_DisablePlayerCameraUpdate
+DisableCameraUpdateOnTeleportFlag: LuckyHelper_DisableCameraUpdateOnTeleportFlag
+InvincibleOnStartDashInSpikes: false
+PlayerLastCheckPoint_FixNull: StartCheckpoint
+SetConditionFlagTriggerStateToDatas: {}

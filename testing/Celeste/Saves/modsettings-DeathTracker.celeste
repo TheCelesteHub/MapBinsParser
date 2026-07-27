@@ -1,0 +1,5 @@
+AutoRestartChapter: false
+DisplayFormat: $C ($B)
+DisplayYPosition: 16
+FixedYPosition: false
+DisplayVisibility: AfterDeathAndInMenu

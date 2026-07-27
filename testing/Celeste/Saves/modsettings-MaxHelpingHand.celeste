@@ -1,0 +1,7 @@
+ShowHints:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - H
+  MouseButtons: []
+DisableDialogueAutoSkip: false

@@ -1,0 +1,14 @@
+ActiveSequenceIndexes: {}
+StoredVariables: {}
+HasSequenceDash: false
+ActiveSequenceIndex: 0
+TimedKillTriggerTime: 0
+TimedKillTriggerTimeChanged: false
+TimedKillTriggerMaxTime: 0
+TimedKillTriggerColor:
+  B: 255
+  G: 255
+  R: 255
+  A: 255
+  PackedValue: 4294967295
+CurrentKeys: []

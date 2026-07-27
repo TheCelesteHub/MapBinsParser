@@ -1,0 +1,10 @@
+HookLazyLoading: false
+FastShapeDraw: false
+NoRespawnGC: false
+DebugMapCulling: false
+SantaBoostKey:
+  Buttons:
+  - LeftTrigger
+  Keys:
+  - E
+  MouseButtons: []

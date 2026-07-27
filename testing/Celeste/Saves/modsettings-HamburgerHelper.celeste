@@ -1,0 +1,27 @@
+DisableWindowTitleChanges: false
+DisableWindowIconChanges: false
+VsrgColumn1:
+  Buttons:
+  - A
+  Keys:
+  - Z
+  MouseButtons: []
+VsrgColumn2:
+  Buttons:
+  - B
+  Keys:
+  - X
+  MouseButtons: []
+VsrgColumn3:
+  Buttons:
+  - X
+  Keys:
+  - OemPeriod
+  MouseButtons: []
+VsrgColumn4:
+  Buttons:
+  - Y
+  Keys:
+  - OemQuestion
+  MouseButtons: []
+ShowCustomDashIndicators: true

@@ -1,0 +1,31 @@
+DashCountPerLevel:
+  SpringCollab2020/0-Lobbies/1-Beginner:
+    Normal: 43
+  SpringCollab2020/1-Beginner/iamdadbod:
+    Normal: 130
+  foxxylover/campaigntest/testidentifier:
+    Normal: 138
+  SecondPlace/LotlDev/zipping_through_space/zipping_through_space:
+    Normal: 24
+  foxxylover/chillchapter/1-hill:
+    Normal: 120
+  foxxylover/chillchapter/2-house:
+    Normal: 15
+  foxxylover/chillchapter/3-cave:
+    Normal: 251
+  foxxylover/Portaleste/1-Nowhere:
+    Normal: 1167
+  Celeste/1-ForsakenCity:
+    Normal: 119
+  Celeste/2-OldSite:
+    Normal: 7
+JumpCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 169
+  Celeste/2-OldSite:
+    Normal: 15
+BestJumpCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 106
+OldDashCount: 111
+OldJumpCount: 157

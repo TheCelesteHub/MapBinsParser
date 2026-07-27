@@ -1,0 +1,37 @@
+ThrowHook:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - V
+  MouseButtons: []
+SwitchAutoGrab:
+  Buttons:
+  - Y
+  Keys:
+  - Tab
+  MouseButtons: []
+DownShoot:
+  Buttons:
+  - RightShoulder
+  Keys: []
+  MouseButtons: []
+FeatureEnabled: false
+HookSettings:
+  RopeLength: 90
+  EmitSpeed: 900
+  SwingStrength: 60
+  MaxLineSpeed: 450
+  ClimbUpStaminaCost: 5
+  GrabingStaminaCost: 1
+  SwingJumpStaminaCost: 20
+  FlyTowardSpeed: 325
+  ActorPullForce: 360
+ResetHookSettings: false
+AutoGrabRopeIfPossible: true
+DisableGrappleBoost: false
+ShortDistanceGrappleBoost: false
+Ungrapple16Direction: false
+ThrowHookMode: Default
+DefaultShotDirection: Up
+IndicatorSetting: None
+ShowAutoGrabIcon: true

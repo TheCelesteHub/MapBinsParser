@@ -1,0 +1,31 @@
+DashCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 262
+  Celeste/2-OldSite:
+    Normal: 213
+  Celeste/3-CelestialResort:
+    Normal: 479
+  Celeste/4-GoldenRidge:
+    Normal: 149
+  Celeste/5-MirrorTemple:
+    Normal: 51
+  Celeste/6-Reflection:
+    Normal: 74
+  foxxylover/chillchapter/1-hill:
+    Normal: 105
+  heagridswagerdialogdadbodhelp/dadbod dialog helper:
+    Normal: 117
+  foxxylover/chillchapter/2-house:
+    Normal: 218
+  foxxylover/chillchapter/3-cave:
+    Normal: 1038
+JumpCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 120
+  Celeste/2-OldSite:
+    Normal: 46
+BestJumpCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 93
+OldDashCount: 260
+OldJumpCount: 114

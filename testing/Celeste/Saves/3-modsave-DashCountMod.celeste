@@ -1,0 +1,21 @@
+DashCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 77
+  Celeste/2-OldSite:
+    Normal: 174
+JumpCountPerLevel:
+  Celeste/0-Intro:
+    Normal: 59
+  Celeste/1-ForsakenCity:
+    Normal: 110
+  Celeste/2-OldSite:
+    Normal: 141
+BestJumpCountPerLevel:
+  Celeste/0-Intro:
+    Normal: 59
+  Celeste/1-ForsakenCity:
+    Normal: 109
+  Celeste/2-OldSite:
+    Normal: 132
+OldDashCount: 0
+OldJumpCount: 0

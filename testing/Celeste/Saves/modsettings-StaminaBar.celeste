@@ -1,0 +1,38 @@
+Enabled: true
+AlwaysVisible: false
+Position:
+  Alignment: TopRight
+  OffsetX: 0
+  OffsetY: 0
+Size:
+  PieOuterRadius: 26
+  PieInnerRadius: 8
+  PieResolution: 30
+  PieOutlineThickness: 3
+  OuterPieThickness: 7
+  OuterPieOutlineThickness: 2
+Color:
+  Back: 030303
+  Overlay: 030303
+  Stamina: 69ff47
+  StaminaFlash: ffffff
+  StaminaRefund: ffffff
+  StaminaLoss: ff3030
+  StaminaDanger: ff3030
+  StaminaDangerRefund: ff7c73
+  StaminaOverdraft: 818181
+  StaminaDangerBar: 555555
+  StaminaOverclock: 63e5ff
+Squish:
+  SquishFactor: 4
+  SquishOnCrouch: true
+ShowDanger: true
+ShowLosses: true
+ShowRefunds: true
+ShowOverdraft: true
+ShowOverclock: true
+UpscaleFactor: 2
+Bunny: false
+Kitty: false
+Fairy: false
+Moth: false

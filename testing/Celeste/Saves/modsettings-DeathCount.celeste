@@ -1,0 +1,12 @@
+IsEnabled: true
+DoFastPosition: true
+ShowSpawnDeaths: true
+ShowLevelDeaths: false
+ShowLevelMinDeaths: true
+ShowTotalDeaths: true
+Scale: 5
+FastPositionNumber: 1
+XPosition: 0
+YPosition: 0
+TextColor: FFFFFF
+Stroke: 000000

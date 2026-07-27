@@ -1,0 +1,13 @@
+EnablePlayerFallingThroughJumpThru: false
+PlayerFallingThroughJumpThruButton:
+  Buttons:
+  - A
+  Keys:
+  - Enter
+  MouseButtons: []
+GhostTransposeButton:
+  Buttons:
+  - A
+  Keys:
+  - Space
+  MouseButtons: []

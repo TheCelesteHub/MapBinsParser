@@ -1,0 +1,12 @@
+IsInCoopSession: false
+SessionRole: -1
+SessionMembers: []
+SessionID:
+  creator:
+    MacAddressHash: 
+    Name: 
+    CNetID: 0
+  creationInstant: 0001-01-01T00:00:00.0000000
+  idcounter: 0
+ForceCNetInteractions: 
+DeathSync: None

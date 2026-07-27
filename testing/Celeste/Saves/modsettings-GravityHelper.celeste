@@ -1,0 +1,24 @@
+AllowInAllMaps: false
+ControlScheme: Absolute
+FeatherControlScheme: Absolute
+VvvvvvMode: Default
+VvvvvvFlipSound: Default
+VvvvvvAllowGrabbing: Default
+VvvvvvAllowDashing: Default
+ReplaceRefills: false
+MHHUDJTCornerCorrection: true
+ToggleInvertGravity:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+SpringArrowType: Default
+FieldArrowType: Default
+FieldEdges: true
+FieldParticles: true
+FieldOpacity: -1
+FieldBloom: true
+FieldArrowOutline: false
+RefillBloom: true
+HighVisibilityLines: false
+ColorSchemeType: Default
+SettingsVersion: 2

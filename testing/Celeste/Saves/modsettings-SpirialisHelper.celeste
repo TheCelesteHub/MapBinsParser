@@ -1,0 +1,67 @@
+TetrisLeft:
+  Buttons:
+  - DPadLeft
+  Keys:
+  - Left
+  - NumPad4
+  MouseButtons: []
+TetrisRight:
+  Buttons:
+  - DPadRight
+  Keys:
+  - Right
+  - NumPad6
+  MouseButtons: []
+TetrisSoftDrop:
+  Buttons:
+  - DPadDown
+  Keys:
+  - Down
+  - NumPad2
+  MouseButtons: []
+TetrisHardDrop:
+  Buttons:
+  - DPadUp
+  Keys:
+  - Space
+  - NumPad8
+  MouseButtons: []
+TetrisRotateCW:
+  Buttons:
+  - B
+  Keys:
+  - Up
+  - X
+  - NumPad1
+  - NumPad5
+  - NumPad9
+  MouseButtons: []
+TetrisRotateCCW:
+  Buttons:
+  - A
+  Keys:
+  - LeftControl
+  - Z
+  - NumPad3
+  - NumPad7
+  MouseButtons: []
+TetrisRotate180:
+  Buttons:
+  - Y
+  Keys:
+  - A
+  MouseButtons: []
+TetrisHold:
+  Buttons:
+  - LeftShoulder
+  - RightShoulder
+  Keys:
+  - LeftShift
+  - C
+  - NumPad0
+  MouseButtons: []
+ShowCountdown: true
+ShowGhostPiece: true
+SoftDropSpeedMultiplier: 6
+FirstRepeatFrames: 10
+MultiRepeatFrames: 2

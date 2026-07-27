@@ -1,0 +1,18 @@
+ForceEnableNail: false
+BindToGrab: true
+Diagonals: true
+Celeste_CrystalStaticSpinner_Enabled: true
+Celeste_TheoCrystal_Enabled: true
+Celeste_Booster_Enabled: true
+Celeste_DashBlock_Enabled: true
+Celeste_Refill_Enabled: true
+Celeste_Spikes_Enabled: true
+Celeste_DashSwitch_Enabled: true
+SpikeSpinner: true
+NailFreezeFrames: true
+NailBinding:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - A
+  MouseButtons: []

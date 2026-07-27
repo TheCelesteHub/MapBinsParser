@@ -1,0 +1,26 @@
+TrackInitialState: On
+TrackInitialMoveMode: ForwardForce
+CassetteJumpFix: false
+SummitGems: []
+RedlessBerries: []
+PlayerWasTired: true
+ExpiringDashRemainingTime: 0
+ExpiringDashFlashThreshold: 0
+CanDeployElytra: false
+CurrentElytraConfiguration:
+  DisableReverseVerticalMomentum: false
+  UpdateCooldownInEveryState: false
+CurrentDreamTunnelDashConfiguration:
+  AllowRedirect: false
+  AllowSameDirectionRedirect: false
+  SameDirectionSpeedMultiplier: 1
+  UseEntryDirection: false
+  SpeedConfiguration: Default
+  CustomSpeed: 0
+  AllowDashCancels: false
+  RedirectConsumesNormalDash: false
+  AllowTransitions: false
+  BounceOnCollision: false
+GasTimer: 0
+VisualAddition: 
+OshiroBsideTimer: false

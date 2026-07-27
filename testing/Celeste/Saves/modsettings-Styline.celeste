@@ -1,0 +1,8 @@
+ContentSelections:
+  HairColor: red
+  ShirtColor: red
+  BlushColor: red
+  HairAccessoryColor: red
+  HairAccessory: bow
+  HairStyle: braided
+Enable: true

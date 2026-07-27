@@ -1,0 +1,77 @@
+MotionSicknessPrevention: false
+ResetGunSettings: false
+SpawnButton:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Tab
+  MouseButtons: []
+MapButton:
+  Buttons:
+  - LeftStick
+  Keys:
+  - Tab
+  MouseButtons: []
+FluteButton:
+  Buttons:
+  - LeftStick
+  Keys:
+  - U
+  MouseButtons: []
+SwapCharacter:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - K
+  MouseButtons: []
+NemesisShot:
+  Buttons:
+  - RightStick
+  Keys:
+  - F
+  MouseButtons: []
+GunSettings:
+  GunEnabled: false
+  CanShootInFeather: false
+  MachineGunMode: false
+  Cooldown: 8
+  Lifetime: 600
+  RecoilCooldown: 16
+  RecoilUpwards: false
+  RecoilOnlyOnInteraction: false
+  RecoilWhileClimbing: true
+  FreezeFrames: 0
+  SpeedMultiplier: 1
+  Recoil: 80
+  HorizontalAcceleration: 0
+  VerticalAcceleration: 0
+  dashBehavior: None
+  gunDirections: EightDirections
+GunInteractions:
+  CanKillPlayer: false
+  BreakBounceBlocks: true
+  ActivateFallingBlocks: true
+  CollideWithPlatforms: true
+  MoveSwapBlocks: true
+  HarmEnemies: true
+  BreakSpinners: true
+  SpinnerFix: false
+  MoveMovingBlocks: true
+  BreakMovingBlades: true
+  UseFeathers: true
+  Collectables: true
+  UseRefills: true
+  PressDashSwitches: true
+  CanBounce: true
+  ScareBirds: true
+  CollectTouchSwitches: true
+  CollectBadelineOrbs: true
+  CoreModeToggles: true
+  UseBoosters: false
+  DashOnKevins: true
+  WaterFriction: 0.995
+  dashBlockBehavior: BreakAll
+  theoBehavior: HitSpring
+  jellyfishBehavior: HitSpring
+  dreamBlockBehavior: GoThrough
+  pufferBehavior: Explode

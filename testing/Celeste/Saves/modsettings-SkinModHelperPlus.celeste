@@ -1,0 +1,41 @@
+SelectedSkinMod: 
+HideSkinsInOptions:
+- If you loaded much PlayerSkins, and feels difficult to switch them,
+- ''
+- So you can write the skins key that you want ignore here.
+- ''
+- (This not affect those skin work in game)
+- ''
+- ''
+- ''
+V2:
+  X: 0
+  Y: 0
+PlayerSkinGreatestPriority: false
+Backpack: Default
+SelectedPlayerSkin: Default
+SelectedSilhouetteSkin: Default
+SelectedOtherSelfSkin: Default
+ShowOtherSelfVariants: true
+ShowSkinSourceInAllCategory: true
+BetterHairMotionOnGrows: true
+ExtraXmlList:
+  silentriver_Iceline: false
+  FenrirClaw_Kei: false
+  zbs_cat: false
+  BlueGauze_hornet_TP: true
+  Flamecrafter113_BouncelineJacket: false
+  Rarefaction_Cell: false
+  Zaro_Jitio_Friend: false
+  KyaruMod_kyaru_Boss: false
+  Neuro_Skin_Npc: false
+  Neuro_Skin_Collectable: false
+  Neuro_Skin_Badeline_As_Neuro: false
+  Neuro_Skin_Badeline_As_Evil: false
+  Zaro_Niko_TP: false
+  Zaro_Niko_Friend: false
+  katz404_ParrotDash_General: false
+FreeCollocations_OffOn: false
+FreeCollocations_Sprites: {}
+FreeCollocations_Portraits: {}
+FreeCollocations_OtherExtra: {}

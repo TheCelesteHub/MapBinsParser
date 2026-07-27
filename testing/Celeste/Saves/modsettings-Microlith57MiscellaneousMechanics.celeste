@@ -1,0 +1,11 @@
+Focus:
+  Buttons:
+  - LeftTrigger
+  - RightTrigger
+  - LeftShoulder
+  - RightShoulder
+  Keys:
+  - Z
+  - V
+  - LeftShift
+  MouseButtons: []

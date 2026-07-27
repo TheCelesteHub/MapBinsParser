@@ -1,0 +1,6 @@
+ViewLogBinding:
+  Buttons:
+  - RightStick
+  Keys:
+  - L
+  MouseButtons: []

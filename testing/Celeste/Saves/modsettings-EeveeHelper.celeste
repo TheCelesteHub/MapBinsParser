@@ -1,0 +1,6 @@
+ActivateCustomInputBlock:
+  Buttons:
+  - RightTrigger, LeftTrigger
+  Keys:
+  - LeftShift
+  MouseButtons: []

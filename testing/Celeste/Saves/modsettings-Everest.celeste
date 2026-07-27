@@ -1,0 +1,125 @@
+DebugModeInEverest: true
+LaunchWithFMODLiveUpdateInEverest: true
+LaunchWithoutIntro: false
+ShowModOptionsInGame: true
+TitleScreenType: everest
+LazyLoading_Yes_I_Know_This_Can_Cause_Bugs: false
+DefaultStartingLevelSet: Celeste
+LogHistoryCountToKeep: 3
+ThreadedGL: 
+FastTextureLoading: 
+FastTextureLoadingMaxMB: 0
+UnpackFMODBanks: true
+UnloadUnusedAudio: true
+DisableAntiSoftlock: false
+MultithreadedGC: 
+RestartAppDomain_WIP: false
+MaxSaveSlots: 
+ExtraCommandHistoryLines: 50
+SaveDataFlush: 
+WhitelistFullOverride: 
+OpenErrorLogOnCrash: true
+InputGui: ''
+MainMenuMode: rows
+CompatibilityMode: None
+D3D11UseExclusiveFullscreen: false
+UseKeyboardForTextInput: true
+AutoUpdateModsOnStartup: false
+WarnOnEverestYamlErrors: true
+ColorizedLogging: true
+MirrorPreferences: gb,jade,otobot,wegfan
+UseAPIMirror: false
+DiscordRichPresence: true
+DiscordShowIcon: true
+DiscordShowMap: true
+DiscordShowSide: true
+DiscordShowRoom: true
+DiscordShowBerries: true
+DiscordShowDeaths: true
+DebugRCPort: 32270
+PhotosensitivityDistortOverride: false
+PhotosensitivityGlitchOverride: false
+PhotosensitivityLightningOverride: false
+PhotosensitivityScreenFlashOverride: false
+PhotosensitivityTextHighlightOverride: false
+QuickRestart: 
+ShowManualTextOnDebugMap: true
+CodeReload_WIP: true
+UseInGameCrashHandler: true
+CrashHandlerAlwaysTeabag: false
+CurrentVersion: 1.6397.0
+CurrentBranch: 
+LogLevels: {}
+MenuPageUp:
+  Buttons:
+  - Back
+  Keys: []
+  MouseButtons: []
+MenuPageDown:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ToggleDebugConsole:
+  Buttons: []
+  Keys:
+  - OemTilde
+  MouseButtons: []
+DebugConsole:
+  Buttons: []
+  Keys:
+  - OemPeriod
+  MouseButtons: []
+DebugMap:
+  Buttons: []
+  Keys:
+  - F6
+  MouseButtons: []
+CameraForward:
+  Buttons:
+  - RightThumbstickUp
+  Keys:
+  - W
+  MouseButtons: []
+CameraBackward:
+  Buttons:
+  - RightThumbstickDown
+  Keys:
+  - S
+  MouseButtons: []
+CameraRight:
+  Buttons:
+  - RightThumbstickRight
+  Keys:
+  - D
+  MouseButtons: []
+CameraLeft:
+  Buttons:
+  - RightThumbstickLeft
+  Keys:
+  - A
+  MouseButtons: []
+CameraUp:
+  Buttons: []
+  Keys:
+  - Q
+  MouseButtons: []
+CameraDown:
+  Buttons: []
+  Keys:
+  - Z
+  MouseButtons: []
+CameraSlow:
+  Buttons: []
+  Keys:
+  - LeftShift
+  MouseButtons: []
+CameraPrint:
+  Buttons: []
+  Keys:
+  - P
+  MouseButtons: []
+ToggleMountainFreeCam:
+  Buttons: []
+  Keys:
+  - Space
+  MouseButtons: []

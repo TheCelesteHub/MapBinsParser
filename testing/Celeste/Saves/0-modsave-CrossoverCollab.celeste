@@ -1,0 +1,490 @@
+StrawberryClickerUpgrades: []
+StrawberryClickerAmount: 0
+StrawberryClickerTotal: 0
+buildings: []
+currentSPS: 0
+BuildingTypes: []
+clickerProgress: 0
+clickPower: 1
+PurchasedUpgrades: []
+berryTimesClicked: 0
+pointsTotal: 0
+HasAnyMoonberry: false
+HasSeenStartCutscene: true
+Settings_Background: []
+Settings_Font: []
+Settings_Cursor: []
+Settings_SkipIntro: true
+Settings_Sounds: true
+Settings_Score: true
+Settings_MinDash: false
+SnakeRecord: 0
+PacmanRecord: 0
+MinesweeperRecords:
+- 
+- 
+- 
+Flags:
+- IntroPage
+- wardrobeFirstTime
+- GD_firstTime
+Furniture: []
+XaphanLastPlayed: CrossoverCollab/1-Submissions/Terraria
+XaphanTerraria:
+  SavedFlags:
+  - CrossoverCollab/1-Submissions_Upgrade_PowerGrip
+  - CrossoverCollab/1-Submissions_Upgrade_ClimbingKit
+  - CrossoverCollab/1-Submissions_Upgrade_DashBoots
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters:
+  - CrossoverCollab/1-Submissions_Ch24_0
+  VisitedRooms:
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+01
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+02
+  - CrossoverCollab/1-Submissions/Ch24/Desert4+03
+  VisitedRoomsTiles:
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-1-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-2-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-2-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+00-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-2-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-1-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01-2-2
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+01-2-0
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-2-0
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-01-1-0
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02-2-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02-1-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4-02-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+01-1-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-1-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-2-1
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-2-0
+  - CrossoverCollab/1-Submissions/Ch24/Forest4+02W1-2-2
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+02-2-0
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+02-1-0
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+02-0-0
+  - CrossoverCollab/1-Submissions/Ch24/Underground5+02-0-1
+  - CrossoverCollab/1-Submissions/Ch24/Desert4+03-0-2
+  - CrossoverCollab/1-Submissions/Ch24/Desert4+03-1-2
+  - CrossoverCollab/1-Submissions/Ch24/Desert4+03-2-2
+  ExtraUnexploredRooms: []
+  ShowHints:
+    CrossoverCollab/1-Submissions: false
+  ProgressMode:
+    CrossoverCollab/1-Submissions: 1
+  Markers: {}
+  ShowMarkers:
+    CrossoverCollab/1-Submissions: true
+  UnlockedWarps:
+  - CrossoverCollab/1-Submissions_Ch25_Forest4-01
+  - CrossoverCollab/1-Submissions_Ch24_Forest4-01
+  - CrossoverCollab/1-Submissions_Ch23_Forest4-01
+  - CrossoverCollab/1-Submissions_Ch24_Forest4+02W1
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: &o0
+    X: 0
+    Y: 0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone:
+    CrossoverCollab/1-Submissions: false
+  droneStartChapter:
+    CrossoverCollab/1-Submissions: 0
+  droneStartRoom:
+    CrossoverCollab/1-Submissions: ''
+  droneStartSpawn:
+    CrossoverCollab/1-Submissions: *o0
+  droneCurrentSpawn:
+    CrossoverCollab/1-Submissions: *o0
+  fakePlayerFacing:
+    CrossoverCollab/1-Submissions: 0
+  fakePlayerPosition:
+    CrossoverCollab/1-Submissions: *o0
+  LightMode:
+    CrossoverCollab/1-Submissions: None
+    CrossoverCollab/0-Lobbies: None
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+XaphanHK:
+  SavedFlags: []
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters:
+  - CrossoverCollab/1-Submissions_Ch17_0
+  VisitedRooms: []
+  VisitedRoomsTiles: []
+  ExtraUnexploredRooms: []
+  ShowHints: {}
+  ProgressMode: {}
+  Markers: {}
+  ShowMarkers: {}
+  UnlockedWarps:
+  - CrossoverCollab/1-Submissions_Ch18_DM-01
+  - CrossoverCollab/1-Submissions_Ch17_DM-01
+  - CrossoverCollab/1-Submissions_Ch19_DM-01
+  - CrossoverCollab/1-Submissions_Ch13_DM-01
+  - CrossoverCollab/1-Submissions_Ch14_DM-01
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: *o0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone:
+    CrossoverCollab/1-Submissions: false
+  droneStartChapter:
+    CrossoverCollab/1-Submissions: 0
+  droneStartRoom:
+    CrossoverCollab/1-Submissions: ''
+  droneStartSpawn:
+    CrossoverCollab/1-Submissions: *o0
+  droneCurrentSpawn:
+    CrossoverCollab/1-Submissions: *o0
+  fakePlayerFacing:
+    CrossoverCollab/1-Submissions: 0
+  fakePlayerPosition:
+    CrossoverCollab/1-Submissions: *o0
+  LightMode:
+    CrossoverCollab/1-Submissions: None
+    CrossoverCollab/0-Lobbies: None
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+XaphanTerracraft:
+  SavedFlags: []
+  GlobalFlags: []
+  WatchedCutscenes: []
+  VisitedChapters: []
+  VisitedRooms: []
+  VisitedRoomsTiles: []
+  ExtraUnexploredRooms: []
+  ShowHints: {}
+  ProgressMode: {}
+  Markers: {}
+  ShowMarkers: {}
+  UnlockedWarps: []
+  GoldenStrawberryUnlockedWarps: []
+  PowerGripInactive: []
+  ClimbingKitInactive: []
+  SpiderMagnetInactive: []
+  LightningDashInactive: []
+  DroneTeleportInactive: []
+  JumpBoostInactive: []
+  BombsInactive: []
+  MegaBombsInactive: []
+  RemoteDroneInactive: []
+  GoldenFeatherInactive: []
+  BinocularsInactive: []
+  EtherealDashInactive: []
+  PortableStationInactive: []
+  PulseRadarInactive: []
+  DashBootsInactive: []
+  HoverJetInactive: []
+  MissilesModuleInactive: []
+  SuperMissilesModuleInactive: []
+  SpazerInactive: []
+  PlasmaBeamInactive: []
+  MorphingBallInactive: []
+  MorphBombsInactive: []
+  SpringBallInactive: []
+  HighJumpBootsInactive: []
+  SpeedBoosterInactive: []
+  LongBeamInactive: []
+  IceBeamInactive: []
+  WaveBeamInactive: []
+  VariaJacketInactive: []
+  GravityJacketInactive: []
+  ScrewAttackInactive: []
+  SpaceJumpInactive: []
+  StaminaUpgrades: []
+  GoldenStrawberryStaminaUpgrades: []
+  DroneMissilesUpgrades: []
+  GoldenStrawberryDroneMissilesUpgrades: []
+  DroneSuperMissilesUpgrades: []
+  GoldenStrawberryDroneSuperMissilesUpgrades: []
+  DroneFireRateUpgrades: []
+  GoldenStrawberryDroneFireRateUpgrades: []
+  CountdownCurrentTime: -1
+  CountdownShake: false
+  CountdownExplode: false
+  CountdownActiveFlag: ''
+  CountdownStartChapter: -1
+  CountdownStartRoom: ''
+  CountdownSpawn: *o0
+  CountdownIntroType: false
+  CountdownUseLevelWipe: false
+  CountdownHideFlag: ''
+  CountdownEventsFlags: ''
+  TeleportFromElevator: false
+  DestinationRoom: ''
+  Spawn: *o0
+  Wipe: ''
+  WipeDuration: 1.35
+  ConsiderBeginning: false
+  SavedChapter: {}
+  SavedRoom: {}
+  SavedSpawn: {}
+  SavedLightingAlphaAdd: {}
+  SavedBloomBaseAdd: {}
+  SavedCoreMode: {}
+  SavedMusic: {}
+  SavedAmbience: {}
+  SavedNoLoadEntities: {}
+  SavedTime: {}
+  SavedFromBeginning: {}
+  SavedSesionFlags: {}
+  SavedSessionStrawberries: {}
+  MaxHealth: {}
+  MaxMissiles: {}
+  MaxSuperMissiles: {}
+  MaxPowerBombs: {}
+  DoorsOpened: []
+  AmmoCollected: []
+  IgnoreSavedChapter: false
+  IgnoreSavedRoom: false
+  CSideUnlocked: []
+  LastPlayedSide: 0
+  Checkpoints: []
+  CanDisplayPopups: false
+  Achievements: []
+  LorebookEntries: []
+  LorebookEntriesRead: []
+  startAsDrone: {}
+  droneStartChapter: {}
+  droneStartRoom: {}
+  droneStartSpawn: {}
+  droneCurrentSpawn: {}
+  fakePlayerFacing: {}
+  fakePlayerPosition: {}
+  LightMode: {}
+  GoldenStartChapter: -999
+  PreGoldenTimer: 0
+  PreGoldenDoNotLoad: []
+  PreGoldenFlags: []
+  PreGoldenSavedFlags: []
+  PreGoldenGlobalFlags: []
+  CurrentSubArea: ''
+  BagUIId1: 0
+  BagUIId2: 0
+  LoadedPlayer: false
+  SoCMVer: ''
+fishes: []
+terrariaBestPercent: 1
+moneyTotal: 10
+moneySpent: 0
+AvailableUpgrades:
+- Name: Double Click Power
+  Texture: upgrade_doubleclick
+  FlagRequired: ''
+  Modifiers:
+  - clickPower * 2
+  Value: 500
+  DefaultSPS: 0
+  ActualSPS: 0
+- Name: Triple Click Power
+  Texture: upgrade_tripleclick
+  FlagRequired: ''
+  Modifiers:
+  - clickPower * 3
+  Value: 3000
+  DefaultSPS: 0
+  ActualSPS: 0

@@ -1,0 +1,21 @@
+frozenXSpeed: 0
+frozenYSpeed: 0
+inDarkMatter: false
+hasScanner: false
+spaceBoosterFlight: false
+inBoundsAlready: false
+usingSkin: false
+inBoundsAny: false
+skinName: ''
+CornerBerryWillFlyAway: false
+CornerBerryFlewAway: false
+HasShroomDash: false
+lastEdward: 0
+ShroomDashActive: false
+ShroomDashTrailActive: false
+lastInkrail: 
+lastInkrailPos:
+  X: 0
+  Y: 0
+currentBossNode: 
+inDDRZone: false

@@ -1,0 +1,21 @@
+Enabled: true
+ButtonToggleMotionSmoothingEnabled:
+  Buttons: []
+  Keys:
+  - F8
+  MouseButtons: []
+ButtonChangeCameraSmoothingMode:
+  Buttons: []
+  Keys:
+  - F9
+  MouseButtons: []
+FrameRate: 60
+UnlockCameraStrategy: Hires
+RenderMadelineWithSubpixels: true
+RenderBackgroundHires: true
+RenderForegroundHires: true
+HideStretchedEdges: true
+ObjectSmoothing: Extrapolate
+FramerateIncreaseMethod: Interval
+TasMode: false
+SillyMode: false

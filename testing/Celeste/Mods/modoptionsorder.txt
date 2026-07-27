@@ -1,0 +1,5 @@
+# This is the Mod Options order file. Lines starting with # are ignored.
+# Mod folders and archives in this file will be displayed in the same order in the Mod Options menu.
+# To define the position of the "Everest Core" options, put "Everest" on a line.
+ExampleFolder
+SomeMod.zip

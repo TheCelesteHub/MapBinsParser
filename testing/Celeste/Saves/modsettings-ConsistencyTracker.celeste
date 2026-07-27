@@ -1,0 +1,226 @@
+IsInRun: false
+PauseDeathTracking: false
+DataRootFolderLocation: 
+TrackingSettings: false
+TrackingOnlyWithGoldenBerry: false
+TrackingAlwaysGoldenDeaths: true
+TrackingSaveStateCountsForGoldenDeath: true
+TrackingRestartChapterCountsForGoldenDeath: true
+TrackNegativeStreaks: true
+VerboseLogging: false
+RecordPath: false
+CustomRoomNameAllSegments: true
+RoomDifficultyAllSegments: true
+SelectedFgr: 0
+FgrContinuousSessionTimer: true
+PathGoldenTierSettings: false
+WipeChapter: false
+CreateSummary: false
+IngameSummaryEnabled: true
+SummarySelectedAttemptCount: 100
+LiveData: false
+LiveDataFileOutputEnabled: false
+LiveDataDecimalPlaces: 2
+LiveDataSelectedAttemptCount: 20
+LiveDataRoomNameDisplayType: DebugRoomName
+LiveDataCustomNameBehavior: Override
+LiveDataListOutputFormat: Json
+LiveDataHideFormatsWithoutPath: false
+LiveDataIgnoreUnplayedRooms: false
+LiveDataChapterBarLightGreenPercent: 95
+LiveDataChapterBarGreenPercent: 80
+LiveDataChapterBarYellowPercent: 50
+LiveDataStatLowDeathBehavior: AlwaysCheckpoints
+ExternalOverlay: false
+ExternalOverlayRefreshTimeSeconds: 2
+ExternalOverlayAttemptsCount: 20
+ExternalOverlayTextOutlineSize: 10
+ExternalOverlayColorblindMode: false
+ExternalOverlayFontFamily: Renogare
+ExternalOverlayTextDisplayEnabled: true
+ExternalOverlayTextDisplayPreset: Default
+ExternalOverlayTextDisplayLeftEnabled: true
+ExternalOverlayTextDisplayMiddleEnabled: true
+ExternalOverlayTextDisplayRightEnabled: true
+ExternalOverlayRoomAttemptsDisplayEnabled: true
+ExternalOverlayGoldenShareDisplayEnabled: true
+ExternalOverlayGoldenShareDisplayShowSession: true
+ExternalOverlayGoldenPBDisplayEnabled: true
+ExternalOverlayChapterBarEnabled: true
+ExternalOverlayChapterBorderWidthMultiplier: 2
+IngameOverlay: false
+ShowCCTRoomNamesOnDebugMap: true
+ShowSuccessRateBordersOnDebugMap: true
+ShowRoomDifficultiesOnDebugMap: true
+IngameOverlayGraphEnabled: false
+IngameOverlayGraphPosition: BottomCenter
+IngameOverlayGraphWidth: 300
+IngameOverlayGraphHeight: 35
+IngameOverlayGraphOffsetX: 5
+IngameOverlayGraphOffsetY: 1
+IngameOverlayGraphBarSpacing: 1
+IngameOverlayGraphRoomsPadding: 50
+IngameOverlayGraphShowCheckpointIndicator: true
+IngameOverlayGraphShowGoldenPbBar: true
+IngameOverlayGraphCurrentRoomExplicit: true
+IngameOverlayGraphHiddenRoomsIndicatorWidth: 2
+IngameOverlayGraphBackgroundDim: 3
+IngameOverlayTextEnabled: true
+IngameOverlayOnlyShowInPauseMenu: true
+IngameOverlayText1Enabled: true
+IngameOverlayText1Outline: true
+IngameOverlayText1Color: &o0
+  B: 255
+  G: 255
+  R: 255
+  A: 255
+  PackedValue: 4294967295
+IngameOverlayText1Position: BottomLeft
+IngameOverlayText1Format: basic-current-map-campaign
+IngameOverlayText1FormatGolden: <same>
+IngameOverlayText1HideWithGolden: false
+IngameOverlayText1Size: 85
+IngameOverlayText1OffsetX: 5
+IngameOverlayText1OffsetY: 1
+IngameOverlayText2Enabled: true
+IngameOverlayText2Outline: true
+IngameOverlayText2Color: *o0
+IngameOverlayText2Position: BottomRight
+IngameOverlayText2Format: basic-success-rate
+IngameOverlayText2FormatGolden: <same>
+IngameOverlayText2HideWithGolden: false
+IngameOverlayText2Size: 90
+IngameOverlayText2OffsetX: 5
+IngameOverlayText2OffsetY: 0
+IngameOverlayText3Enabled: false
+IngameOverlayText3Outline: true
+IngameOverlayText3Color: *o0
+IngameOverlayText3Position: BottomLeft
+IngameOverlayText3Format: full-success-rate
+IngameOverlayText3FormatGolden: <same>
+IngameOverlayText3HideWithGolden: false
+IngameOverlayText3Size: 100
+IngameOverlayText3OffsetX: 5
+IngameOverlayText3OffsetY: 0
+IngameOverlayText4Enabled: false
+IngameOverlayText4Outline: true
+IngameOverlayText4Color: *o0
+IngameOverlayText4Position: BottomRight
+IngameOverlayText4Format: full-success-rate
+IngameOverlayText4FormatGolden: <same>
+IngameOverlayText4HideWithGolden: false
+IngameOverlayText4Size: 100
+IngameOverlayText4OffsetX: 5
+IngameOverlayText4OffsetY: 0
+IngameOverlayTestStyle: 1
+IngameOverlayTextDebugPositionEnabled: false
+PhysicsLoggerSettings: false
+LogPhysicsEnabled: false
+LogMovableEntities: true
+LogSegmentOnDeath: true
+LogSegmentOnLoadState: true
+LogPhysicsInputsToTasFile: false
+LogFlipY: false
+LogFlagDashes: false
+LogFlagMaxDashes: false
+LogFlagDashDir: false
+LogFlagFacing: false
+LogMaxRecentRecordings: 10
+PacePing: false
+PacePingEnabled: false
+PacePingAllDeathsEnabled: false
+FAQ: false
+OverlayVersion: 2.0.0
+LiveDataEditorVersion: 1.0.2
+PhysicsInspectorVersion: 1.4.2
+ButtonFgrToggleInRun:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonFgrTeleportToPreviousMap:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonFgrTeleportToNextMap:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonFgrReset:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleTextOverlayEnabled:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleTextOverlayText1:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleTextOverlayText2:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleTextOverlayText3:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleTextOverlayText4:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleDifficultyGraph:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonTogglePauseDeathTracking:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonAddRoomSuccess:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonRemoveRoomLastAttempt:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonRemoveRoomDeathStreak:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonImportCustomRoomNameFromClipboard:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleRecordPhysics:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonToggleSummaryHud:
+  Buttons:
+  - DPadDown
+  Keys: []
+  MouseButtons: []
+ButtonSummaryHudNextTab:
+  Buttons:
+  - DPadRight
+  Keys: []
+  MouseButtons: []
+ButtonSummaryHudNextStat:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+ButtonSummaryHudPreviousStat:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+TestCount: 1
+TestSelectedLayout: 0
+TestLayoutList:
+- Enabled: false
+  Anchor: TopLeft
+  HideWithGolden: false
+  Size: 100
+  OffsetX: 5
+  OffsetY: 0

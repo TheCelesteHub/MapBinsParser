@@ -1,0 +1,1436 @@
+DashCountPerLevel:
+  Celeste/1-ForsakenCity:
+    Normal: 3960
+    BSide: 248
+    CSide: 97
+  Celeste/2-OldSite:
+    Normal: 2814
+    BSide: 2335
+    CSide: 638
+  Celeste/6-Reflection:
+    Normal: 7906
+    CSide: 748
+    BSide: 5954
+  pugroy/riteofthejungle/1-RiteoftheJungle:
+    Normal: 375
+  Celeste/LostLevels:
+    Normal: 7883
+  Celeste/8-Epilogue:
+    Normal: 279
+  Celeste/7-Summit:
+    Normal: 11802
+    CSide: 3806
+    BSide: 32402
+  oknano/ruin/0:
+    Normal: 284
+  Evryon/SilentSnow/SilentSnow:
+    Normal: 279
+  oknano/soupeline/soup64:
+    Normal: 222
+  SpringCollab2020/0-Lobbies/0-Prologue:
+    Normal: 325
+  SpringCollab2020/0-Lobbies/1-Beginner:
+    Normal: 1221
+  SpringCollab2020/0-Gyms/1-Beginner:
+    Normal: 91
+  SpringCollab2020/1-Beginner/Abby:
+    Normal: 1445
+  SpringCollab2020/1-Beginner/Cookie:
+    Normal: 1241
+  2021MapCollection/0-Lobbies/1-Mild Lobby:
+    Normal: 31
+  SpringCollab2020/1-Beginner/Rue:
+    Normal: 2
+  SpringCollab2020/1-Beginner/Lichtbaulb:
+    Normal: 2472
+  SpringCollab2020/1-Beginner/CANADIAN:
+    Normal: 1257
+  SpringCollab2020/1-Beginner/DanTKO:
+    Normal: 567
+  SpringCollab2020/1-Beginner/Flagpole1up:
+    Normal: 138
+  SpringCollab2020/1-Beginner/Ghajestis:
+    Normal: 143
+  SpringCollab2020/1-Beginner/Cruor:
+    Normal: 302
+  SpringCollab2020/1-Beginner/itsabrody:
+    Normal: 5
+  SpringCollab2020/1-Beginner/IsaGoodFriend:
+    Normal: 61
+  SpringCollab2020/1-Beginner/Skeleton:
+    Normal: 201
+  SpringCollab2020/0-Lobbies/2-Intermediate:
+    Normal: 182
+  SpringCollab2020/1-Beginner/Cat_in_Box_01:
+    Normal: 371
+  SpringCollab2020/1-Beginner/iamdadbod:
+    Normal: 246
+  Escapism/lieutenant/Escapism:
+    Normal: 7
+  SpringCollab2020/1-Beginner/Bissy:
+    Normal: 133
+  SpringCollab2020/1-Beginner/Thegur90:
+    Normal: 1
+  SpringCollab2020/1-Beginner/hennyburgr:
+    Normal: 53
+  SpringCollab2020/1-Beginner/Snas:
+    Normal: 59
+  SpringCollab2020/1-Beginner/ZZ-HeartSide:
+    Normal: 1654
+  beginnermap/lvl1:
+    Normal: 673
+  coloursofnoise/demos/custompointsdemo:
+    Normal: 145
+  StartupContest2021/0-Lobbies/1-Submissions:
+    Normal: 1729
+  StartupContest2021/1-Submissions/twoday:
+    Normal: 209
+  StartupContest2021/1-Submissions/starl1ght:
+    Normal: 392
+  StartupContest2021/1-Submissions/powerav:
+    Normal: 249
+  StartupContest2021/1-Submissions/xolimono:
+    Normal: 130
+  Akristantesting:
+    Normal: 127
+  foxxylover/campaigntest/testidentifier:
+    Normal: 24
+  StartupContest2021/1-Submissions/flamecrafter113:
+    Normal: 586
+  StartupContest2021/1-Submissions/scribbles:
+    Normal: 318
+  StartupContest2021/1-Submissions/cheesesteak:
+    Normal: 488
+  StartupContest2021/1-Submissions/toto00:
+    Normal: 55
+  StartupContest2021/1-Submissions/potatolucy:
+    Normal: 196
+  StartupContest2021/1-Submissions/augustusargento:
+    Normal: 7
+  StartupContest2021/sus/sus:
+    Normal: 203
+  StartupContest2021/1-Submissions/skillsharekirby:
+    Normal: 161
+  StartupContest2021/1-Submissions/elissv:
+    Normal: 178
+  StartupContest2021/1-Submissions/mika:
+    Normal: 36
+  StartupContest2021/1-Submissions/rdoggo8:
+    Normal: 215
+  StartupContest2021/1-Submissions/xelos:
+    Normal: 153
+  StartupContest2021/1-Submissions/quadchunks:
+    Normal: 56
+  StartupContest2021/1-Submissions/toneblock:
+    Normal: 1
+  StartupContest2021/1-Submissions/asri:
+    Normal: 320
+  Silverfish003/ChillSummit/Chillsummit:
+    Normal: 4
+  lennygold/gym/1-Creepypasta:
+    Normal: 313
+  StartupContest2021/1-Submissions/nyan:
+    Normal: 9
+  StartupContest2021/1-Submissions/earthwise:
+    Normal: 234
+  StartupContest2021/1-Submissions/ZZ-HeartSide:
+    Normal: 1404
+  StartupContest2021/1-Submissions/abuffzucchini:
+    Normal: 87
+  StartupContest2021/1-Submissions/jadeturtle:
+    Normal: 81
+  DecoContest2021/mari/switchmountain:
+    Normal: 324
+  0/hahafunnydarklevelhaha/Darkness:
+    Normal: 56
+  AliceQuasar/TempleOfTomorrow/map:
+    Normal: 108
+  trlt/xolimono/trlt:
+    Normal: 828
+    BSide: 576
+    CSide: 350
+  BeginnerContest2021/Rocketguy2/TrialOfEpidox:
+    Normal: 167
+  SecondPlace/LotlDev/zipping_through_space/zipping_through_space:
+    Normal: 75
+  jadeturtle/adranos/Adranos:
+    Normal: 808
+    BSide: 646
+    CSide: 679
+  L13r0/Anubi:
+    Normal: 999
+  EnderCell/GoodNight/GoodNight:
+    Normal: 2162
+  Rifs/dawn/dawn:
+    Normal: 82
+  GlowWoomii/CandyCane/GlowWoomiiCandyCane:
+    Normal: 210
+  Celeste/3-CelestialResort:
+    Normal: 4786
+    BSide: 6776
+    CSide: 503
+  Celeste/4-GoldenRidge:
+    BSide: 9087
+    CSide: 19
+    Normal: 4446
+  Icamus/Distortion/Distortion:
+    Normal: 972
+  Celeste/5-MirrorTemple:
+    CSide: 311
+    Normal: 3471
+    BSide: 7556
+  hivemindsrule/anewbeginning/ANewBeginning:
+    Normal: 325
+  juels/GOI/GOI:
+    Normal: 524
+  Celeste/9-Core:
+    Normal: 3000
+    CSide: 366
+    BSide: 699
+  WizardOfWit/PartOfMe/1:
+    Normal: 743
+  foxxylover/chillchapter/1-hill:
+    Normal: 36
+  foxxylover/chillchapter/2-house:
+    Normal: 170
+  foxxylover/chillchapter/3-cave:
+    Normal: 497
+  UnderDragon/Flipeste/1-ForflippenCity:
+    Normal: 128
+  UnderDragon/Flipeste/2-FlipSite:
+    Normal: 233
+  UnderDragon/Flipeste/3-FlipResort:
+    Normal: 437
+  foxxylover/Portaleste/1-Nowhere:
+    Normal: 2209
+  Cruor-Secret:
+    Normal: 212
+  BeefyUncleTorre/map/1:
+    Normal: 5839
+  leppa/AltSidesHelper/AltSidesHelperTest:
+    Normal: 16
+  leppa/AltSidesHelper/AltSidesHelperTest_B:
+    Normal: 18
+  leppa/AltSidesHelper/AltSidesHelperTest_C:
+    Normal: 3
+  leppa/AltSidesHelper/AltSidesHelperTest_D:
+    Normal: 3
+  tirednwired/SWAPSLUT/swapslut:
+    Normal: 475
+  Celeste/0-Intro:
+    Normal: 19
+  CloudyCliffs/ABuffZucchini/CloudyCliffs:
+    Normal: 1626
+  Abstract/Lichtbaulb/Colors:
+    Normal: 378
+  foxxylover/foxxysdream/1-nightmare:
+    Normal: 155
+  DeathKontrol/UltraSkool:
+    Normal: 4455
+  Holly/mines/1mines:
+    Normal: 2215
+  Holly/mines/2caves:
+    Normal: 560
+  Holly/mines/3depression:
+    Normal: 1546
+  Holly/mines/4fight:
+    Normal: 1916
+  SpringCollab2020/0-Gyms/2-Intermediate:
+    Normal: 212
+  SpringCollab2020/2-Intermediate/Oppen_Heimer:
+    Normal: 1049
+  SpringCollab2020/2-Intermediate/phant:
+    Normal: 165
+  SpringCollab2020/2-Intermediate/Rocketguy2:
+    Normal: 262
+  SpringCollab2020/0-Lobbies/5-Grandmaster:
+    Normal: 152
+  SpringCollab2020/5-Grandmaster/DeathKontrol:
+    Normal: 49
+  Holly/mines/5head:
+    Normal: 4612
+  SpringCollab2020/2-Intermediate/Noax:
+    Normal: 372
+  SpringCollab2020/2-Intermediate/Evilleafy:
+    Normal: 28
+  Bio/BounceQueen/0-BounceQueen:
+    Normal: 55
+  StrawberryJam2021/0-Lobbies/0-Prologue:
+    Normal: 793
+  StrawberryJam2021/0-Lobbies/1-Beginner:
+    Normal: 3483
+  StrawberryJam2021/0-Gyms/1-Beginner:
+    Normal: 114
+  StrawberryJam2021/0-Gyms/0-Prologue:
+    Normal: 771
+  StrawberryJam2021/1-Beginner/coffe:
+    Normal: 262
+  StrawberryJam2021/0-Lobbies/5-Grandmaster:
+    Normal: 97
+  citycontest22/Banana23/yourmap23:
+    Normal: 306
+  Anzen/Arid Athenaeum/Arid Athenaeum:
+    Normal: 558
+  KAERRA/SPRINT/sprint:
+    Normal: 93
+  Nyan/CrazySummit/CrazySummit:
+    Normal: 23
+  UnderDragon/chroniate/chroniate:
+    Normal: 411
+  AvDay/Ceph/AvDay:
+    Normal: 500
+  celesterearranged/3a:
+    Normal: 570
+  celesterearranged/6b:
+    Normal: 505
+  celesterearranged/8b:
+    Normal: 772
+  BeefyUncleTorre/map/2:
+    Normal: 788
+  BeefyUncleTorre/map/3:
+    Normal: 448
+  BeefyUncleTorre/map/4:
+    Normal: 869
+  BeefyUncleTorre/map/5:
+    Normal: 569
+  BeefyUncleTorre/map/6:
+    Normal: 725
+    BSide: 1953
+  TheCelesteTracker_Mod/CelesteTrackerTestMap:
+    Normal: 179
+  BeginnerCollab/0-Lobbies/1-MainLobby:
+    Normal: 301
+  BeginnerCollab/1-MainLobby/01_SurrealRavine:
+    Normal: 57
+  BeginnerCollab/1-MainLobby/05_SubseaSpringCove:
+    Normal: 118
+  BeginnerCollab/1-MainLobby/14_TrickyVolcano:
+    Normal: 670
+  Kever2025/Crispybag/Kever2025:
+    Normal: 11253
+  theloop/hennyburgr/theloop:
+    Normal: 438
+  StrawberryJam2021/1-Beginner/skeleton:
+    Normal: 316
+  StrawberryJam2021/1-Beginner/hyperlife:
+    Normal: 174
+  StrawberryJam2021/1-Beginner/HankyMueller:
+    Normal: 615
+  StrawberryJam2021/0-Lobbies/4-Expert:
+    Normal: 129
+  StrawberryJam2021/0-Gyms/4-Expert:
+    Normal: 1741
+  StrawberryJam2021/0-Gyms/5-Grandmaster:
+    Normal: 1857
+  StrawberryJam2021/4-Expert/pansear:
+    Normal: 1397
+  StrawberryJam2021/1-Beginner/CoupCritik:
+    Normal: 1
+  StrawberryJam2021/5-Grandmaster/xlibiza:
+    Normal: 28
+  StrawberryJam2021/5-Grandmaster/CaptainCarpensir:
+    Normal: 4
+  StrawberryJam2021/5-Grandmaster/xplosives:
+    Normal: 67
+  StrawberryJam2021/1-Beginner/Flagpole1up:
+    Normal: 251
+  StrawberryJam2021/1-Beginner/Quinnigan:
+    Normal: 33
+  StrawberryJam2021/4-Expert/powerav:
+    Normal: 4241
+  StrawberryJam2021/0-Lobbies/2-Intermediate:
+    Normal: 696
+  StrawberryJam2021/0-Gyms/2-Intermediate:
+    Normal: 258
+  StrawberryJam2021/2-Intermediate/Emik:
+    Normal: 645
+  StrawberryJam2021/4-Expert/Vina:
+    Normal: 231
+  StrawberryJam2021/4-Expert/fonda1515:
+    Normal: 248
+  StrawberryJam2021/1-Beginner/Bing_Over_Google:
+    Normal: 286
+  StrawberryJam2021/1-Beginner/cellularAutomaton:
+    Normal: 129
+  StrawberryJam2021/1-Beginner/snas:
+    Normal: 103
+  StrawberryJam2021/1-Beginner/Eclipse:
+    Normal: 381
+  StrawberryJam2021/1-Beginner/joltik:
+    Normal: 182
+  StrawberryJam2021/1-Beginner/frozenflygone:
+    Normal: 173
+  StrawberryJam2021/1-Beginner/NotYourBadeline:
+    Normal: 125
+  StrawberryJam2021/1-Beginner/Circumplex:
+    Normal: 215
+  StrawberryJam2021/1-Beginner/mosscairn:
+    Normal: 501
+  StrawberryJam2021/1-Beginner/voliver9:
+    Normal: 74
+  StrawberryJam2021/1-Beginner/Ceph:
+    Normal: 81
+  StrawberryJam2021/1-Beginner/Jadeturtle:
+    Normal: 106
+  StrawberryJam2021/1-Beginner/asteriskblue:
+    Normal: 226
+  StrawberryJam2021/1-Beginner/Owen-Shirrell:
+    Normal: 255
+  StrawberryJam2021/1-Beginner/ZZ-HeartSide:
+    Normal: 938
+  StrawberryJam2021/2-Intermediate/Liero:
+    Normal: 281
+  StrawberryJam2021/2-Intermediate/Dooshii:
+    Normal: 475
+  StrawberryJam2021/2-Intermediate/Luma:
+    Normal: 657
+  StrawberryJam2021/2-Intermediate/SpoopySoup:
+    Normal: 40
+  StrawberryJam2021/2-Intermediate/GlowWoomii:
+    Normal: 233
+  StrawberryJam2021/2-Intermediate/LegS:
+    Normal: 272
+  StrawberryJam2021/2-Intermediate/Arphimigon:
+    Normal: 245
+  StrawberryJam2021/2-Intermediate/Rocketguy2:
+    Normal: 501
+  StrawberryJam2021/2-Intermediate/Ice:
+    Normal: 514
+  StrawberryJam2021/2-Intermediate/Evilleafy:
+    Normal: 204
+  StrawberryJam2021/2-Intermediate/Ezel:
+    Normal: 369
+  StrawberryJam2021/2-Intermediate/bryse0n:
+    Normal: 537
+  StrawberryJam2021/2-Intermediate/thebreadstick1:
+    Normal: 546
+  StrawberryJam2021/2-Intermediate/marlin:
+    Normal: 256
+  StrawberryJam2021/2-Intermediate/vitellary:
+    Normal: 1099
+  StrawberryJam2021/2-Intermediate/Jems:
+    Normal: 214
+  StrawberryJam2021/2-Intermediate/pixelator:
+    Normal: 131
+  StrawberryJam2021/2-Intermediate/ZZ-HeartSide:
+    Normal: 2750
+  StrawberryJam2021/0-Gyms/3-Advanced:
+    Normal: 436
+  StrawberryJam2021/0-Lobbies/3-Advanced:
+    Normal: 244
+  StrawberryJam2021/3-Advanced/Worldwaker2:
+    Normal: 663
+  StrawberryJam2021/3-Advanced/Citrea:
+    Normal: 378
+  StrawberryJam2021/3-Advanced/Goldian:
+    Normal: 973
+  Jackal/CodeLab/CodingTestLab:
+    Normal: 16
+  bryse0n/berry143/berry143:
+    Normal: 201
+  CrossoverCollab/0-Lobbies/0-Lobby:
+    Normal: 21
+  CrossoverCollab/1-Submissions/evaPortal:
+    Normal: 28
+  CrossoverCollab/1-Submissions/Inferno_:
+    Normal: 50
+  CrossoverCollab/1-Submissions/Terraria:
+    Normal: 95
+  CrossoverCollab/1-Submissions/CatAndComparator:
+    Normal: 15
+  NTMC/0-Lobbies/1-Maps:
+    Normal: 16
+  NTMC/1-Maps/grog:
+    Normal: 11
+  NTMC/1-Maps/tobyaaa:
+    Normal: 17
+  StrawberryJam2021/3-Advanced/Jolly:
+    Normal: 668
+  StrawberryJam2021/3-Advanced/Viv:
+    Normal: 401
+  StrawberryJam2021/3-Advanced/Tortoise:
+    Normal: 189
+  StrawberryJam2021/3-Advanced/galaksyz:
+    Normal: 103
+  StrawberryJam2021/3-Advanced/hennyburgr:
+    Normal: 263
+  StrawberryJam2021/3-Advanced/Julia:
+    Normal: 477
+  CHP/Golden Serenity:
+    Normal: 315
+  Deskilln/map/Pico-8_remake:
+    Normal: 1059
+  monikadsidespack/0/1-City:
+    Normal: 99
+  monikadsidespack/1/0-PrologueWithDash:
+    Normal: 26
+  monikadsidespack/1/1-CoreOldMashup:
+    Normal: 38
+  BeginnerCollab/1-MainLobby/07_MoonlightStarscape:
+    Normal: 12
+  BeginnerCollab/1-MainLobby/10_Scale:
+    Normal: 165
+  BeginnerCollab/1-MainLobby/08_InfernalChaos:
+    Normal: 159
+  BeginnerCollab/1-MainLobby/15_CrystallizedSynth:
+    Normal: 298
+  BeginnerCollab/1-MainLobby/16_StardustAndBubblegum:
+    Normal: 284
+  BeginnerCollab/1-MainLobby/09_ForestOfHopes:
+    Normal: 92
+  BeginnerCollab/1-MainLobby/11_IllusionTower:
+    Normal: 185
+  TypA/TypA-1/TypA-map:
+    Normal: 1189
+  StrawberryJam2021/3-Advanced/Meario:
+    Normal: 509
+  windtercollab/oknano:
+    Normal: 129
+  Geles/1co:
+    Normal: 21
+  Geles/2co:
+    Normal: 42
+  Geles/3co:
+    Normal: 37
+  Geles/4co:
+    Normal: 70
+  Geles/5co:
+    Normal: 28
+  Geles/6co:
+    Normal: 44
+  Geles/7co:
+    Normal: 18
+  Geles/8co:
+    Normal: 8
+  Spekio/Corrupted Land/1-Forest_Corruption:
+    Normal: 3061
+  BallsTourney2021/TitledGoose/cursedmines/balls1:
+    Normal: 175
+  isafriend/EarlyCore/core2:
+    Normal: 222
+  exudias/4/EnchantedCanyon:
+    Normal: 801
+  DecoContest2021/tobyaaa/rewot_suibom:
+    Normal: 317
+  wizardofwit/fallenresort/fallenresort:
+    Normal: 569
+  marshall_h_rosewood/map/1:
+    Normal: 1452
+  marshall_h_rosewood/map/2:
+    Normal: 3310
+  PufferDev/Golden_Caverns/Golden_Caverns:
+    Normal: 573
+  GameJamContest2021/ABuffZucchini/HowToMakeAMap:
+    Normal: 440
+  iidk/ijustdashed:
+    Normal: 736
+  Into The Jungle/ch1:
+    Normal: 433
+  Into The Jungle/ch2:
+    Normal: 623
+  Into The Jungle/ch3:
+    Normal: 635
+  Guestunderscore/SeededBerryMap/SeededBerryMap:
+    Normal: 183
+  smoothee/mauve/mauve:
+    Normal: 11452
+  SpringCollab2020/0-Lobbies/3-Advanced:
+    Normal: 23
+  bitsbolts/demo:
+    Normal: 133
+  JauntyJune/ricky06/ricky06:
+    Normal: 995
+  SpringCollab2020/0-Gyms/5-Grandmaster:
+    Normal: 294
+  SpringCollab2020/5-Grandmaster/Hydro0:
+    Normal: 80
+  SpringCollab2020/5-Grandmaster/Bissy:
+    Normal: 125
+  SpringCollab2020/5-Grandmaster/iamdadbod:
+    Normal: 87
+  SpringCollab2020/5-Grandmaster/fishtank_overflow:
+    Normal: 5
+  SpringCollab2020/0-Gyms/3-Advanced:
+    Normal: 19
+  SpringCollab2020/2-Intermediate/ProXas:
+    Normal: 247
+  Into The Jungle/ch4:
+    Normal: 800
+  Into The Jungle/ch5:
+    Normal: 703
+  jadeturtle/iris/Iris:
+    Normal: 841
+  powerav/MadelineTouchesSomeGrass/grass:
+    Normal: 675
+  1up/O-Prologue:
+    Normal: 14
+  1up/pathofhope:
+    Normal: 376
+  1up/Q-AquaShrine:
+    Normal: 1439
+  1up_S/PoHSecret:
+    Normal: 396
+  Phobos/NewLands/9-Farewell:
+    Normal: 658
+  WizardOfWit/PartOfMe/2:
+    Normal: 785
+  WizardOfWit/PartOfMe/3:
+    Normal: 2
+  flowerhouse/quickieworld/1_theojam:
+    Normal: 87
+  flowerhouse/QM2/0_QM2Welcome:
+    Normal: 3
+  flowerhouse/QM2/1_TerminalVelocity:
+    Normal: 69
+    BSide: 179
+    CSide: 97
+  flowerhouse/QM2/2_GlitchcatLake:
+    Normal: 322
+    BSide: 137
+    CSide: 168
+  flowerhouse/QM2/3_HotPotato:
+    Normal: 120
+    BSide: 183
+  flowerhouse/QM2/4_TakeFive:
+    Normal: 162
+    BSide: 111
+  flowerhouse/QM2/5_SawrfingCastle:
+    Normal: 372
+    BSide: 280
+  flowerhouse/QM2/6_Credits:
+    Normal: 180
+  AlmostVanilla/ABuffZucchini/AlmostVanilla:
+    Normal: 348
+  coffe/Shade World/ShadeWorld:
+    Normal: 1931
+  Nibblz/scatter/scattered dream:
+    Normal: 3755
+  everyone/parrotCongrats/parrotCongrats:
+    Normal: 312
+  Crylone/farshore/farshore:
+    Normal: 773
+  BreezeContest2024/0-Lobbies/0-Prologue:
+    Normal: 18
+  BreezeContest2024/0-Lobbies/1-Submissions:
+    Normal: 324
+  BreezeContest2024/1-Submissions/mrglasses:
+    Normal: 795
+  BreezeContest2024/1-Submissions/Loasno:
+    Normal: 331
+  BreezeContest2024/1-Submissions/Astermoonlite:
+    Normal: 136
+  BreezeContest2024/1-Submissions/Nyan:
+    Normal: 261
+  BreezeContest2024/1-Submissions/tobyaaa:
+    Normal: 392
+  BreezeContest2024/1-Submissions/OllieLikesBagels:
+    Normal: 340
+  BreezeContest2024/1-Submissions/Fraz:
+    Normal: 107
+  BreezeContest2024/1-Submissions/CoolBread:
+    Normal: 557
+  BreezeContest2024/1-Submissions/SereKabii:
+    Normal: 817
+  BreezeContest2024/1-Submissions/gamesword107:
+    Normal: 130
+  BreezeContest2024/1-Submissions/Crispybag:
+    Normal: 90
+  BreezeContest2024/1-Submissions/tart:
+    Normal: 114
+  BreezeContest2024/1-Submissions/Puggyplayz:
+    Normal: 454
+  BreezeContest2024/1-Submissions/furret:
+    Normal: 150
+  BreezeContest2024/1-Submissions/panpour:
+    Normal: 112
+  BreezeContest2024/1-Submissions/andytampan:
+    Normal: 95
+  BreezeContest2024/1-Submissions/goose:
+    Normal: 113
+  BreezeContest2024/1-Submissions/jpyx258:
+    Normal: 242
+JumpCountPerLevel:
+  beginnermap/lvl1:
+    Normal: 35
+  Celeste/3-CelestialResort:
+    Normal: 778
+    CSide: 1
+  GlowWoomii/CandyCane/GlowWoomiiCandyCane:
+    Normal: 201
+  AvDay/Ceph/AvDay:
+    Normal: 280
+  celesterearranged/3a:
+    Normal: 905
+  celesterearranged/6b:
+    Normal: 257
+  celesterearranged/8b:
+    Normal: 863
+  BeefyUncleTorre/map/1:
+    Normal: 4541
+  BeefyUncleTorre/map/2:
+    Normal: 497
+  BeefyUncleTorre/map/3:
+    Normal: 498
+  BeefyUncleTorre/map/4:
+    Normal: 373
+  BeefyUncleTorre/map/5:
+    Normal: 297
+  BeefyUncleTorre/map/6:
+    Normal: 403
+    BSide: 819
+  Celeste/1-ForsakenCity:
+    Normal: 1577
+    CSide: 5
+  TheCelesteTracker_Mod/CelesteTrackerTestMap:
+    Normal: 192
+  Celeste/7-Summit:
+    CSide: 480
+    Normal: 1237
+    BSide: 13410
+  Celeste/2-OldSite:
+    Normal: 332
+    CSide: 40
+  Celeste/4-GoldenRidge:
+    CSide: 1
+    BSide: 1815
+    Normal: 36
+  BeginnerCollab/0-Lobbies/1-MainLobby:
+    Normal: 536
+  BeginnerCollab/1-MainLobby/01_SurrealRavine:
+    Normal: 122
+  BeginnerCollab/1-MainLobby/05_SubseaSpringCove:
+    Normal: 125
+  BeginnerCollab/1-MainLobby/14_TrickyVolcano:
+    Normal: 873
+  Celeste/8-Epilogue:
+    Normal: 2
+  Kever2025/Crispybag/Kever2025:
+    Normal: 7906
+  theloop/hennyburgr/theloop:
+    Normal: 608
+  trlt/xolimono/trlt:
+    Normal: 46
+  StrawberryJam2021/0-Lobbies/0-Prologue:
+    Normal: 695
+  StrawberryJam2021/0-Lobbies/1-Beginner:
+    Normal: 1737
+  StrawberryJam2021/1-Beginner/coffe:
+    Normal: 153
+  StrawberryJam2021/1-Beginner/skeleton:
+    Normal: 238
+  StrawberryJam2021/1-Beginner/hyperlife:
+    Normal: 228
+  StrawberryJam2021/1-Beginner/HankyMueller:
+    Normal: 2129
+  lennygold/gym/1-Creepypasta:
+    Normal: 153
+  StrawberryJam2021/0-Lobbies/4-Expert:
+    Normal: 143
+  StrawberryJam2021/0-Gyms/4-Expert:
+    Normal: 1425
+  StrawberryJam2021/0-Gyms/0-Prologue:
+    Normal: 673
+  StrawberryJam2021/0-Gyms/1-Beginner:
+    Normal: 32
+  StrawberryJam2021/0-Gyms/5-Grandmaster:
+    Normal: 1219
+  StrawberryJam2021/4-Expert/pansear:
+    Normal: 670
+  StrawberryJam2021/1-Beginner/CoupCritik:
+    Normal: 650
+  StrawberryJam2021/0-Lobbies/5-Grandmaster:
+    Normal: 96
+  StrawberryJam2021/5-Grandmaster/xlibiza:
+    Normal: 11
+  StrawberryJam2021/5-Grandmaster/xplosives:
+    Normal: 67
+  DeathKontrol/UltraSkool:
+    Normal: 3530
+  StrawberryJam2021/1-Beginner/Flagpole1up:
+    Normal: 275
+  StrawberryJam2021/1-Beginner/Quinnigan:
+    Normal: 38
+  StrawberryJam2021/4-Expert/powerav:
+    Normal: 1877
+  StrawberryJam2021/0-Lobbies/2-Intermediate:
+    Normal: 829
+  StrawberryJam2021/0-Gyms/2-Intermediate:
+    Normal: 136
+  StrawberryJam2021/2-Intermediate/Emik:
+    Normal: 458
+  StrawberryJam2021/4-Expert/Vina:
+    Normal: 118
+  StrawberryJam2021/4-Expert/fonda1515:
+    Normal: 188
+  StrawberryJam2021/1-Beginner/Bing_Over_Google:
+    Normal: 282
+  StrawberryJam2021/1-Beginner/cellularAutomaton:
+    Normal: 120
+  StrawberryJam2021/1-Beginner/snas:
+    Normal: 180
+  StrawberryJam2021/1-Beginner/Eclipse:
+    Normal: 211
+  StrawberryJam2021/1-Beginner/joltik:
+    Normal: 185
+  StrawberryJam2021/1-Beginner/frozenflygone:
+    Normal: 203
+  StrawberryJam2021/1-Beginner/NotYourBadeline:
+    Normal: 134
+  StrawberryJam2021/1-Beginner/Circumplex:
+    Normal: 156
+  StrawberryJam2021/1-Beginner/mosscairn:
+    Normal: 608
+  StrawberryJam2021/1-Beginner/voliver9:
+    Normal: 180
+  StrawberryJam2021/1-Beginner/Ceph:
+    Normal: 222
+  StrawberryJam2021/1-Beginner/Jadeturtle:
+    Normal: 111
+  StrawberryJam2021/1-Beginner/asteriskblue:
+    Normal: 283
+  StrawberryJam2021/1-Beginner/Owen-Shirrell:
+    Normal: 552
+  StrawberryJam2021/1-Beginner/ZZ-HeartSide:
+    Normal: 1365
+  StrawberryJam2021/2-Intermediate/Liero:
+    Normal: 123
+  StrawberryJam2021/2-Intermediate/Dooshii:
+    Normal: 288
+  StrawberryJam2021/2-Intermediate/Luma:
+    Normal: 872
+  StrawberryJam2021/2-Intermediate/SpoopySoup:
+    Normal: 120
+  StrawberryJam2021/2-Intermediate/GlowWoomii:
+    Normal: 249
+  StrawberryJam2021/2-Intermediate/LegS:
+    Normal: 226
+  StrawberryJam2021/2-Intermediate/Arphimigon:
+    Normal: 186
+  StrawberryJam2021/2-Intermediate/Rocketguy2:
+    Normal: 348
+  StrawberryJam2021/2-Intermediate/Ice:
+    Normal: 454
+  StrawberryJam2021/2-Intermediate/Evilleafy:
+    Normal: 150
+  StrawberryJam2021/2-Intermediate/Ezel:
+    Normal: 958
+  StrawberryJam2021/2-Intermediate/bryse0n:
+    Normal: 256
+  StrawberryJam2021/2-Intermediate/thebreadstick1:
+    Normal: 543
+  StrawberryJam2021/2-Intermediate/marlin:
+    Normal: 244
+  StrawberryJam2021/2-Intermediate/vitellary:
+    Normal: 259
+  StrawberryJam2021/2-Intermediate/Jems:
+    Normal: 357
+  StrawberryJam2021/2-Intermediate/pixelator:
+    Normal: 249
+  StrawberryJam2021/2-Intermediate/ZZ-HeartSide:
+    Normal: 2070
+  StrawberryJam2021/0-Lobbies/3-Advanced:
+    Normal: 231
+  StrawberryJam2021/0-Gyms/3-Advanced:
+    Normal: 258
+  StrawberryJam2021/3-Advanced/Worldwaker2:
+    Normal: 674
+  StrawberryJam2021/3-Advanced/Citrea:
+    Normal: 178
+  StrawberryJam2021/3-Advanced/Goldian:
+    Normal: 452
+  Jackal/CodeLab/CodingTestLab:
+    Normal: 39
+  bryse0n/berry143/berry143:
+    Normal: 132
+  CrossoverCollab/0-Lobbies/0-Lobby:
+    Normal: 10
+  CrossoverCollab/1-Submissions/evaPortal:
+    Normal: 85
+  CrossoverCollab/1-Submissions/Inferno_:
+    Normal: 39
+  CrossoverCollab/1-Submissions/Terraria:
+    Normal: 401
+  CrossoverCollab/1-Submissions/GeometryDash:
+    Normal: 301
+  CrossoverCollab/1-Submissions/Knight:
+    Normal: 181
+  CrossoverCollab/1-Submissions/CatAndComparator:
+    Normal: 15
+  NTMC/0-Lobbies/1-Maps:
+    Normal: 30
+  NTMC/1-Maps/grog:
+    Normal: 31
+  NTMC/1-Maps/tobyaaa:
+    Normal: 7
+  StrawberryJam2021/3-Advanced/Jolly:
+    Normal: 444
+  StrawberryJam2021/3-Advanced/Viv:
+    Normal: 269
+  StrawberryJam2021/3-Advanced/Tortoise:
+    Normal: 374
+  StrawberryJam2021/3-Advanced/galaksyz:
+    Normal: 113
+  StrawberryJam2021/3-Advanced/hennyburgr:
+    Normal: 163
+  StrawberryJam2021/3-Advanced/Julia:
+    Normal: 192
+  Celeste/5-MirrorTemple:
+    Normal: 1824
+    BSide: 6279
+  Celeste/LostLevels:
+    Normal: 4298
+  CHP/Golden Serenity:
+    Normal: 209
+  Celeste/6-Reflection:
+    Normal: 2946
+    BSide: 3109
+  Deskilln/map/Pico-8_remake:
+    Normal: 1008
+  monikadsidespack/0/0-Prologue:
+    Normal: 63
+  monikadsidespack/0/1-City:
+    Normal: 143
+  monikadsidespack/1/0-PrologueWithDash:
+    Normal: 44
+  monikadsidespack/1/1-CoreOldMashup:
+    Normal: 53
+  Celeste/9-Core:
+    Normal: 5402
+    CSide: 413
+    BSide: 658
+  BeginnerCollab/1-MainLobby/07_MoonlightStarscape:
+    Normal: 2
+  BeginnerCollab/1-MainLobby/10_Scale:
+    Normal: 1075
+  BeginnerCollab/1-MainLobby/08_InfernalChaos:
+    Normal: 87
+  BeginnerCollab/1-MainLobby/15_CrystallizedSynth:
+    Normal: 170
+  BeginnerCollab/1-MainLobby/16_StardustAndBubblegum:
+    Normal: 219
+  BeginnerCollab/1-MainLobby/09_ForestOfHopes:
+    Normal: 70
+  BeginnerCollab/1-MainLobby/11_IllusionTower:
+    Normal: 234
+  TypA/TypA-1/TypA-map:
+    Normal: 1448
+  StrawberryJam2021/3-Advanced/Meario:
+    Normal: 364
+  Alice2O3_CN/S1:
+    Normal: 1317
+  windtercollab/oknano:
+    Normal: 112
+  CloudyCliffs/ABuffZucchini/CloudyCliffs:
+    Normal: 1124
+  Geles/1co:
+    Normal: 38
+  Geles/2co:
+    Normal: 33
+  Geles/3co:
+    Normal: 115
+  Geles/4co:
+    Normal: 95
+  Geles/5co:
+    Normal: 15
+  Geles/6co:
+    Normal: 47
+  Geles/7co:
+    Normal: 15
+  Geles/8co:
+    Normal: 20
+  Spekio/Corrupted Land/1-Forest_Corruption:
+    Normal: 2585
+  BallsTourney2021/TitledGoose/cursedmines/balls1:
+    Normal: 150
+  isafriend/EarlyCore/core2:
+    Normal: 590
+  exudias/4/EnchantedCanyon:
+    Normal: 607
+  DecoContest2021/tobyaaa/rewot_suibom:
+    Normal: 808
+  wizardofwit/fallenresort/fallenresort:
+    Normal: 220
+  marshall_h_rosewood/map/1:
+    Normal: 1120
+  marshall_h_rosewood/map/2:
+    Normal: 1952
+  PufferDev/Golden_Caverns/Golden_Caverns:
+    Normal: 690
+  GameJamContest2021/ABuffZucchini/HowToMakeAMap:
+    Normal: 670
+  iidk/ijustdashed:
+    Normal: 317
+  Into The Jungle/ch0:
+    Normal: 245
+  Into The Jungle/ch1:
+    Normal: 572
+  Into The Jungle/ch2:
+    Normal: 517
+  Into The Jungle/ch3:
+    Normal: 964
+  Guestunderscore/SeededBerryMap/SeededBerryMap:
+    Normal: 345
+  smoothee/mauve/mauve:
+    Normal: 14180
+  SpringCollab2020/0-Lobbies/1-Beginner:
+    Normal: 224
+  SpringCollab2020/0-Gyms/1-Beginner:
+    Normal: 87
+  SpringCollab2020/0-Lobbies/3-Advanced:
+    Normal: 29
+  SpringCollab2020/1-Beginner/Abby:
+    Normal: 286
+  SpringCollab2020/0-Lobbies/0-Prologue:
+    Normal: 232
+  SpringCollab2020/1-Beginner/Lichtbaulb:
+    Normal: 1748
+  SpringCollab2020/1-Beginner/CANADIAN:
+    Normal: 827
+  bitsbolts/demo:
+    Normal: 137
+  Mors/yurt7x/Mors:
+    Normal: 248
+  SpringCollab2020/1-Beginner/Cat_in_Box_01:
+    Normal: 372
+  SpringCollab2020/0-Lobbies/2-Intermediate:
+    Normal: 158
+  SpringCollab2020/0-Gyms/2-Intermediate:
+    Normal: 106
+  SpringCollab2020/2-Intermediate/Noax:
+    Normal: 134
+  SpringCollab2020/0-Lobbies/5-Grandmaster:
+    Normal: 160
+  SpringCollab2020/0-Gyms/5-Grandmaster:
+    Normal: 351
+  SpringCollab2020/5-Grandmaster/Hydro0:
+    Normal: 40
+  SpringCollab2020/5-Grandmaster/Bissy:
+    Normal: 106
+  SpringCollab2020/5-Grandmaster/iamdadbod:
+    Normal: 56
+  SpringCollab2020/5-Grandmaster/fishtank_overflow:
+    Normal: 19
+  SpringCollab2020/0-Gyms/3-Advanced:
+    Normal: 7
+  SpringCollab2020/2-Intermediate/ProXas:
+    Normal: 246
+  SpringCollab2020/2-Intermediate/Oppen_Heimer:
+    Normal: 1070
+  SpringCollab2020/2-Intermediate/Rocketguy2:
+    Normal: 268
+  Into The Jungle/ch4:
+    Normal: 853
+  Into The Jungle/ch5:
+    Normal: 1115
+  jadeturtle/iris/Iris:
+    Normal: 849
+  powerav/MadelineTouchesSomeGrass/grass:
+    Normal: 769
+  1up/O-Prologue:
+    Normal: 84
+  1up/pathofhope:
+    Normal: 498
+  1up/Q-AquaShrine:
+    Normal: 1635
+  1up_S/PoHSecret:
+    Normal: 560
+  Phobos/NewLands/9-Farewell:
+    Normal: 734
+  WizardOfWit/PartOfMe/1:
+    Normal: 567
+  WizardOfWit/PartOfMe/2:
+    Normal: 619
+  WizardOfWit/PartOfMe/3:
+    Normal: 5
+  flowerhouse/quickieworld/1_theojam:
+    Normal: 82
+  flowerhouse/QM2/0_QM2Welcome:
+    Normal: 2
+  flowerhouse/QM2/1_TerminalVelocity:
+    Normal: 28
+    BSide: 126
+    CSide: 57
+  flowerhouse/QM2/2_GlitchcatLake:
+    Normal: 277
+    BSide: 118
+    CSide: 132
+  flowerhouse/QM2/3_HotPotato:
+    Normal: 201
+    BSide: 63
+  flowerhouse/QM2/4_TakeFive:
+    Normal: 212
+    BSide: 132
+  flowerhouse/QM2/5_SawrfingCastle:
+    Normal: 303
+    BSide: 175
+  flowerhouse/QM2/6_Credits:
+    Normal: 234
+  AlmostVanilla/ABuffZucchini/AlmostVanilla:
+    Normal: 193
+  coffe/Shade World/ShadeWorld:
+    Normal: 1924
+  Nibblz/scatter/scattered dream:
+    Normal: 1528
+  everyone/parrotCongrats/parrotCongrats:
+    Normal: 110
+  Crylone/farshore/farshore:
+    Normal: 1003
+  BreezeContest2024/0-Lobbies/0-Prologue:
+    Normal: 44
+  BreezeContest2024/0-Lobbies/1-Submissions:
+    Normal: 420
+  BreezeContest2024/1-Submissions/mrglasses:
+    Normal: 1052
+  BreezeContest2024/1-Submissions/Loasno:
+    Normal: 563
+  BreezeContest2024/1-Submissions/Astermoonlite:
+    Normal: 234
+  BreezeContest2024/1-Submissions/Nyan:
+    Normal: 172
+  BreezeContest2024/1-Submissions/tobyaaa:
+    Normal: 648
+  BreezeContest2024/1-Submissions/OllieLikesBagels:
+    Normal: 203
+  BreezeContest2024/1-Submissions/Fraz:
+    Normal: 118
+  BreezeContest2024/1-Submissions/CoolBread:
+    Normal: 529
+  BreezeContest2024/1-Submissions/SereKabii:
+    Normal: 420
+  BreezeContest2024/1-Submissions/gamesword107:
+    Normal: 73
+  BreezeContest2024/1-Submissions/Crispybag:
+    Normal: 45
+  BreezeContest2024/1-Submissions/tart:
+    Normal: 130
+  BreezeContest2024/1-Submissions/Puggyplayz:
+    Normal: 377
+  BreezeContest2024/1-Submissions/furret:
+    Normal: 134
+  BreezeContest2024/1-Submissions/panpour:
+    Normal: 105
+  BreezeContest2024/1-Submissions/andytampan:
+    Normal: 116
+  BreezeContest2024/1-Submissions/goose:
+    Normal: 385
+  BreezeContest2024/1-Submissions/jpyx258:
+    Normal: 218
+BestJumpCountPerLevel:
+  GlowWoomii/CandyCane/GlowWoomiiCandyCane:
+    Normal: 29
+  AvDay/Ceph/AvDay:
+    Normal: 45
+  celesterearranged/3a:
+    Normal: 479
+  celesterearranged/6b:
+    Normal: 78
+  BeefyUncleTorre/map/1:
+    Normal: 1412
+  BeefyUncleTorre/map/2:
+    Normal: 133
+  BeefyUncleTorre/map/3:
+    Normal: 279
+  BeefyUncleTorre/map/4:
+    Normal: 220
+  BeefyUncleTorre/map/5:
+    Normal: 216
+  BeefyUncleTorre/map/6:
+    Normal: 81
+    BSide: 190
+  Celeste/1-ForsakenCity:
+    Normal: 94
+  TheCelesteTracker_Mod/CelesteTrackerTestMap:
+    Normal: 5
+  BeginnerCollab/1-MainLobby/01_SurrealRavine:
+    Normal: 97
+  Celeste/2-OldSite:
+    Normal: 183
+    CSide: 17
+  Celeste/7-Summit:
+    CSide: 21
+    Normal: 386
+    BSide: 215
+  Celeste/4-GoldenRidge:
+    BSide: 132
+  Celeste/8-Epilogue:
+    Normal: 2
+  theloop/hennyburgr/theloop:
+    Normal: 436
+  StrawberryJam2021/0-Lobbies/0-Prologue:
+    Normal: 50
+  StrawberryJam2021/1-Beginner/skeleton:
+    Normal: 101
+  StrawberryJam2021/1-Beginner/hyperlife:
+    Normal: 125
+  StrawberryJam2021/1-Beginner/CoupCritik:
+    Normal: 476
+  StrawberryJam2021/1-Beginner/Flagpole1up:
+    Normal: 207
+  StrawberryJam2021/1-Beginner/Quinnigan:
+    Normal: 25
+  StrawberryJam2021/1-Beginner/HankyMueller:
+    Normal: 443
+  StrawberryJam2021/1-Beginner/Bing_Over_Google:
+    Normal: 50
+  StrawberryJam2021/1-Beginner/cellularAutomaton:
+    Normal: 70
+  StrawberryJam2021/1-Beginner/snas:
+    Normal: 75
+  StrawberryJam2021/1-Beginner/Eclipse:
+    Normal: 79
+  StrawberryJam2021/1-Beginner/joltik:
+    Normal: 154
+  StrawberryJam2021/1-Beginner/frozenflygone:
+    Normal: 146
+  StrawberryJam2021/1-Beginner/NotYourBadeline:
+    Normal: 30
+  StrawberryJam2021/1-Beginner/Circumplex:
+    Normal: 68
+  StrawberryJam2021/1-Beginner/mosscairn:
+    Normal: 348
+  StrawberryJam2021/1-Beginner/voliver9:
+    Normal: 46
+  StrawberryJam2021/1-Beginner/Ceph:
+    Normal: 131
+  StrawberryJam2021/1-Beginner/Jadeturtle:
+    Normal: 83
+  StrawberryJam2021/1-Beginner/asteriskblue:
+    Normal: 85
+  StrawberryJam2021/1-Beginner/Owen-Shirrell:
+    Normal: 90
+  StrawberryJam2021/1-Beginner/ZZ-HeartSide:
+    Normal: 593
+  StrawberryJam2021/0-Lobbies/1-Beginner:
+    Normal: 0
+  StrawberryJam2021/2-Intermediate/Liero:
+    Normal: 19
+  StrawberryJam2021/2-Intermediate/Dooshii:
+    Normal: 130
+  StrawberryJam2021/2-Intermediate/Luma:
+    Normal: 125
+  StrawberryJam2021/2-Intermediate/Arphimigon:
+    Normal: 85
+  StrawberryJam2021/2-Intermediate/Emik:
+    Normal: 47
+  StrawberryJam2021/2-Intermediate/LegS:
+    Normal: 56
+  StrawberryJam2021/2-Intermediate/GlowWoomii:
+    Normal: 109
+  StrawberryJam2021/2-Intermediate/Rocketguy2:
+    Normal: 65
+  StrawberryJam2021/2-Intermediate/Ice:
+    Normal: 292
+  StrawberryJam2021/2-Intermediate/Evilleafy:
+    Normal: 117
+  StrawberryJam2021/2-Intermediate/Ezel:
+    Normal: 440
+  StrawberryJam2021/2-Intermediate/bryse0n:
+    Normal: 90
+  StrawberryJam2021/2-Intermediate/thebreadstick1:
+    Normal: 214
+  StrawberryJam2021/2-Intermediate/marlin:
+    Normal: 186
+  StrawberryJam2021/2-Intermediate/SpoopySoup:
+    Normal: 57
+  StrawberryJam2021/2-Intermediate/Jems:
+    Normal: 140
+  StrawberryJam2021/2-Intermediate/pixelator:
+    Normal: 88
+  StrawberryJam2021/2-Intermediate/ZZ-HeartSide:
+    Normal: 400
+  StrawberryJam2021/0-Lobbies/2-Intermediate:
+    Normal: 50
+  StrawberryJam2021/3-Advanced/Worldwaker2:
+    Normal: 325
+  StrawberryJam2021/3-Advanced/Goldian:
+    Normal: 80
+  Kever2025/Crispybag/Kever2025:
+    Normal: 282
+  StrawberryJam2021/3-Advanced/Tortoise:
+    Normal: 156
+  StrawberryJam2021/3-Advanced/hennyburgr:
+    Normal: 49
+  DeathKontrol/UltraSkool:
+    Normal: 62
+  Celeste/5-MirrorTemple:
+    Normal: 323
+    BSide: 122
+  Celeste/6-Reflection:
+    Normal: 330
+    BSide: 104
+  Deskilln/map/Pico-8_remake:
+    Normal: 224
+  monikadsidespack/0/0-Prologue:
+    Normal: 50
+  monikadsidespack/1/0-PrologueWithDash:
+    Normal: 44
+  BeginnerCollab/1-MainLobby/10_Scale:
+    Normal: 964
+  BeginnerCollab/1-MainLobby/08_InfernalChaos:
+    Normal: 49
+  BeginnerCollab/1-MainLobby/15_CrystallizedSynth:
+    Normal: 42
+  BeginnerCollab/1-MainLobby/16_StardustAndBubblegum:
+    Normal: 160
+  BeginnerCollab/1-MainLobby/09_ForestOfHopes:
+    Normal: 49
+  BeginnerCollab/1-MainLobby/11_IllusionTower:
+    Normal: 75
+  celesterearranged/8b:
+    Normal: 110
+  Alice2O3_CN/S1:
+    Normal: 300
+  windtercollab/oknano:
+    Normal: 24
+  CloudyCliffs/ABuffZucchini/CloudyCliffs:
+    Normal: 69
+  Geles/1co:
+    Normal: 10
+  Geles/2co:
+    Normal: 17
+  Geles/3co:
+    Normal: 13
+  Geles/4co:
+    Normal: 7
+  Geles/5co:
+    Normal: 5
+  Geles/6co:
+    Normal: 12
+  Geles/7co:
+    Normal: 8
+  Geles/8co:
+    Normal: 6
+  Spekio/Corrupted Land/1-Forest_Corruption:
+    Normal: 179
+  BallsTourney2021/TitledGoose/cursedmines/balls1:
+    Normal: 22
+  isafriend/EarlyCore/core2:
+    Normal: 237
+  DecoContest2021/tobyaaa/rewot_suibom:
+    Normal: 94
+  wizardofwit/fallenresort/fallenresort:
+    Normal: 16
+  marshall_h_rosewood/map/1:
+    Normal: 144
+  marshall_h_rosewood/map/2:
+    Normal: 106
+  PufferDev/Golden_Caverns/Golden_Caverns:
+    Normal: 296
+  GameJamContest2021/ABuffZucchini/HowToMakeAMap:
+    Normal: 175
+  iidk/ijustdashed:
+    Normal: 25
+  Into The Jungle/ch0:
+    Normal: 233
+  Into The Jungle/ch1:
+    Normal: 391
+  Into The Jungle/ch2:
+    Normal: 353
+  Celeste/9-Core:
+    CSide: 40
+    BSide: 135
+    Normal: 300
+  SpringCollab2020/1-Beginner/Abby:
+    Normal: 11
+  SpringCollab2020/0-Lobbies/0-Prologue:
+    Normal: 133
+  SpringCollab2020/1-Beginner/Lichtbaulb:
+    Normal: 125
+  SpringCollab2020/1-Beginner/CANADIAN:
+    Normal: 56
+  JauntyJune/ricky06/ricky06:
+    Normal: 0
+  Mors/yurt7x/Mors:
+    Normal: 37
+  SpringCollab2020/1-Beginner/Cat_in_Box_01:
+    Normal: 61
+  SpringCollab2020/2-Intermediate/Noax:
+    Normal: 30
+  SpringCollab2020/2-Intermediate/ProXas:
+    Normal: 134
+  SpringCollab2020/2-Intermediate/Oppen_Heimer:
+    Normal: 617
+  Into The Jungle/ch3:
+    Normal: 487
+  Into The Jungle/ch4:
+    Normal: 531
+  jadeturtle/iris/Iris:
+    Normal: 510
+  powerav/MadelineTouchesSomeGrass/grass:
+    Normal: 149
+  1up/O-Prologue:
+    Normal: 84
+  1up/pathofhope:
+    Normal: 233
+  1up/Q-AquaShrine:
+    Normal: 593
+  1up_S/PoHSecret:
+    Normal: 78
+  Phobos/NewLands/9-Farewell:
+    Normal: 387
+  WizardOfWit/PartOfMe/1:
+    Normal: 451
+  WizardOfWit/PartOfMe/2:
+    Normal: 381
+  WizardOfWit/PartOfMe/3:
+    Normal: 1
+  flowerhouse/quickieworld/1_theojam:
+    Normal: 24
+  flowerhouse/QM2/0_QM2Welcome:
+    Normal: 2
+  flowerhouse/QM2/1_TerminalVelocity:
+    Normal: 6
+    BSide: 43
+    CSide: 16
+  flowerhouse/QM2/2_GlitchcatLake:
+    Normal: 21
+    BSide: 86
+  flowerhouse/QM2/3_HotPotato:
+    Normal: 42
+    BSide: 6
+  flowerhouse/QM2/4_TakeFive:
+    Normal: 48
+    BSide: 32
+  flowerhouse/QM2/5_SawrfingCastle:
+    Normal: 33
+    BSide: 56
+  flowerhouse/QM2/6_Credits:
+    Normal: 67
+  AlmostVanilla/ABuffZucchini/AlmostVanilla:
+    Normal: 72
+  coffe/Shade World/ShadeWorld:
+    Normal: 167
+  BreezeContest2024/0-Lobbies/0-Prologue:
+    Normal: 44
+  BreezeContest2024/1-Submissions/Loasno:
+    Normal: 239
+  BreezeContest2024/1-Submissions/Astermoonlite:
+    Normal: 103
+  BreezeContest2024/1-Submissions/tobyaaa:
+    Normal: 155
+  BreezeContest2024/1-Submissions/OllieLikesBagels:
+    Normal: 112
+  BreezeContest2024/1-Submissions/Fraz:
+    Normal: 96
+  BreezeContest2024/1-Submissions/CoolBread:
+    Normal: 246
+  BreezeContest2024/1-Submissions/gamesword107:
+    Normal: 51
+  BreezeContest2024/1-Submissions/Crispybag:
+    Normal: 33
+  BreezeContest2024/1-Submissions/tart:
+    Normal: 63
+  BreezeContest2024/1-Submissions/Puggyplayz:
+    Normal: 141
+  BreezeContest2024/1-Submissions/furret:
+    Normal: 76
+  BreezeContest2024/1-Submissions/panpour:
+    Normal: 42
+  BreezeContest2024/1-Submissions/andytampan:
+    Normal: 82
+  BreezeContest2024/1-Submissions/goose:
+    Normal: 340
+  BreezeContest2024/1-Submissions/jpyx258:
+    Normal: 173
+OldDashCount: 32176
+OldJumpCount: 13298

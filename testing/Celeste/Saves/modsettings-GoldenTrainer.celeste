@@ -1,0 +1,19 @@
+ActivateMod: false
+NumberOfCompletions: 5
+ActivateButton:
+  Buttons: []
+  Keys:
+  - M
+  MouseButtons: []
+DecrementButton:
+  Buttons: []
+  Keys:
+  - RightControl
+  MouseButtons: []
+IncrementButton:
+  Buttons: []
+  Keys:
+  - RightShift
+  MouseButtons: []
+RespawnOnRoomOnGoldenBerryDeath: false
+SkipCutscenesAutomatically: false

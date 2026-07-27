@@ -1,0 +1,868 @@
+fluff:
+  ears1:
+  - &o10
+    B: 66
+    G: 147
+    R: 179
+    A: 255
+    PackedValue: 4282553267
+  - &o11
+    B: 71
+    G: 173
+    R: 228
+    A: 255
+    PackedValue: 4282887652
+  - &o12
+    B: 102
+    G: 201
+    R: 156
+    A: 255
+    PackedValue: 4284926364
+  - &o13
+    B: 201
+    G: 167
+    R: 102
+    A: 255
+    PackedValue: 4291405670
+  - &o14
+    B: 82
+    G: 82
+    R: 255
+    A: 255
+    PackedValue: 4283585279
+  ears2:
+  - &o0
+    B: 72
+    G: 19
+    R: 63
+    A: 255
+    PackedValue: 4282913599
+  - *o0
+  - *o0
+  - &o8
+    B: 60
+    G: 186
+    R: 253
+    A: 255
+    PackedValue: 4282170109
+  - &o9
+    B: 60
+    G: 173
+    R: 253
+    A: 255
+    PackedValue: 4282166781
+  ears3:
+  - &o1
+    B: 44
+    G: 98
+    R: 120
+    A: 255
+    PackedValue: 4281098872
+  - &o2
+    B: 36
+    G: 97
+    R: 177
+    A: 255
+    PackedValue: 4280574385
+  - &o15
+    B: 52
+    G: 133
+    R: 78
+    A: 255
+    PackedValue: 4281632078
+  - &o3
+    B: 152
+    G: 73
+    R: 49
+    A: 255
+    PackedValue: 4288170289
+  - &o16
+    B: 39
+    G: 39
+    R: 150
+    A: 255
+    PackedValue: 4280756118
+  hair:
+  - *o1
+  - *o2
+  - &o21
+    B: 35
+    G: 94
+    R: 45
+    A: 255
+    PackedValue: 4280507949
+  - *o3
+  - B: 47
+    G: 36
+    R: 140
+    A: 255
+    PackedValue: 4281279628
+  fluff1:
+  - &o4
+    B: 228
+    G: 219
+    R: 218
+    A: 255
+    PackedValue: 4293188570
+  - *o4
+  - *o4
+  - *o4
+  - *o4
+  fluff2:
+  - &o5
+    B: 167
+    G: 148
+    R: 146
+    A: 255
+    PackedValue: 4289172626
+  - *o5
+  - *o5
+  - *o5
+  - *o5
+  tail1:
+  - *o4
+  - *o4
+  - *o4
+  - *o4
+  - *o4
+  tail2:
+  - *o5
+  - *o5
+  - *o5
+  - *o5
+  - *o5
+  tail3:
+  - &o6
+    B: 150
+    G: 129
+    R: 127
+    A: 255
+    PackedValue: 4288053631
+  - *o6
+  - *o6
+  - *o6
+  - *o6
+  eyes:
+  - &o7
+    B: 48
+    G: 10
+    R: 42
+    A: 255
+    PackedValue: 4281338410
+  - *o7
+  - B: 72
+    G: 13
+    R: 36
+    A: 255
+    PackedValue: 4282912036
+  - *o8
+  - *o9
+  face1:
+  - *o10
+  - *o11
+  - *o12
+  - *o13
+  - *o14
+  face2:
+  - *o1
+  - *o2
+  - *o15
+  - *o3
+  - *o16
+  frontPaw1:
+  - *o10
+  - *o11
+  - *o12
+  - *o13
+  - *o14
+  frontPaw2:
+  - &o17
+    B: 48
+    G: 48
+    R: 67
+    A: 255
+    PackedValue: 4281348163
+  - &o18
+    B: 9
+    G: 42
+    R: 67
+    A: 255
+    PackedValue: 4278790723
+  - *o7
+  - &o19
+    B: 32
+    G: 23
+    R: 5
+    A: 255
+    PackedValue: 4280293125
+  - &o20
+    B: 10
+    G: 10
+    R: 84
+    A: 255
+    PackedValue: 4278848084
+  backPaw1:
+  - *o10
+  - *o11
+  - *o12
+  - *o13
+  - *o14
+  backPaw2:
+  - *o17
+  - *o18
+  - *o7
+  - *o19
+  - *o20
+  frontPaw3:
+  - &o22
+    B: 43
+    G: 95
+    R: 115
+    A: 255
+    PackedValue: 4281032563
+  - &o23
+    B: 52
+    G: 87
+    R: 130
+    A: 255
+    PackedValue: 4281620354
+  - *o21
+  - &o24
+    B: 150
+    G: 99
+    R: 60
+    A: 255
+    PackedValue: 4288045884
+  - &o25
+    B: 63
+    G: 63
+    R: 158
+    A: 255
+    PackedValue: 4282335134
+  frontPaw4:
+  - &o26
+    B: 38
+    G: 49
+    R: 54
+    A: 255
+    PackedValue: 4280693046
+  - &o27
+    B: 7
+    G: 34
+    R: 54
+    A: 255
+    PackedValue: 4278657590
+  - &o28
+    B: 4
+    G: 23
+    R: 15
+    A: 255
+    PackedValue: 4278458127
+  - *o19
+  - &o29
+    B: 17
+    G: 17
+    R: 70
+    A: 255
+    PackedValue: 4279308614
+  backPaw3:
+  - *o22
+  - *o23
+  - *o21
+  - *o24
+  - *o25
+  backPaw4:
+  - *o26
+  - *o27
+  - *o28
+  - *o19
+  - *o29
+  body1:
+  - *o10
+  - *o11
+  - *o12
+  - *o13
+  - *o14
+  body2:
+  - *o1
+  - *o2
+  - *o15
+  - *o3
+  - *o16
+  tail4:
+  - *o1
+  - *o2
+  - *o15
+  - *o3
+  - *o16
+  tail5:
+  - B: 30
+    G: 67
+    R: 82
+    A: 255
+    PackedValue: 4280173394
+  - B: 16
+    G: 58
+    R: 112
+    A: 255
+    PackedValue: 4279253616
+  - B: 39
+    G: 108
+    R: 50
+    A: 255
+    PackedValue: 4280773682
+  - B: 107
+    G: 47
+    R: 29
+    A: 255
+    PackedValue: 4285214493
+  - B: 16
+    G: 16
+    R: 84
+    A: 255
+    PackedValue: 4279242836
+  body3:
+  - B: 38
+    G: 84
+    R: 102
+    A: 255
+    PackedValue: 4280702054
+  - B: 26
+    G: 88
+    R: 130
+    A: 255
+    PackedValue: 4279916674
+  - *o21
+  - B: 105
+    G: 45
+    R: 21
+    A: 255
+    PackedValue: 4285082901
+  - B: 25
+    G: 25
+    R: 125
+    A: 255
+    PackedValue: 4279835005
+  body4:
+  - B: 42
+    G: 42
+    R: 59
+    A: 255
+    PackedValue: 4280953403
+  - B: 17
+    G: 62
+    R: 92
+    A: 255
+    PackedValue: 4279320156
+  - B: 23
+    G: 61
+    R: 29
+    A: 255
+    PackedValue: 4279713053
+  - B: 89
+    G: 48
+    R: 17
+    A: 255
+    PackedValue: 4284035089
+  - B: 46
+    G: 46
+    R: 110
+    A: 255
+    PackedValue: 4281216622
+  dash:
+  - B: 134
+    G: 184
+    R: 227
+    A: 255
+    PackedValue: 4287019235
+  - B: 89
+    G: 225
+    R: 255
+    A: 255
+    PackedValue: 4284080639
+  - B: 99
+    G: 255
+    R: 151
+    A: 255
+    PackedValue: 4284743575
+  - B: 255
+    G: 237
+    R: 99
+    A: 255
+    PackedValue: 4294962531
+  - B: 51
+    G: 51
+    R: 255
+    A: 255
+    PackedValue: 4281545727
+  outline:
+  - &o30
+    B: 0
+    G: 0
+    R: 0
+    A: 255
+    PackedValue: 4278190080
+  - *o30
+  - *o30
+  - *o30
+  - *o30
+  mouth:
+  - *o0
+  - *o0
+  - *o0
+  - B: 84
+    G: 56
+    R: 32
+    A: 255
+    PackedValue: 4283709472
+  - &o65
+    B: 35
+    G: 32
+    R: 86
+    A: 255
+    PackedValue: 4280492118
+petFluff:
+  ears1:
+  - &o35
+    B: 122
+    G: 130
+    R: 122
+    A: 255
+    PackedValue: 4286218874
+  - &o36
+    B: 107
+    G: 167
+    R: 103
+    A: 255
+    PackedValue: 4285245287
+  - &o37
+    B: 18
+    G: 78
+    R: 147
+    A: 255
+    PackedValue: 4279389843
+  - &o38
+    B: 201
+    G: 132
+    R: 212
+    A: 255
+    PackedValue: 4291396820
+  - &o39
+    B: 39
+    G: 170
+    R: 194
+    A: 255
+    PackedValue: 4280789698
+  ears2:
+  - B: 76
+    G: 75
+    R: 89
+    A: 255
+    PackedValue: 4283190105
+  - &o62
+    B: 66
+    G: 87
+    R: 126
+    A: 255
+    PackedValue: 4282537854
+  - B: 43
+    G: 46
+    R: 82
+    A: 255
+    PackedValue: 4281019986
+  - B: 110
+    G: 66
+    R: 125
+    A: 255
+    PackedValue: 4285416061
+  - B: 58
+    G: 113
+    R: 171
+    A: 255
+    PackedValue: 4282020267
+  ears3:
+  - &o31
+    B: 92
+    G: 102
+    R: 94
+    A: 255
+    PackedValue: 4284245598
+  - &o32
+    B: 67
+    G: 124
+    R: 71
+    A: 255
+    PackedValue: 4282612807
+  - &o33
+    B: 8
+    G: 46
+    R: 106
+    A: 255
+    PackedValue: 4278726250
+  - &o34
+    B: 135
+    G: 81
+    R: 133
+    A: 255
+    PackedValue: 4287058309
+  - B: 35
+    G: 83
+    R: 120
+    A: 255
+    PackedValue: 4280505208
+  hair:
+  - *o31
+  - *o32
+  - *o33
+  - *o34
+  - &o40
+    B: 28
+    G: 109
+    R: 138
+    A: 255
+    PackedValue: 4280053130
+  fluff1:
+  - *o35
+  - *o36
+  - *o37
+  - *o38
+  - *o39
+  fluff2:
+  - *o31
+  - *o32
+  - *o33
+  - *o34
+  - *o40
+  tail1:
+  - *o35
+  - *o36
+  - *o37
+  - *o38
+  - *o39
+  tail2:
+  - *o31
+  - *o32
+  - *o33
+  - *o34
+  - *o40
+  tail3:
+  - &o57
+    B: 46
+    G: 51
+    R: 46
+    A: 255
+    PackedValue: 4281217838
+  - &o58
+    B: 40
+    G: 76
+    R: 35
+    A: 255
+    PackedValue: 4280831011
+  - &o59
+    B: 5
+    G: 30
+    R: 70
+    A: 255
+    PackedValue: 4278525510
+  - &o60
+    B: 64
+    G: 35
+    R: 76
+    A: 255
+    PackedValue: 4282393420
+  - B: 48
+    G: 99
+    R: 140
+    A: 255
+    PackedValue: 4281361292
+  eyes:
+  - &o41
+    B: 47
+    G: 16
+    R: 40
+    A: 255
+    PackedValue: 4281274408
+  - *o41
+  - *o41
+  - *o41
+  - *o41
+  face1:
+  - &o43
+    B: 161
+    G: 177
+    R: 194
+    A: 255
+    PackedValue: 4288786882
+  - &o44
+    B: 96
+    G: 144
+    R: 194
+    A: 255
+    PackedValue: 4284518594
+  - &o45
+    B: 117
+    G: 141
+    R: 217
+    A: 255
+    PackedValue: 4285894105
+  - &o46
+    B: 93
+    G: 147
+    R: 212
+    A: 255
+    PackedValue: 4284322772
+  - &o47
+    B: 113
+    G: 171
+    R: 209
+    A: 255
+    PackedValue: 4285639633
+  face2:
+  - &o54
+    B: 119
+    G: 129
+    R: 143
+    A: 255
+    PackedValue: 4286022031
+  - &o42
+    B: 60
+    G: 92
+    R: 143
+    A: 255
+    PackedValue: 4282145935
+  - *o42
+  - &o55
+    B: 39
+    G: 74
+    R: 115
+    A: 255
+    PackedValue: 4280765043
+  - &o56
+    B: 70
+    G: 101
+    R: 143
+    A: 255
+    PackedValue: 4282803599
+  frontPaw1:
+  - *o43
+  - *o44
+  - *o45
+  - *o46
+  - *o47
+  frontPaw2:
+  - &o48
+    B: 43
+    G: 55
+    R: 74
+    A: 255
+    PackedValue: 4281022282
+  - *o48
+  - &o50
+    B: 35
+    G: 46
+    R: 61
+    A: 255
+    PackedValue: 4280495677
+  - &o49
+    B: 43
+    G: 57
+    R: 74
+    A: 255
+    PackedValue: 4281022794
+  - *o49
+  backPaw1:
+  - *o43
+  - *o44
+  - *o45
+  - *o46
+  - *o47
+  backPaw2:
+  - *o48
+  - *o48
+  - *o50
+  - *o49
+  - *o49
+  frontPaw3:
+  - &o52
+    B: 81
+    G: 95
+    R: 117
+    A: 255
+    PackedValue: 4283522933
+  - &o51
+    B: 46
+    G: 74
+    R: 117
+    A: 255
+    PackedValue: 4281223797
+  - *o51
+  - *o51
+  - &o53
+    B: 65
+    G: 89
+    R: 122
+    A: 255
+    PackedValue: 4282472826
+  frontPaw4:
+  - *o48
+  - *o48
+  - *o50
+  - *o49
+  - *o49
+  backPaw3:
+  - *o52
+  - *o51
+  - *o51
+  - *o51
+  - *o53
+  backPaw4:
+  - *o48
+  - *o48
+  - *o50
+  - *o49
+  - *o49
+  body1:
+  - *o43
+  - *o44
+  - *o45
+  - *o46
+  - *o47
+  body2:
+  - *o54
+  - *o42
+  - *o42
+  - *o55
+  - *o56
+  tail4:
+  - B: 53
+    G: 66
+    R: 54
+    A: 255
+    PackedValue: 4281680438
+  - B: 52
+    G: 101
+    R: 55
+    A: 255
+    PackedValue: 4281623863
+  - B: 8
+    G: 39
+    R: 88
+    A: 255
+    PackedValue: 4278724440
+  - B: 87
+    G: 48
+    R: 99
+    A: 255
+    PackedValue: 4283904099
+  - B: 61
+    G: 94
+    R: 125
+    A: 255
+    PackedValue: 4282211965
+  tail5:
+  - *o57
+  - *o58
+  - *o59
+  - *o60
+  - B: 47
+    G: 77
+    R: 102
+    A: 255
+    PackedValue: 4281290086
+  body3:
+  - B: 71
+    G: 86
+    R: 110
+    A: 255
+    PackedValue: 4282865262
+  - &o61
+    B: 37
+    G: 66
+    R: 112
+    A: 255
+    PackedValue: 4280631920
+  - *o61
+  - *o55
+  - *o62
+  body4:
+  - B: 38
+    G: 51
+    R: 64
+    A: 255
+    PackedValue: 4280693568
+  - &o63
+    B: 12
+    G: 38
+    R: 65
+    A: 255
+    PackedValue: 4278986305
+  - *o59
+  - *o63
+  - B: 43
+    G: 64
+    R: 87
+    A: 255
+    PackedValue: 4281024599
+  dash:
+  - *o35
+  - B: 61
+    G: 179
+    R: 21
+    A: 255
+    PackedValue: 4282233621
+  - B: 61
+    G: 61
+    R: 227
+    A: 255
+    PackedValue: 4282203619
+  - B: 214
+    G: 48
+    R: 255
+    A: 255
+    PackedValue: 4292227327
+  - B: 97
+    G: 216
+    R: 242
+    A: 255
+    PackedValue: 4284602610
+  outline:
+  - &o64
+    B: 3
+    G: 4
+    R: 5
+    A: 255
+    PackedValue: 4278387717
+  - *o64
+  - *o64
+  - *o64
+  - *o64
+  mouth:
+  - *o65
+  - *o65
+  - *o65
+  - *o65
+  - *o65
+palettePath: 
+dashEnabled: true
+portraitMode: 0
+useDirectionalDashSprites: true
+useDemoDashSprite: true
+useWallBounceSprite: 2
+useSuperJumpSprite: 2
+markerMode: 0
+markerType: 0
+InternalOpt: 4
+ExternalOpt: 0
+Selection: 0
+cNetEnable: true
+cNetSyncMode: 0
+eeveeShiny: false
+updated: false
+markerNum: 2
+updatePet: true
+overwritePet: true
+hatDash: 1
+petSelection: 0
+InternalPet: 5
+ExternalPet: 0
+PetState: 1

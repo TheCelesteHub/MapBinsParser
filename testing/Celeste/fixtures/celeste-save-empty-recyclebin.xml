@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.4.0.0</Version>
+  <Name>FreshFile</Name>
+  <Time>1000000</Time>
+  <UnlockedAreas>1</UnlockedAreas>
+  <TotalDeaths>0</TotalDeaths>
+  <TotalStrawberries>0</TotalStrawberries>
+  <TotalGoldenStrawberries>0</TotalGoldenStrawberries>
+  <TotalJumps>0</TotalJumps>
+  <TotalWallJumps>0</TotalWallJumps>
+  <TotalDashes>0</TotalDashes>
+  <Areas />
+  <LevelSets />
+  <LevelSetRecycleBin />
+  <HasModdedSaveData>false</HasModdedSaveData>
+</SaveData>

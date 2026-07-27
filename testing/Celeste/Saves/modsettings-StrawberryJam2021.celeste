@@ -1,0 +1,7 @@
+DisplayDashSequence: false
+TogglePlaybacks:
+  Buttons:
+  - Back
+  Keys:
+  - Tab
+  MouseButtons: []

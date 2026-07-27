@@ -1,0 +1,5 @@
+Enabled: false
+DoNotCheckForLoenn: false
+PlayerSamplingRate: 5
+HoldableSamplingRate: 15
+PlayerSampledWithHoldableIfHolding: true

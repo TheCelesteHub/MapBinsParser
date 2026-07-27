@@ -1,0 +1,26 @@
+Enable: false
+HairColor:
+  UsedColor: &o0
+    B: 0
+    G: 0
+    R: 0
+    A: 0
+    PackedValue: 0
+  NormalColor: *o0
+  TwoDashesColor: *o0
+  BadelineUsedColor: *o0
+  BadelineNormalColor: *o0
+  BadelineTwoDashesColor: *o0
+HairStyle:
+  NodeScaleMultipliers: 
+  StepInFacingPerSegmentMultiplier: 0
+  StepYSinePerSegmentMultiplier: 0
+  StepApproachMultiplier: 0
+HairAccessory:
+  HairOffsets: 
+  Texture: 
+HairAccessoryColor: *o0
+ShirtColor:
+  PrimaryColor: *o0
+  SecondaryColor: *o0
+BlushColor: *o0

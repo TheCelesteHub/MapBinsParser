@@ -1,0 +1,135 @@
+# This is the file used to save mod presets.
+# File generated through the "Manage Installed Mods" screen in Olympus
+
+**Developer Mode (KrsDev)
+TheCelesteTracker_Mod
+DashCountMod.zip
+Foxeline.zip
+SaveFilePortraits.zip
+**Essentials
+TheCelesteTracker
+0.3.10--Hyperline.zip
+2.1.3-StrawberryFriend.zip
+Agent8_Skinmod_Frankie.zip
+Astolfo_SMH_Plus.zip
+Blake_Skinmod.zip
+Cat Binos.zip
+Cateline.zip
+CeLeaste.zip
+CelesteEmojis.zip
+Celestenet Skinmod Bundle.zip
+CelesteNet.Client.zip
+CheeplingsHatPack.zip
+CollabUtils2.zip
+ConsistencyTracker.zip
+DashCountMod.zip
+DeathTracker.zip
+DiscordEmojis.zip
+DownpourOfSlugcats.zip
+Eevee_Skinmod.zip
+Foxeline.zip
+Frieren_SkinOnly.zip
+fuwie_Skinmod.zip
+Hateline.zip
+Iceline_silentriver.zip
+IcelineLoadingAnim.zip
+InfiniteBackups.zip
+Jitio_Skinmod.zip
+KyaruMod.zip
+Link_Skin.zip
+Luz_Skin+.zip
+Mat's Touhou Hats.zip
+Mikii_Skinmod_adenator.zip
+MotionSmoothing.zip
+Neuro-Sama.zip
+Niko_-_Celeste_Skin-Helper.zip
+Niko_TexturePack.zip
+Ori_Skinmod.zip
+ParrotDashSkin.zip
+Procedurline.zip
+Quarzite_Skinmod_Microck.zip
+Ralsei_-_Deltarune_Skin-Helper.zip
+Sarsaparilla.zip
+SaveFilePortraits.zip
+SaveFileTotal.zip
+Shorty's Hats.zip
+SilhouettePlus_Skinmod_kuksa.zip
+SkinModHelper.zip
+SkinModHelperPlus.zip
+SpeedrunTool.zip
+SpooookyAstolfoSkinMod.zip
+Styline.zip
+TF2 Hat Crate.zip
+Touhou-cirno.zip
+uwuKevins.zip
+wheelchair-madeline.zip
+WordWolf_skinmod.zip
+zbs_Crystal.zip
+**CSR - A Side (Current)
+TheCelesteTracker
+0.3.10--Hyperline.zip
+2.1.3-StrawberryFriend.zip
+Agent8_Skinmod_Frankie.zip
+Astolfo_SMH_Plus.zip
+Blake_Skinmod.zip
+Cat Binos.zip
+Cateline.zip
+CeLeaste.zip
+CelesteEmojis.zip
+Celestenet Skinmod Bundle.zip
+CelesteNet.Client.zip
+CheeplingsHatPack.zip
+CollabUtils2.zip
+ConsistencyTracker.zip
+DashCountMod.zip
+DeathTracker.zip
+DiscordEmojis.zip
+DownpourOfSlugcats.zip
+Eevee_Skinmod.zip
+Foxeline.zip
+Frieren_SkinOnly.zip
+fuwie_Skinmod.zip
+Hateline.zip
+Iceline_silentriver.zip
+IcelineLoadingAnim.zip
+InfiniteBackups.zip
+Iris_map.zip
+Jitio_Skinmod.zip
+KyaruMod.zip
+Link_Skin.zip
+Luz_Skin+.zip
+MARS_FGS.zip
+Mat's Touhou Hats.zip
+Mikii_Skinmod_adenator.zip
+MotionSmoothing.zip
+MountKimitanySaga.zip
+Neuro-Sama.zip
+NewLands.zip
+Niko_-_Celeste_Skin-Helper.zip
+Niko_TexturePack.zip
+Ori_Skinmod.zip
+ParrotDashSkin.zip
+PartOfMe.zip
+Procedurline.zip
+Quarzite_Skinmod_Microck.zip
+QuickieMountain.zip
+QuickieMountain2.zip
+Ralsei_-_Deltarune_Skin-Helper.zip
+Sarsaparilla.zip
+SaveFilePortraits.zip
+SaveFileTotal.zip
+Shade World.zip
+Shimmer.zip
+Shorty's Hats.zip
+SilhouettePlus_Skinmod_kuksa.zip
+SkinModHelper.zip
+SkinModHelperPlus.zip
+SpeedrunTool.zip
+SpooookyAstolfoSkinMod.zip
+Styline.zip
+TF2 Hat Crate.zip
+Touhou-cirno.zip
+uwuKevins.zip
+wheelchair-madeline.zip
+WordWolf_skinmod.zip
+zbs_Crystal.zip

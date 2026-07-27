@@ -1,0 +1,32 @@
+PortalControls: Mouse
+Randomizer: Celeste
+SkipCutscenes: false
+PortalShot:
+  Buttons:
+  - B
+  Keys:
+  - Z
+  MouseButtons: []
+PortalColorSwitch:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Tab
+  MouseButtons: []
+SwitchCharacters:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - Tab
+  MouseButtons: []
+StatisticPageChange:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Q
+  MouseButtons: []
+ShowPortalsStatistic: false
+TetrisVisualEffects: true
+DebugStuffs: false
+CurlyBraceDanceBattle_PlayerImitateDash: false
+Radiance_SkipPhase2: false

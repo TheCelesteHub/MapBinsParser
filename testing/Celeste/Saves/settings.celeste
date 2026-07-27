@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.4.0.0</Version>
+  <DefaultFileName />
+  <Fullscreen>true</Fullscreen>
+  <WindowScale>5</WindowScale>
+  <ViewportPadding>0</ViewportPadding>
+  <VSync>true</VSync>
+  <DisableFlashes>false</DisableFlashes>
+  <ScreenShake>On</ScreenShake>
+  <Rumble>true</Rumble>
+  <GrabMode>Hold</GrabMode>
+  <CrouchDashMode>Press</CrouchDashMode>
+  <MusicVolume>8</MusicVolume>
+  <SFXVolume>8</SFXVolume>
+  <SpeedrunClock>File</SpeedrunClock>
+  <LastSaveFile>0</LastSaveFile>
+  <Language>english</Language>
+  <Pico8OnMainMenu>true</Pico8OnMainMenu>
+  <SetViewportOnce>false</SetViewportOnce>
+  <VariantsUnlocked>true</VariantsUnlocked>
+  <Left>
+    <Keyboard>
+      <Keys>A</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickLeft</Buttons>
+    </Controller>
+  </Left>
+  <Right>
+    <Keyboard>
+      <Keys>D</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickRight</Buttons>
+    </Controller>
+  </Right>
+  <Down>
+    <Keyboard>
+      <Keys>S</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickDown</Buttons>
+    </Controller>
+  </Down>
+  <Up>
+    <Keyboard>
+      <Keys>W</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickUp</Buttons>
+    </Controller>
+  </Up>
+  <MenuLeft>
+    <Keyboard>
+      <Keys>A</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickLeft</Buttons>
+    </Controller>
+  </MenuLeft>
+  <MenuRight>
+    <Keyboard>
+      <Keys>D</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickRight</Buttons>
+    </Controller>
+  </MenuRight>
+  <MenuDown>
+    <Keyboard>
+      <Keys>S</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickDown</Buttons>
+    </Controller>
+  </MenuDown>
+  <MenuUp>
+    <Keyboard>
+      <Keys>W</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftThumbstickUp</Buttons>
+    </Controller>
+  </MenuUp>
+  <Grab>
+    <Keyboard>
+      <Keys>L</Keys>
+      <Keys>LeftShift</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>LeftTrigger</Buttons>
+      <Buttons>LeftShoulder</Buttons>
+    </Controller>
+  </Grab>
+  <Jump>
+    <Keyboard>
+      <Keys>Space</Keys>
+      <Keys>J</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>A</Buttons>
+      <Buttons>X</Buttons>
+      <Buttons>Y</Buttons>
+    </Controller>
+  </Jump>
+  <Dash>
+    <Keyboard>
+      <Keys>K</Keys>
+      <Keys>LeftControl</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>RightTrigger</Buttons>
+    </Controller>
+  </Dash>
+  <Talk>
+    <Keyboard>
+      <Keys>U</Keys>
+      <Keys>E</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>B</Buttons>
+    </Controller>
+  </Talk>
+  <Pause>
+    <Keyboard>
+      <Keys>Enter</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>Start</Buttons>
+    </Controller>
+  </Pause>
+  <Confirm>
+    <Keyboard>
+      <Keys>J</Keys>
+      <Keys>E</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>A</Buttons>
+      <Buttons>X</Buttons>
+    </Controller>
+  </Confirm>
+  <Cancel>
+    <Keyboard>
+      <Keys>K</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>B</Buttons>
+    </Controller>
+  </Cancel>
+  <Journal>
+    <Keyboard>
+      <Keys>Tab</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>RightShoulder</Buttons>
+    </Controller>
+  </Journal>
+  <QuickRestart>
+    <Keyboard>
+      <Keys>R</Keys>
+    </Keyboard>
+    <Controller />
+  </QuickRestart>
+  <DemoDash>
+    <Keyboard>
+      <Keys>OemSemicolon</Keys>
+    </Keyboard>
+    <Controller>
+      <Buttons>RightShoulder</Buttons>
+    </Controller>
+  </DemoDash>
+  <RightMoveOnly>
+    <Keyboard />
+    <Controller />
+  </RightMoveOnly>
+  <LeftMoveOnly>
+    <Keyboard />
+    <Controller />
+  </LeftMoveOnly>
+  <UpMoveOnly>
+    <Keyboard />
+    <Controller />
+  </UpMoveOnly>
+  <DownMoveOnly>
+    <Keyboard />
+    <Controller>
+      <Buttons>B</Buttons>
+    </Controller>
+  </DownMoveOnly>
+  <RightDashOnly>
+    <Keyboard />
+    <Controller />
+  </RightDashOnly>
+  <LeftDashOnly>
+    <Keyboard />
+    <Controller />
+  </LeftDashOnly>
+  <UpDashOnly>
+    <Keyboard />
+    <Controller />
+  </UpDashOnly>
+  <DownDashOnly>
+    <Keyboard />
+    <Controller />
+  </DownDashOnly>
+  <LaunchWithFMODLiveUpdate>false</LaunchWithFMODLiveUpdate>
+  <LaunchInDebugMode>true</LaunchInDebugMode>
+  <!--
+		LaunchWithFMODLiveUpdate:
+			This Enables FMOD Studio Live Update so you can interact with the sounds in real time.
+			Note this will also require access to the private network.
+		
+		LaunchInDebugMode:
+			Debug Mode can destroy save files, crash the game, and do other unwanted behaviour.
+			It is not documented. Use at own risk.
+	-->
+</Settings>

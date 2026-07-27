@@ -1,0 +1,9 @@
+defaultSlicerSettings: 
+respawnFlagMonitor: {}
+mutedSoundSources: []
+playerCursed: false
+ignoreDash: false
+killPlayerWhenSafe: false
+NoFastfall: false
+DisableEntityPreservation: false
+KuwaharaBlur: false

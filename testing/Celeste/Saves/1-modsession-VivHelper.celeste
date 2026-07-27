@@ -1,0 +1,147 @@
+dashPowerupManager: 
+AlwaysBreakDashBlockDash: 0
+Blackout: false
+CollectedCoins: {}
+OverrideTempleFallX: 
+StallScreenWipe: false
+FFDistance: 5
+FPDistance: 30
+MakeClose: false
+demodashDisabler: Off
+OrangeSpeed: 220
+customDashState: 
+CurrentBooster: 
+savedCBDController: 
+savedHBController: 
+HasSpeedPower: false
+CanAddSpeed: false
+StoredSpeed:
+  X: 0
+  Y: 0
+Facing: Right
+dashCount: 0
+staminaCount: 110
+ShowIndicator: true
+PreviousLevel: 2
+lockCamera: 0
+LevelInfoCache:
+  1:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  10:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  10a:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  10z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  10zb:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  11:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  11z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  12:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  12a:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  12z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  2:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  3:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  3b:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  4:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  5:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  5a:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  5z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6a:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6b:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6c:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  6zb:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  7:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  7a:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  7z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  7zb:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  8:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  8b:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  8z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  8zb:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  9:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  9b:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  9c:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  9z:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  end:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  s0:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  s1:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+DebrisLimiter: 0
+TeleportState: false
+PausedRetryCheck: false
+EnableRefillCancelSpaceIndicator: true
+DisableMapViewArbitrarySpawn: false
+DisableNeutralsOnHoldable: false

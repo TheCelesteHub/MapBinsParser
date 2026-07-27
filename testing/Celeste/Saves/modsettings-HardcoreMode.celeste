@@ -1,0 +1,7 @@
+HardcoreIcon: 1
+IconPosition: BottomLeft
+QuickHardcoreToggle:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+AlwaysSpawnGoldens: true

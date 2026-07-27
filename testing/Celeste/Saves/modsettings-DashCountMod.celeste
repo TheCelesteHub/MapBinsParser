@@ -1,0 +1,8 @@
+DashCountInChapterPanel: Total
+JumpCountInChapterPanel: Total
+DashCountOnProgressPage: Total
+DashCountInGame: None
+JumpCountInGame: None
+CountDreamDashRedirectsAsDashes: true
+DoNotResetDashCountOnDeath: false
+DoNotResetJumpCountOnDeath: false

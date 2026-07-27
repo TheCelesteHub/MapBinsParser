@@ -1,0 +1,6 @@
+ActivateGhostMode:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - A
+  MouseButtons: []

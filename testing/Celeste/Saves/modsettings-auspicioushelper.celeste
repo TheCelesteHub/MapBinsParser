@@ -1,0 +1,11 @@
+DebugConsoleMode: None
+Evil: false
+CrashOnFail: false
+HideHelperMaps: false
+userHideRules:
+- auspicioushelper/t(es)?
+- ''
+HideRules:
+  Dummy: false
+ExtraMappingUtils:
+  KillSessiondonotload: false

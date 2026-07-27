@@ -1,0 +1,9 @@
+CourseOneBestScore: 99
+CourseTwoBestScore: 99
+CourseThreeBestScore: 99
+ballColour:
+  B: 255
+  G: 255
+  R: 255
+  A: 255
+  PackedValue: 4294967295

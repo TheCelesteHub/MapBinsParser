@@ -1,0 +1,10 @@
+SmallMeterEnabled: false
+LargeMeterEnabled: false
+SmallMeterPosition: Above
+LargeMeterPosition: TopRight
+NormalStaminaColor: 00ff00
+LowStaminaColor: ff0000
+FillColor: 000000
+LineColor: 3c3c3c
+ShowMoreThanMaxStamina: true
+HideWhilePaused: true

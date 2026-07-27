@@ -1,0 +1,4 @@
+CanActivateGhostMode: false
+CurrentGhostModeConfiguration:
+  PreventRoomTransitions: false
+  ReplaceGrab: false

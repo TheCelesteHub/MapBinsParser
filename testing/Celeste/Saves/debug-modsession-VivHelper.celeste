@@ -1,0 +1,66 @@
+dashPowerupManager:
+  format: Override
+  validPowerups:
+  - vh_reddash
+  - vh_reddash
+  - vh_reddash
+  defaultPowerup: 
+  convolve: false
+  queueCap: 100
+  storeMultipleCap: 1
+AlwaysBreakDashBlockDash: 0
+Blackout: false
+CollectedCoins: {}
+OverrideTempleFallX: 
+StallScreenWipe: false
+FFDistance: 5
+FPDistance: 30
+MakeClose: false
+demodashDisabler: Off
+OrangeSpeed: 220
+customDashState: 
+CurrentBooster: 
+savedCBDController: 
+savedHBController: 
+HasSpeedPower: false
+CanAddSpeed: false
+StoredSpeed:
+  X: 0
+  Y: 0
+Facing: Right
+dashCount: 0
+staminaCount: 0
+ShowIndicator: true
+PreviousLevel: 
+lockCamera: 0
+LevelInfoCache:
+  Fillerb:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a1:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  a2:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  b1:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c1:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c2:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  c3:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+  heart:
+    NoResetRespawns: {}
+    InterRoomRespawnSet: {}
+DebrisLimiter: 0
+TeleportState: false
+PausedRetryCheck: false
+EnableRefillCancelSpaceIndicator: true
+DisableMapViewArbitrarySpawn: false
+DisableNeutralsOnHoldable: false

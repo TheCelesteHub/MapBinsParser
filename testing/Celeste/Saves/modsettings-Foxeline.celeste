@@ -1,0 +1,46 @@
+Tail: Furry
+TailBrushTint: 14
+TailBrushColor: &o0
+  B: 255
+  G: 255
+  R: 255
+  A: 255
+  PackedValue: 4294967295
+TailScale: 100
+TailCount: 1
+SeparateTails: true
+TailSpread: 48
+FeatherTail: true
+PaintBrushTail: false
+EnableBangs: true
+FixCutscenes: true
+UseVanillaHairColor: true
+BadelineTail:
+  Tail: Flat
+  EnableBangs: true
+  TailBrushTint: 15
+  TailBrushColor: *o0
+  TailScale: 100
+  TailCount: 1
+  SeparateTails: true
+  TailSpread: 40
+  FeatherTail: true
+  PaintBrushTail: false
+CelestenetDefaults:
+  Tail: None
+  TailBrushTint: 15
+  TailBrushColor: *o0
+  TailScale: 100
+  TailCount: 1
+  SeparateTails: true
+  TailSpread: 40
+  FeatherTail: true
+  PaintBrushTail: false
+FoxelineConstants:
+  droopSwayAmplitude: 20
+  droopSwayFrequency: 20
+  droopSwaySpeed: 30
+  Control: 60
+  Speed: 90
+  Softness: 30
+  ClampCelesteNetTailSize: 175

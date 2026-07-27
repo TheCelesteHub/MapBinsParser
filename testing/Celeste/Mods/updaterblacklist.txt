@@ -1,0 +1,3 @@
+# This is the Updater Blacklist. Lines starting with # are ignored.
+# If you put the name of a mod zip in this file, it won't be auto-updated and it won't show update notifications on the title screen.
+SomeMod.zip

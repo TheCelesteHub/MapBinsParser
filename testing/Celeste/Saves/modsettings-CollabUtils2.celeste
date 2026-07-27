@@ -1,0 +1,29 @@
+DisplayLobbyMap:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+HoldToPan:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+PanLobbyMapUp:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+PanLobbyMapDown:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+PanLobbyMapLeft:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+PanLobbyMapRight:
+  Buttons: []
+  Keys: []
+  MouseButtons: []
+SpeedBerryTimerPosition: TopLeft
+HideSpeedBerryTimerDuringGameplay: false
+DisplayEndScreenForAllMaps: true
+BestTimeToDisplayInJournal: SpeedBerry
+SaveByDefaultWhenReturningToLobby: true

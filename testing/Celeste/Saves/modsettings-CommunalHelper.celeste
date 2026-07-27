@@ -1,0 +1,31 @@
+AlwaysActiveDreamRefillCharge: false
+DreamDashFeatherMode: false
+DreamTunnelIgnoreCollidables: false
+AlwaysActiveSeekerDash: false
+ActivateSyncedZipMovers:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Z
+  MouseButtons: []
+AllowActivateRebinding: false
+CycleCassetteBlocks:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Z
+  MouseButtons: []
+ActivateFlagController:
+  Buttons:
+  - RightShoulder
+  Keys:
+  - Z
+  MouseButtons: []
+DeployElytra:
+  Buttons:
+  - LeftShoulder
+  Keys:
+  - W
+  MouseButtons: []
+ElytraMode: Hold
+RequireGrabToPush: true

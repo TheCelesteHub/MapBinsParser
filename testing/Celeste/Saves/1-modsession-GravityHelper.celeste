@@ -1,0 +1,4 @@
+InitialGravity: Normal
+VvvvvvTrigger: false
+DisableGrab: false
+VvvvvvMode: TriggerBased

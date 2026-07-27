@@ -1,0 +1,12 @@
+currentTimers: {}
+rememberedRandomFlagTriggers: {}
+pauseMusicWhenPaused: false
+CurrentMusicPosition: 0
+isValidMusicPosition: false
+CurrentMusicChannel: 
+forcedSpeed: 90
+isForcedMovement: false
+forcedMovementImmediatelyOnRespawn: false
+lastStateIntoCubeWasGD: false
+isHorizontalCollisionDeadly: false
+SpawnBlockedIDs: 

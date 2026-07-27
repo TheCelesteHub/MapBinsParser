@@ -1,0 +1,13 @@
+EnableBerry: true
+BerryType: 2
+BerryX: 0
+BerryY: 3
+BerrySize: 9
+EnableEffects: true
+EnableBloom: true
+EnableTurning: true
+EnableNoise: true
+EnableDeathEffect: true
+AppearOnTop: false
+EnableCollectionSound: true
+SubMenu: 0

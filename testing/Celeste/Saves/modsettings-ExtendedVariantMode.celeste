@@ -1,0 +1,29 @@
+MasterSwitch: true
+EnabledVariants:
+  MadelineBackpackMode: MadelineBackpackMode:Backpack
+ChangeVariantsRandomly: false
+VariantSet: 3
+ChangeVariantsInterval: 0
+RandomizerEnabledVariants: {}
+RerollMode: false
+MaxEnabledVariants: 10
+RandoSetSeed: 
+Vanillafy: 0
+DisplayEnabledVariantsToScreen: false
+OnScreenDisplayTextOpacity: 1
+OnScreenDisplayBackgroundOpacity: 0.8
+HotKey_DisplayEnabledVariantsToScreen:
+  Buttons: []
+  Keys:
+  - OemOpenBrackets
+  MouseButtons: []
+HotKey_IncreaseGameSpeed:
+  Buttons:
+  - DPadRight
+  Keys: []
+  MouseButtons: []
+HotKey_DecreaseGameSpeed:
+  Buttons:
+  - DPadLeft
+  Keys: []
+  MouseButtons: []
