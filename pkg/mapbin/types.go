@@ -29,6 +29,16 @@ type EntityData struct {
 	Kind   string  `json:"kind"`
 }
 
+type DecalData struct {
+	Texture  string  `json:"texture"`
+	X        float64 `json:"x"`
+	Y        float64 `json:"y"`
+	ScaleX   float64 `json:"scaleX"`
+	ScaleY   float64 `json:"scaleY"`
+	Rotation float64 `json:"rotation"`
+	Fg       bool    `json:"fg"`
+}
+
 type RoomData struct {
 	Name         string        `json:"name"`
 	X            int           `json:"x"`
@@ -40,6 +50,7 @@ type RoomData struct {
 	SolidsTileID [][]byte      `json:"-"`
 	BgTileID     [][]byte      `json:"-"`
 	Entities     []*EntityData `json:"entities"`
+	Decals       []*DecalData  `json:"-"`
 }
 
 type MapRenderData struct {

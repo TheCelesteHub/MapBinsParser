@@ -208,7 +208,6 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 			if tileStr != "" {
 				parseTileGrid(tileStr, activeRoom.Bg, activeRoom.BgTileID)
 			}
-		case "fgdecals", "bgdecals":
 		case "Style":
 		default:
 			if container == "entities" {
@@ -236,12 +235,22 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 					Height: eh,
 					Kind:   kind,
 				})
+			} else if container == "fgdecals" || container == "bgdecals" {
+				activeRoom.Decals = append(activeRoom.Decals, &DecalData{
+					Texture:  getStringAttr(attrs, "texture"),
+					X:        getFloatAttr(attrs, "x"),
+					Y:        getFloatAttr(attrs, "y"),
+					ScaleX:   getFloatAttrDefault(attrs, "scaleX", 1),
+					ScaleY:   getFloatAttrDefault(attrs, "scaleY", 1),
+					Rotation: getFloatAttr(attrs, "rotation"),
+					Fg:       container == "fgdecals",
+				})
 			}
 		}
 	}
 
 	childContainer := container
-	if name == "entities" || name == "triggers" {
+	if name == "entities" || name == "triggers" || name == "fgdecals" || name == "bgdecals" {
 		childContainer = name
 	}
 
@@ -281,6 +290,18 @@ func getFloatAttr(attrs map[string]interface{}, key string) float64 {
 		}
 	}
 	return 0.0
+}
+
+func getFloatAttrDefault(attrs map[string]interface{}, key string, def float64) float64 {
+	if val, ok := attrs[key]; ok {
+		switch v := val.(type) {
+		case float64:
+			return v
+		case int:
+			return float64(v)
+		}
+	}
+	return def
 }
 
 func getStringAttr(attrs map[string]interface{}, key string) string {

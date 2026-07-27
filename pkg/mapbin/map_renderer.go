@@ -102,6 +102,57 @@ func drawTileLayer(img *image.RGBA, tileIDGrid [][]byte, tileset *TilesetRules, 
 	}
 }
 
+// drawDecal blits a decal at its natural sprite size, centered on (X, Y).
+// ponytail: only mirroring (sign of scaleX/scaleY) and no rotation is
+// applied - real Celeste decals can be magnitude-scaled/rotated too, but
+// the vast majority aren't; extend here if a real map needs more than a flip.
+func drawDecal(img *image.RGBA, decal *DecalData, atlas *Atlas) {
+	sprite, meta, ok := atlas.GetSprite("decals/" + decal.Texture)
+	if !ok {
+		return
+	}
+	w := meta.RealWidth
+	h := meta.RealHeight
+	if w <= 0 || h <= 0 {
+		return
+	}
+	dstX := int(decal.X) - w/2
+	dstY := int(decal.Y) - h/2
+	flipX := decal.ScaleX < 0
+	flipY := decal.ScaleY < 0
+	bounds := img.Bounds()
+
+	for y := 0; y < h; y++ {
+		sy := meta.Y + y
+		if flipY {
+			sy = meta.Y + (h - 1 - y)
+		}
+		for x := 0; x < w; x++ {
+			sx := meta.X + x
+			if flipX {
+				sx = meta.X + (w - 1 - x)
+			}
+			px, py := dstX+x, dstY+y
+			if px < bounds.Min.X || px >= bounds.Max.X || py < bounds.Min.Y || py >= bounds.Max.Y {
+				continue
+			}
+			c := sprite.At(sx, sy)
+			if _, _, _, a := c.RGBA(); a == 0 {
+				continue
+			}
+			img.Set(px, py, c)
+		}
+	}
+}
+
+func drawDecalLayer(img *image.RGBA, decals []*DecalData, fg bool, atlas *Atlas) {
+	for _, d := range decals {
+		if d.Fg == fg {
+			drawDecal(img, d, atlas)
+		}
+	}
+}
+
 func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 	w := room.Width
 	h := room.Height
@@ -117,6 +168,9 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 
 	if assets != nil && assets.BgTileset != nil && assets.Atlas != nil {
 		drawTileLayer(img, room.BgTileID, assets.BgTileset, assets.Atlas)
+	}
+	if assets != nil && assets.Atlas != nil {
+		drawDecalLayer(img, room.Decals, false, assets.Atlas)
 	}
 
 	rows := len(room.Solids)
@@ -169,6 +223,10 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 		}
 
 		FillRect(img, ex, ey, ex+ew, ey+eh, markerColor)
+	}
+
+	if assets != nil && assets.Atlas != nil {
+		drawDecalLayer(img, room.Decals, true, assets.Atlas)
 	}
 
 	DrawRectBorder(img, 0, 0, w, h, ColorRoomBorder)
