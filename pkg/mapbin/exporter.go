@@ -351,6 +351,16 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		return nil, fmt.Errorf("failed to parse map data: %w", err)
 	}
 
+	var assets *RenderAssets
+	if !opts.GridOnly && opts.CelesteDir != "" {
+		loaded, loadErr := LoadRenderAssets(opts.CelesteDir)
+		if loadErr != nil {
+			fmt.Fprintf(os.Stderr, "warning: real-asset rendering unavailable (%v), falling back to grid rendering\n", loadErr)
+		} else {
+			assets = loaded
+		}
+	}
+
 	roomsDir := filepath.Join(outDir, "rooms")
 	if err := os.MkdirAll(roomsDir, 0755); err != nil {
 		return nil, fmt.Errorf("failed to create rooms output dir: %w", err)
@@ -371,7 +381,7 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		relPath := filepath.ToSlash(filepath.Join("rooms", fmt.Sprintf("room_%s.png", fileName)))
 		roomPngPath := filepath.Join(outDir, relPath)
 
-		roomImg := RenderRoomToImage(room)
+		roomImg := RenderRoomToImage(room, assets)
 		f, createErr := os.Create(roomPngPath)
 		if createErr != nil {
 			return nil, fmt.Errorf("failed to create room PNG %s: %w", roomPngPath, createErr)
@@ -392,7 +402,7 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		})
 	}
 
-	fullImg := RenderFullMapComposite(mapData.Rooms)
+	fullImg := RenderFullMapComposite(mapData.Rooms, assets)
 	fullPngRel := "full_map.png"
 	fullPngPath := filepath.Join(outDir, fullPngRel)
 	f, createErr := os.Create(fullPngPath)

@@ -1,9 +1,11 @@
 package mapbin
 
 import (
+	"fmt"
 	"image"
 	"image/color"
 	"image/draw"
+	"path/filepath"
 )
 
 var (
@@ -45,7 +47,62 @@ func DrawRectBorder(img *image.RGBA, x0, y0, x1, y1 int, c color.Color) {
 	FillRect(img, x1-1, y0, x1, y1, c)
 }
 
-func RenderRoomToImage(room *RoomData) *image.RGBA {
+// RenderAssets bundles the real Celeste tile/decal assets needed to render
+// pixel-accurate rooms (as opposed to the flat-color fallback). Pass nil to
+// force flat-color rendering.
+type RenderAssets struct {
+	FgTileset *TilesetRules
+	BgTileset *TilesetRules
+	Atlas     *Atlas
+}
+
+// LoadRenderAssets loads ForegroundTiles.xml, BackgroundTiles.xml, and the
+// Gameplay atlas from a Celeste install root (the folder containing Content/).
+func LoadRenderAssets(celesteDir string) (*RenderAssets, error) {
+	graphicsDir := filepath.Join(celesteDir, "Content", "Graphics")
+
+	fg, err := LoadTilesetXML(filepath.Join(graphicsDir, "ForegroundTiles.xml"))
+	if err != nil {
+		return nil, fmt.Errorf("load ForegroundTiles.xml: %w", err)
+	}
+	bg, err := LoadTilesetXML(filepath.Join(graphicsDir, "BackgroundTiles.xml"))
+	if err != nil {
+		return nil, fmt.Errorf("load BackgroundTiles.xml: %w", err)
+	}
+	atlas, err := LoadAtlas(filepath.Join(graphicsDir, "Atlases"), "Gameplay.meta")
+	if err != nil {
+		return nil, fmt.Errorf("load Gameplay.meta: %w", err)
+	}
+
+	return &RenderAssets{FgTileset: fg, BgTileset: bg, Atlas: atlas}, nil
+}
+
+func drawRealTile(img *image.RGBA, tileIDGrid [][]byte, tileset *TilesetRules, atlas *Atlas, row, col int) bool {
+	tsPath, quad, ok := GetTileQuad(tileset, tileIDGrid, row, col)
+	if !ok {
+		return false
+	}
+	sprite, meta, ok := atlas.GetSprite("tilesets/" + tsPath)
+	if !ok {
+		return false
+	}
+	srcX := meta.X + quad.Col*8
+	srcY := meta.Y + quad.Row*8
+	dstX := col * 8
+	dstY := row * 8
+	draw.Draw(img, image.Rect(dstX, dstY, dstX+8, dstY+8), sprite, image.Point{X: srcX, Y: srcY}, draw.Over)
+	return true
+}
+
+func drawTileLayer(img *image.RGBA, tileIDGrid [][]byte, tileset *TilesetRules, atlas *Atlas) {
+	for r := range tileIDGrid {
+		for c := range tileIDGrid[r] {
+			drawRealTile(img, tileIDGrid, tileset, atlas, r, c)
+		}
+	}
+}
+
+func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 	w := room.Width
 	h := room.Height
 	if w <= 0 {
@@ -58,12 +115,23 @@ func RenderRoomToImage(room *RoomData) *image.RGBA {
 
 	FillRect(img, 0, 0, w, h, ColorRoomBg)
 
+	if assets != nil && assets.BgTileset != nil && assets.Atlas != nil {
+		drawTileLayer(img, room.BgTileID, assets.BgTileset, assets.Atlas)
+	}
+
 	rows := len(room.Solids)
 	if rows > 0 {
 		cols := len(room.Solids[0])
 		for r := 0; r < rows; r++ {
 			for c := 0; c < cols; c++ {
-				if room.Solids[r][c] {
+				if !room.Solids[r][c] {
+					continue
+				}
+				drawn := false
+				if assets != nil && assets.FgTileset != nil && assets.Atlas != nil {
+					drawn = drawRealTile(img, room.SolidsTileID, assets.FgTileset, assets.Atlas, r, c)
+				}
+				if !drawn {
 					FillRect(img, c*8, r*8, (c+1)*8, (r+1)*8, ColorSolidTile)
 				}
 			}
@@ -107,7 +175,7 @@ func RenderRoomToImage(room *RoomData) *image.RGBA {
 	return img
 }
 
-func RenderFullMapComposite(rooms []*RoomData) *image.RGBA {
+func RenderFullMapComposite(rooms []*RoomData, assets *RenderAssets) *image.RGBA {
 	if len(rooms) == 0 {
 		return image.NewRGBA(image.Rect(0, 0, 1, 1))
 	}
@@ -145,7 +213,7 @@ func RenderFullMapComposite(rooms []*RoomData) *image.RGBA {
 	FillRect(fullImg, 0, 0, totalW, totalH, ColorFullMapBg)
 
 	for _, room := range rooms {
-		roomImg := RenderRoomToImage(room)
+		roomImg := RenderRoomToImage(room, assets)
 		offsetX := room.X - minX
 		offsetY := room.Y - minY
 		dstRect := image.Rect(offsetX, offsetY, offsetX+room.Width, offsetY+room.Height)
