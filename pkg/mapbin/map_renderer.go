@@ -5,6 +5,7 @@ import (
 	"image"
 	"image/color"
 	"image/draw"
+	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -305,6 +306,7 @@ func drawParallaxLayer(img *image.RGBA, roomName string, roomW, roomH int, backd
 		}
 		sprite, meta, ok := atlas.GetSprite(bd.Texture)
 		if !ok {
+			fmt.Fprintf(os.Stderr, "warning: styleground texture %q not found, skipping\n", bd.Texture)
 			continue
 		}
 		w, h := meta.Width, meta.Height
