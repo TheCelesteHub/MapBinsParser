@@ -6,6 +6,8 @@ import (
 	"image/color"
 	"image/draw"
 	"path/filepath"
+	"regexp"
+	"strings"
 )
 
 var (
@@ -153,7 +155,116 @@ func drawDecalLayer(img *image.RGBA, decals []*DecalData, fg bool, atlas *Atlas)
 	}
 }
 
-func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
+// globToRegexp converts a "*"-wildcard room-name pattern into an anchored,
+// case-insensitive regexp (the only wildcard syntax Celeste stylegrounds use).
+func globToRegexp(pattern string) *regexp.Regexp {
+	escaped := regexp.QuoteMeta(pattern)
+	escaped = strings.ReplaceAll(escaped, `\*`, ".*")
+	re, err := regexp.Compile("(?i)^" + escaped + "$")
+	if err != nil {
+		return regexp.MustCompile("^$")
+	}
+	return re
+}
+
+// matchesRoomFilter reports whether a backdrop's only/exclude comma-separated
+// glob pattern lists apply to roomName.
+func matchesRoomFilter(roomName, only, exclude string) bool {
+	matched := false
+	for _, pattern := range strings.Split(only, ",") {
+		pattern = strings.TrimSpace(pattern)
+		if pattern != "" && globToRegexp(pattern).MatchString(roomName) {
+			matched = true
+			break
+		}
+	}
+	if !matched {
+		return false
+	}
+
+	for _, pattern := range strings.Split(exclude, ",") {
+		pattern = strings.TrimSpace(pattern)
+		if pattern != "" && globToRegexp(pattern).MatchString(roomName) {
+			return false
+		}
+	}
+	return true
+}
+
+// drawParallaxLayer blits each matching backdrop's texture, tiled across the
+// room bounds when LoopX/LoopY, starting at (X, Y). scrollx/scrolly and
+// blendmode are deliberately not modeled - see BackdropData's doc comment.
+func drawParallaxLayer(img *image.RGBA, roomName string, roomW, roomH int, backdrops []*BackdropData, fg bool, atlas *Atlas) {
+	for _, bd := range backdrops {
+		if bd.Fg != fg || !matchesRoomFilter(roomName, bd.Only, bd.Exclude) {
+			continue
+		}
+		sprite, meta, ok := atlas.GetSprite(bd.Texture)
+		if !ok {
+			continue
+		}
+		w, h := meta.Width, meta.Height
+		if w <= 0 || h <= 0 {
+			continue
+		}
+
+		startX := int(bd.X)
+		startY := int(bd.Y)
+		if bd.LoopX {
+			startX = ((startX % w) + w) % w
+			startX -= w
+		}
+		if bd.LoopY {
+			startY = ((startY % h) + h) % h
+			startY -= h
+		}
+
+		for oy := startY; oy < roomH; oy += h {
+			for ox := startX; ox < roomW; ox += w {
+				drawParallaxTile(img, sprite, meta, ox, oy, bd)
+				if !bd.LoopX {
+					break
+				}
+			}
+			if !bd.LoopY {
+				break
+			}
+		}
+	}
+}
+
+func drawParallaxTile(img *image.RGBA, sprite image.Image, meta SpriteMeta, dstX, dstY int, bd *BackdropData) {
+	bounds := img.Bounds()
+	for y := 0; y < meta.Height; y++ {
+		sy := meta.Y + y
+		if bd.FlipY {
+			sy = meta.Y + (meta.Height - 1 - y)
+		}
+		for x := 0; x < meta.Width; x++ {
+			sx := meta.X + x
+			if bd.FlipX {
+				sx = meta.X + (meta.Width - 1 - x)
+			}
+			px, py := dstX+x, dstY+y
+			if px < bounds.Min.X || px >= bounds.Max.X || py < bounds.Min.Y || py >= bounds.Max.Y {
+				continue
+			}
+			r, g, b, a := sprite.At(sx, sy).RGBA()
+			if a == 0 {
+				continue
+			}
+			if bd.Alpha < 1 {
+				a = uint32(float64(a) * bd.Alpha)
+				r = uint32(float64(r) * bd.Alpha)
+				g = uint32(float64(g) * bd.Alpha)
+				b = uint32(float64(b) * bd.Alpha)
+			}
+			img.Set(px, py, color.RGBA64{R: uint16(r), G: uint16(g), B: uint16(b), A: uint16(a)})
+		}
+	}
+}
+
+func RenderRoomToImage(room *RoomData, assets *RenderAssets, backdrops []*BackdropData) *image.RGBA {
 	w := room.Width
 	h := room.Height
 	if w <= 0 {
@@ -166,6 +277,9 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 
 	FillRect(img, 0, 0, w, h, ColorRoomBg)
 
+	if assets != nil && assets.Atlas != nil {
+		drawParallaxLayer(img, room.Name, w, h, backdrops, false, assets.Atlas)
+	}
 	if assets != nil && assets.BgTileset != nil && assets.Atlas != nil {
 		drawTileLayer(img, room.BgTileID, assets.BgTileset, assets.Atlas)
 	}
@@ -227,13 +341,14 @@ func RenderRoomToImage(room *RoomData, assets *RenderAssets) *image.RGBA {
 
 	if assets != nil && assets.Atlas != nil {
 		drawDecalLayer(img, room.Decals, true, assets.Atlas)
+		drawParallaxLayer(img, room.Name, w, h, backdrops, true, assets.Atlas)
 	}
 
 	DrawRectBorder(img, 0, 0, w, h, ColorRoomBorder)
 	return img
 }
 
-func RenderFullMapComposite(rooms []*RoomData, assets *RenderAssets) *image.RGBA {
+func RenderFullMapComposite(rooms []*RoomData, assets *RenderAssets, backdrops []*BackdropData) *image.RGBA {
 	if len(rooms) == 0 {
 		return image.NewRGBA(image.Rect(0, 0, 1, 1))
 	}
@@ -271,7 +386,7 @@ func RenderFullMapComposite(rooms []*RoomData, assets *RenderAssets) *image.RGBA
 	FillRect(fullImg, 0, 0, totalW, totalH, ColorFullMapBg)
 
 	for _, room := range rooms {
-		roomImg := RenderRoomToImage(room, assets)
+		roomImg := RenderRoomToImage(room, assets, backdrops)
 		offsetX := room.X - minX
 		offsetY := room.Y - minY
 		dstRect := image.Rect(offsetX, offsetY, offsetX+room.Width, offsetY+room.Height)

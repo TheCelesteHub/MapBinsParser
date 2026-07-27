@@ -119,7 +119,7 @@ func readFullMapData(data []byte) (*MapRenderData, error) {
 	if err := r.ReadHeader(); err != nil {
 		return nil, err
 	}
-	result := &MapRenderData{Rooms: []*RoomData{}}
+	result := &MapRenderData{Rooms: []*RoomData{}, Backdrops: []*BackdropData{}}
 	if err := r.readFullElement(result, nil, ""); err != nil {
 		return nil, err
 	}
@@ -196,6 +196,20 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 			Entities:     []*EntityData{},
 		}
 		result.Rooms = append(result.Rooms, activeRoom)
+	} else if (container == "styleground-fg" || container == "styleground-bg") && name == "parallax" {
+		result.Backdrops = append(result.Backdrops, &BackdropData{
+			Texture: getStringAttr(attrs, "texture"),
+			X:       getFloatAttr(attrs, "x"),
+			Y:       getFloatAttr(attrs, "y"),
+			Alpha:   getFloatAttrDefault(attrs, "alpha", 1),
+			LoopX:   getBoolAttrDefault(attrs, "loopx", true),
+			LoopY:   getBoolAttrDefault(attrs, "loopy", true),
+			FlipX:   getBoolAttr(attrs, "flipx"),
+			FlipY:   getBoolAttr(attrs, "flipy"),
+			Only:    getStringAttrDefault(attrs, "only", "*"),
+			Exclude: getStringAttr(attrs, "exclude"),
+			Fg:      container == "styleground-fg",
+		})
 	} else if activeRoom != nil {
 		switch name {
 		case "solids":
@@ -250,8 +264,13 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 	}
 
 	childContainer := container
-	if name == "entities" || name == "triggers" || name == "fgdecals" || name == "bgdecals" {
+	switch name {
+	case "entities", "triggers", "fgdecals", "bgdecals":
 		childContainer = name
+	case "Foregrounds":
+		childContainer = "styleground-fg"
+	case "Backgrounds":
+		childContainer = "styleground-bg"
 	}
 
 	for i := 0; i < childCount; i++ {
@@ -320,6 +339,24 @@ func getBoolAttr(attrs map[string]interface{}, key string) bool {
 		}
 	}
 	return false
+}
+
+func getBoolAttrDefault(attrs map[string]interface{}, key string, def bool) bool {
+	if val, ok := attrs[key]; ok {
+		if b, ok := val.(bool); ok {
+			return b
+		}
+	}
+	return def
+}
+
+func getStringAttrDefault(attrs map[string]interface{}, key string, def string) string {
+	if val, ok := attrs[key]; ok {
+		if s, ok := val.(string); ok && s != "" {
+			return s
+		}
+	}
+	return def
 }
 
 func extractTileString(attrs map[string]interface{}) string {
@@ -421,7 +458,7 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		relPath := filepath.ToSlash(filepath.Join("rooms", fmt.Sprintf("room_%s.png", fileName)))
 		roomPngPath := filepath.Join(outDir, relPath)
 
-		roomImg := RenderRoomToImage(room, assets)
+		roomImg := RenderRoomToImage(room, assets, mapData.Backdrops)
 		f, createErr := os.Create(roomPngPath)
 		if createErr != nil {
 			return nil, fmt.Errorf("failed to create room PNG %s: %w", roomPngPath, createErr)
@@ -442,7 +479,7 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 		})
 	}
 
-	fullImg := RenderFullMapComposite(mapData.Rooms, assets)
+	fullImg := RenderFullMapComposite(mapData.Rooms, assets, mapData.Backdrops)
 	fullPngRel := "full_map.png"
 	fullPngPath := filepath.Join(outDir, fullPngRel)
 	f, createErr := os.Create(fullPngPath)

@@ -53,8 +53,28 @@ type RoomData struct {
 	Decals       []*DecalData  `json:"-"`
 }
 
+// BackdropData is one <parallax> styleground backdrop, map-wide (Style sits
+// outside the room tree in the .bin, as a sibling of the rooms, not nested
+// per-level). ScrollX/ScrollY and Blendmode are intentionally not captured:
+// scroll only matters with a moving camera (irrelevant to a static per-room
+// screenshot), and additive blending is rare enough to just alpha-blend it.
+type BackdropData struct {
+	Texture string  `json:"texture"`
+	X       float64 `json:"x"`
+	Y       float64 `json:"y"`
+	Alpha   float64 `json:"alpha"`
+	LoopX   bool    `json:"loopX"`
+	LoopY   bool    `json:"loopY"`
+	FlipX   bool    `json:"flipX"`
+	FlipY   bool    `json:"flipY"`
+	Only    string  `json:"only"`
+	Exclude string  `json:"exclude"`
+	Fg      bool    `json:"fg"`
+}
+
 type MapRenderData struct {
-	Rooms []*RoomData `json:"rooms"`
+	Rooms     []*RoomData     `json:"rooms"`
+	Backdrops []*BackdropData `json:"-"`
 }
 
 type MapRoomManifestEntry struct {
