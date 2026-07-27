@@ -53,6 +53,11 @@ type MapRoomManifestEntry struct {
 	Image  string `json:"image"`
 }
 
+type ExportMapImagesOptions struct {
+	GridOnly   bool
+	CelesteDir string
+}
+
 type ExportMapImagesResult struct {
 	Success    bool                    `json:"success"`
 	MapSid     string                  `json:"mapSid,omitempty"`

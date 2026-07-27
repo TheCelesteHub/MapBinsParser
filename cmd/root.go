@@ -30,8 +30,8 @@ func NewRootCmd() *cobra.Command {
 		Short: "Zip subcommands for map bin parsing",
 	}
 
-	root.AddCommand(NewCountCollectiblesCmd(), NewExportMapImagesCmd())
-	zipSub.AddCommand(NewCountCollectiblesCmd(), NewExportMapImagesCmd())
+	root.AddCommand(NewCountCollectiblesCmd(), NewExportMapCmd())
+	zipSub.AddCommand(NewCountCollectiblesCmd(), NewExportMapCmd())
 	root.AddCommand(zipSub)
 
 	return root

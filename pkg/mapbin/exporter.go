@@ -331,7 +331,7 @@ func parseTileGrid(tileStr string, grid [][]bool) {
 	}
 }
 
-func ExportMapImages(modPath, mapSid, outDir string) (*ExportMapImagesResult, error) {
+func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions) (*ExportMapImagesResult, error) {
 	data, actualSid, err := getMapBinBytes(modPath, mapSid)
 	if err != nil {
 		return nil, err

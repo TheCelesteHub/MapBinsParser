@@ -80,7 +80,7 @@ func TestExportMapImages_ZippedMod(t *testing.T) {
 	}
 	defer os.RemoveAll(tempDir)
 
-	res, err := ExportMapImages(zipPath, "", tempDir)
+	res, err := ExportMapImages(zipPath, "", tempDir, ExportMapImagesOptions{})
 	if err != nil {
 		t.Fatalf("ExportMapImages failed: %v", err)
 	}
@@ -112,7 +112,7 @@ func TestExportMapImages_UnpackedMod(t *testing.T) {
 	}
 	defer os.RemoveAll(tempDir)
 
-	res, err := ExportMapImages(folderPath, "", tempDir)
+	res, err := ExportMapImages(folderPath, "", tempDir, ExportMapImagesOptions{})
 	if err != nil {
 		t.Fatalf("ExportMapImages on unpacked folder failed: %v", err)
 	}

@@ -84,11 +84,11 @@ func TestExportMapImagesCmd(t *testing.T) {
 
 	out := captureStdout(func() {
 		cmd := NewRootCmd()
-		cmd.SetArgs([]string{"export-map-images", "--mod", zipPath, "--map", "smoothee/mauve/mauve", "--out", tempDir})
+		cmd.SetArgs([]string{"export-map", "--mod", zipPath, "--map", "smoothee/mauve/mauve", "--out", tempDir})
 		_ = cmd.Execute()
 	})
 
 	if !strings.Contains(out, `"success":true`) {
-		t.Errorf("Expected export-map-images output to contain success:true, got: %s", out)
+		t.Errorf("Expected export-map output to contain success:true, got: %s", out)
 	}
 }

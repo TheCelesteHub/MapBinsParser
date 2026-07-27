@@ -11,7 +11,7 @@ dependencies/CelesteMapsBinParser/
 ├── cmd/                        # Cobra CLI subcommand handlers
 │   ├── root.go                 # Executable entrypoint & root command
 │   ├── count_collectibles.go   # 'count-collectibles' subcommand
-│   └── export_map_images.go    # 'export-map-images' subcommand
+│   └── export_map.go           # 'export-map' subcommand
 ├── pkg/
 │   └── mapbin/                 # Core domain logic
 │       ├── bin_reader.go       # BinaryPacker binary parser & varint reader
@@ -63,17 +63,19 @@ CelesteMapsBinParser count-collectibles --mod "/path/to/mod.zip"
 
 ---
 
-### 2. `export-map-images`
-Parses room geometries, solid tile grids (8x8), and entity spawn/collectible/hazard locations to generate per-room PNGs and a full-map composite PNG image.
+### 2. `export-map`
+Parses room geometries, solid tile grids (8x8), and entity spawn/collectible/hazard locations to generate per-room PNGs and a full-map composite PNG image. Renders real Celeste tile/decal graphics when a Celeste install is available, falling back to flat-color rendering otherwise.
 
 ```bash
-CelesteMapsBinParser export-map-images --mod "/path/to/mod.zip" --map "1-ForsakenCity" --out "./output_dir"
+CelesteMapsBinParser export-map --mod "/path/to/mod.zip" --map "1-ForsakenCity" --out "./output_dir" --celeste-dir "/path/to/Celeste"
 ```
 
 **Flags:**
 - `--mod`, `-m` (Required): Path to mod `.zip`, folder, or `.bin` map file.
 - `--map`, `-p` (Required): Map SID (e.g. `1-ForsakenCity` or `author/campaign/map`).
 - `--out`, `-o` (Required): Directory path to save generated PNG images and `manifest.json`.
+- `--grid-only`, `-g`: Force flat-color grid rendering, skipping real-asset resolution entirely.
+- `--celeste-dir`, `-c`: Path to a Celeste install root (folder containing `Content/`), used to resolve real tileset/decal graphics. Falls back to flat-color rendering automatically if assets can't be resolved.
 
 **JSON Output Example:**
 ```json
