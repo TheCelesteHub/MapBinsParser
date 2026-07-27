@@ -30,14 +30,16 @@ type EntityData struct {
 }
 
 type RoomData struct {
-	Name     string        `json:"name"`
-	X        int           `json:"x"`
-	Y        int           `json:"y"`
-	Width    int           `json:"width"`
-	Height   int           `json:"height"`
-	Solids   [][]bool      `json:"-"`
-	Bg       [][]bool      `json:"-"`
-	Entities []*EntityData `json:"entities"`
+	Name         string        `json:"name"`
+	X            int           `json:"x"`
+	Y            int           `json:"y"`
+	Width        int           `json:"width"`
+	Height       int           `json:"height"`
+	Solids       [][]bool      `json:"-"`
+	Bg           [][]bool      `json:"-"`
+	SolidsTileID [][]byte      `json:"-"`
+	BgTileID     [][]byte      `json:"-"`
+	Entities     []*EntityData `json:"entities"`
 }
 
 type MapRenderData struct {

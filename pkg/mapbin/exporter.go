@@ -171,23 +171,29 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 			rows = 1
 		}
 		solidsGrid := make([][]bool, rows)
+		solidsTileID := make([][]byte, rows)
 		for i := range solidsGrid {
 			solidsGrid[i] = make([]bool, cols)
+			solidsTileID[i] = make([]byte, cols)
 		}
 		bgGrid := make([][]bool, rows)
+		bgTileID := make([][]byte, rows)
 		for i := range bgGrid {
 			bgGrid[i] = make([]bool, cols)
+			bgTileID[i] = make([]byte, cols)
 		}
 
 		activeRoom = &RoomData{
-			Name:     roomName,
-			X:        rx,
-			Y:        ry,
-			Width:    rw,
-			Height:   rh,
-			Solids:   solidsGrid,
-			Bg:       bgGrid,
-			Entities: []*EntityData{},
+			Name:         roomName,
+			X:            rx,
+			Y:            ry,
+			Width:        rw,
+			Height:       rh,
+			Solids:       solidsGrid,
+			Bg:           bgGrid,
+			SolidsTileID: solidsTileID,
+			BgTileID:     bgTileID,
+			Entities:     []*EntityData{},
 		}
 		result.Rooms = append(result.Rooms, activeRoom)
 	} else if activeRoom != nil {
@@ -195,12 +201,12 @@ func (r *BinReader) readFullElement(result *MapRenderData, currentRoom *RoomData
 		case "solids":
 			tileStr := extractTileString(attrs)
 			if tileStr != "" {
-				parseTileGrid(tileStr, activeRoom.Solids)
+				parseTileGrid(tileStr, activeRoom.Solids, activeRoom.SolidsTileID)
 			}
 		case "bg":
 			tileStr := extractTileString(attrs)
 			if tileStr != "" {
-				parseTileGrid(tileStr, activeRoom.Bg)
+				parseTileGrid(tileStr, activeRoom.Bg, activeRoom.BgTileID)
 			}
 		case "fgdecals", "bgdecals":
 		case "Style":
@@ -309,7 +315,7 @@ func extractTileString(attrs map[string]interface{}) string {
 	return ""
 }
 
-func parseTileGrid(tileStr string, grid [][]bool) {
+func parseTileGrid(tileStr string, grid [][]bool, tileIDGrid [][]byte) {
 	rows := len(grid)
 	if rows == 0 {
 		return
@@ -327,6 +333,9 @@ func parseTileGrid(tileStr string, grid [][]bool) {
 			}
 			ch := line[c]
 			grid[r][c] = (ch != '0' && ch != ' ')
+			if tileIDGrid != nil && ch != ' ' {
+				tileIDGrid[r][c] = ch
+			}
 		}
 	}
 }
