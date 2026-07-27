@@ -1,5 +1,0 @@
-Enabled: true
-BackupAsZipFile: true
-AutoDeleteOldBackups: true
-DeleteBackupsOlderThanDays: -1
-DeleteBackupsAfterAmount: 12

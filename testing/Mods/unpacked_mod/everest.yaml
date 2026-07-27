@@ -1,0 +1,15 @@
+- Name: mauve
+  Version: 1.1.4
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+    - Name: BrokemiaHelper
+      Version: 1.5.5
+    - Name: MaxHelpingHand
+      Version: 1.21.6
+    - Name: IsaGrabBag
+      Version: 1.6.1.1
+    - Name: ContortHelper
+      Version: 1.5.5
+    - Name: VivHelper
+      Version: 1.9.12

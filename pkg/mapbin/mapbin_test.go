@@ -6,12 +6,12 @@ import (
 	"testing"
 )
 
-const testModsDir = "../../testing/Celeste/Mods"
+const testModsDir = "../../testing/Mods"
 
-func TestCountCollectibles(t *testing.T) {
+func TestCountCollectibles_ZippedMod(t *testing.T) {
 	zipPath := filepath.Join(testModsDir, "mauve.zip")
 	if _, err := os.Stat(zipPath); os.IsNotExist(err) {
-		t.Skipf("zip %s not found, skipping", zipPath)
+		t.Fatalf("test fixture zip %s not found", zipPath)
 	}
 
 	res, err := CountCollectibles(zipPath)
@@ -28,10 +28,50 @@ func TestCountCollectibles(t *testing.T) {
 	}
 }
 
-func TestExportMapImages(t *testing.T) {
+func TestCountCollectibles_UnpackedModFolder(t *testing.T) {
+	folderPath := filepath.Join(testModsDir, "unpacked_mod")
+	if _, err := os.Stat(folderPath); os.IsNotExist(err) {
+		t.Fatalf("test fixture folder %s not found", folderPath)
+	}
+
+	res, err := CountCollectibles(folderPath)
+	if err != nil {
+		t.Fatalf("CountCollectibles on unpacked folder failed: %v", err)
+	}
+
+	if !res.Success {
+		t.Fatalf("CountCollectibles returned success=false: %s", res.Error)
+	}
+
+	if len(res.Maps) == 0 {
+		t.Errorf("Expected at least one map in unpacked_mod folder")
+	}
+}
+
+func TestCountCollectibles_ModWithoutMaps(t *testing.T) {
+	zipPath := filepath.Join(testModsDir, "Cateline.zip")
+	if _, err := os.Stat(zipPath); os.IsNotExist(err) {
+		t.Fatalf("test fixture zip %s not found", zipPath)
+	}
+
+	res, err := CountCollectibles(zipPath)
+	if err != nil {
+		t.Fatalf("CountCollectibles failed: %v", err)
+	}
+
+	if !res.Success {
+		t.Fatalf("CountCollectibles returned success=false: %s", res.Error)
+	}
+
+	if len(res.Maps) != 0 {
+		t.Errorf("Expected 0 maps for Cateline.zip, got %d", len(res.Maps))
+	}
+}
+
+func TestExportMapImages_ZippedMod(t *testing.T) {
 	zipPath := filepath.Join(testModsDir, "mauve.zip")
 	if _, err := os.Stat(zipPath); os.IsNotExist(err) {
-		t.Skipf("zip %s not found, skipping", zipPath)
+		t.Fatalf("test fixture zip %s not found", zipPath)
 	}
 
 	tempDir, err := os.MkdirTemp("", "mapbin_export_test_*")
@@ -60,6 +100,33 @@ func TestExportMapImages(t *testing.T) {
 	}
 }
 
+func TestExportMapImages_UnpackedMod(t *testing.T) {
+	folderPath := filepath.Join(testModsDir, "unpacked_mod")
+	if _, err := os.Stat(folderPath); os.IsNotExist(err) {
+		t.Fatalf("test fixture folder %s not found", folderPath)
+	}
+
+	tempDir, err := os.MkdirTemp("", "mapbin_export_unpacked_test_*")
+	if err != nil {
+		t.Fatalf("failed to create temp dir: %v", err)
+	}
+	defer os.RemoveAll(tempDir)
+
+	res, err := ExportMapImages(folderPath, "", tempDir)
+	if err != nil {
+		t.Fatalf("ExportMapImages on unpacked folder failed: %v", err)
+	}
+
+	if !res.Success {
+		t.Fatalf("ExportMapImages returned success=false: %s", res.Error)
+	}
+
+	manifestPath := filepath.Join(tempDir, "manifest.json")
+	if _, err := os.Stat(manifestPath); os.IsNotExist(err) {
+		t.Errorf("Expected manifest.json to be created")
+	}
+}
+
 func TestClassifier(t *testing.T) {
 	counts := &MapCollectibleCounts{}
 
@@ -83,7 +150,6 @@ func TestClassifier(t *testing.T) {
 		t.Errorf("Expected MiniHearts count=1, got %d", counts.MiniHearts)
 	}
 
-	// Trigger/controller deny rule check
 	before := counts.Red
 	CountEntity(counts, "strawberryTrigger", false, false)
 	if counts.Red != before {
