@@ -4,7 +4,7 @@
 
 ## Architecture
 
-Built using Cobra CLI framework and structured following SOLID design principles:
+Built using Cobra CLI framework and structured modular architecture:
 
 ```
 dependencies/CelesteMapsBinParser/
