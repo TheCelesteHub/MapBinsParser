@@ -14,6 +14,15 @@ import (
 )
 
 var invalidFilenameChars = regexp.MustCompile(`[^a-zA-Z0-9_\-]`)
+var chapterNamePrefix = regexp.MustCompile(`^\d+-`)
+
+// chapterAtlasName derives a vanilla chapter's own atlas file basename (e.g.
+// "ForsakenCity" from SID "Content/Maps/1-ForsakenCity") - vanilla chapters
+// ship stylegrounds/decals in their own <Chapter>.meta atlas alongside the
+// shared Gameplay atlas, not only in Gameplay (docs/TheCelesteDesktop/ModAssetsAndStylegrounds.md).
+func chapterAtlasName(mapSid string) string {
+	return chapterNamePrefix.ReplaceAllString(filepath.Base(mapSid), "")
+}
 
 func sanitizeFilename(s string) string {
 	res := invalidFilenameChars.ReplaceAllString(s, "_")
@@ -459,6 +468,22 @@ func ExportMapImages(modPath, mapSid, outDir string, opts ExportMapImagesOptions
 			fmt.Fprintf(os.Stderr, "warning: real-asset rendering unavailable (%v), falling back to grid rendering\n", loadErr)
 		} else {
 			assets = loaded
+			atlasDir := filepath.Join(opts.CelesteDir, "Content", "Graphics", "Atlases")
+			// Some backdrop/decal textures live outside the shared Gameplay
+			// atlas: a chapter's own atlas (e.g. "ForsakenCity.meta") for
+			// chapter-specific art, or the shared "Misc.meta" for
+			// generic effect backgrounds (Loenn's parallax.miscAtlasLookup:
+			// darkswamp, purplesunset, vignette, ...). Chain both as
+			// best-effort fallbacks - see docs/TheCelesteDesktop/ModAssetsAndStylegrounds.md.
+			var innermost *Atlas
+			if miscAtlas, miscErr := LoadAtlas(atlasDir, "Misc.meta"); miscErr == nil {
+				innermost = miscAtlas
+			}
+			if chapterAtlas, chapterErr := LoadAtlas(atlasDir, chapterAtlasName(actualSid)+".meta"); chapterErr == nil {
+				chapterAtlas.SetFallbackAtlas(innermost)
+				innermost = chapterAtlas
+			}
+			assets.Atlas.SetFallbackAtlas(innermost)
 		}
 	}
 

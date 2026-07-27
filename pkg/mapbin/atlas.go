@@ -29,6 +29,7 @@ type Atlas struct {
 	sprites    map[string]SpriteMeta
 	images     map[string]*image.RGBA
 	modOverlay func(path string) (image.Image, bool)
+	fallback   *Atlas
 }
 
 // SetModOverlay registers a lookup checked before the packed atlas on every
@@ -36,6 +37,14 @@ type Atlas struct {
 // files override or add to the base game's packed sprites.
 func (a *Atlas) SetModOverlay(fn func(path string) (image.Image, bool)) {
 	a.modOverlay = fn
+}
+
+// SetFallbackAtlas registers a second atlas checked when a sprite path isn't
+// found in this one. Vanilla stylegrounds/decals for a given chapter often
+// live in that chapter's own atlas (e.g. "ForsakenCity.meta"), not the shared
+// Gameplay atlas mods use - see docs/TheCelesteDesktop/ModAssetsAndStylegrounds.md.
+func (a *Atlas) SetFallbackAtlas(fallback *Atlas) {
+	a.fallback = fallback
 }
 
 func readNetString(r *bufio.Reader) (string, error) {
@@ -236,6 +245,30 @@ func loadDataImage(path string) (*image.RGBA, error) {
 	return img, nil
 }
 
+// resolveDataFilePath finds the on-disk .data file backing a sprite, trying
+// the 3 layouts real Celeste atlases use (confirmed by inspecting a real
+// install - see docs/TheCelesteDesktop/ModAssetsAndStylegrounds.md):
+//  1. "<dataFile>.data" - packed atlas where dataFile already carries its page
+//     index (e.g. "Gameplay0.data").
+//  2. "<dataFile>0.data" - defensive fallback for a page-indexed convention
+//     without the digit already in the field.
+//  3. "<dataFile>/<spritePath>.data" - "--no-packing" atlases (Misc.meta,
+//     per-chapter atlases like ForsakenCity.meta): one file per sprite inside
+//     a subfolder named after the atlas, dataFile is just that atlas name.
+func (a *Atlas) resolveDataFilePath(dataFile, spritePath string) (string, bool) {
+	candidates := []string{
+		filepath.Join(a.dir, dataFile+".data"),
+		filepath.Join(a.dir, dataFile+"0.data"),
+		filepath.Join(a.dir, dataFile, spritePath+".data"),
+	}
+	for _, candidate := range candidates {
+		if _, err := os.Stat(candidate); err == nil {
+			return candidate, true
+		}
+	}
+	return "", false
+}
+
 // GetSprite returns the decoded image for the given atlas path (e.g.
 // "tilesets/dirt" or "decals/1-forsakencity/introcliffsidegrass0"), decoding
 // and caching its owning .data file on first use.
@@ -249,17 +282,24 @@ func (a *Atlas) GetSprite(path string) (image.Image, SpriteMeta, bool) {
 
 	meta, ok := a.sprites[path]
 	if !ok {
+		if a.fallback != nil {
+			return a.fallback.GetSprite(path)
+		}
 		return nil, SpriteMeta{}, false
 	}
 
-	img, ok := a.images[meta.DataFile]
+	dataPath, ok := a.resolveDataFilePath(meta.DataFile, path)
 	if !ok {
-		decoded, err := loadDataImage(filepath.Join(a.dir, meta.DataFile+".data"))
+		return nil, SpriteMeta{}, false
+	}
+	img, ok := a.images[dataPath]
+	if !ok {
+		decoded, err := loadDataImage(dataPath)
 		if err != nil {
 			return nil, SpriteMeta{}, false
 		}
 		img = decoded
-		a.images[meta.DataFile] = img
+		a.images[dataPath] = img
 	}
 
 	sub := img.SubImage(image.Rect(meta.X, meta.Y, meta.X+meta.Width, meta.Y+meta.Height))

@@ -339,6 +339,21 @@ func drawParallaxLayer(img *image.RGBA, roomName string, roomW, roomH int, backd
 	}
 }
 
+// blendOver alpha-composites a premultiplied src color over a premultiplied
+// dst color ("over" operator). Needed because parallax alpha (bd.Alpha) can
+// leave src genuinely semi-transparent - unlike decals/tiles, which are
+// always fully opaque or fully transparent per pixel and can get away with a
+// direct overwrite.
+func blendOver(dst color.RGBA, src color.RGBA64) color.RGBA {
+	dr, dg, db, da := uint32(dst.R)*257, uint32(dst.G)*257, uint32(dst.B)*257, uint32(dst.A)*257
+	inv := 65535 - uint32(src.A)
+	outA := uint32(src.A) + da*inv/65535
+	outR := uint32(src.R) + dr*inv/65535
+	outG := uint32(src.G) + dg*inv/65535
+	outB := uint32(src.B) + db*inv/65535
+	return color.RGBA{R: uint8(outR >> 8), G: uint8(outG >> 8), B: uint8(outB >> 8), A: uint8(outA >> 8)}
+}
+
 func drawParallaxTile(img *image.RGBA, sprite image.Image, meta SpriteMeta, dstX, dstY int, bd *BackdropData) {
 	bounds := img.Bounds()
 	for y := 0; y < meta.Height; y++ {
@@ -365,7 +380,7 @@ func drawParallaxTile(img *image.RGBA, sprite image.Image, meta SpriteMeta, dstX
 				g = uint32(float64(g) * bd.Alpha)
 				b = uint32(float64(b) * bd.Alpha)
 			}
-			img.Set(px, py, color.RGBA64{R: uint16(r), G: uint16(g), B: uint16(b), A: uint16(a)})
+			img.Set(px, py, blendOver(img.RGBAAt(px, py), color.RGBA64{R: uint16(r), G: uint16(g), B: uint16(b), A: uint16(a)}))
 		}
 	}
 }
